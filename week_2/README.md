@@ -8,15 +8,9 @@ B06505001 凃皓瑋
   - test_website.html
 - Done at home
   - hw_2_crawler_example 
-      - PChomeRCrawler.html
-      - PChomeRCrawler.r
-      - PChomeRCrawler.Rmd
-  :::info
-  uncompleted
-  :::
-  - hw_2_extra_OOXX_game.r
-  :::info
-  uncompleted
-  :::
+      - [ ]PChomeRCrawler.html
+      - [ ]PChomeRCrawler.r
+      - [ ]PChomeRCrawler.Rmd
+  - [ ] hw_2_extra_OOXX_game.r
 - Notes
 
