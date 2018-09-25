@@ -1,6 +1,7 @@
-# R_資料科學程式設計
+# R-data-analysis-course
 
 ### week_1
+B06505001 凃皓瑋
 
 - practice
     - practice_1.R (done in class)
