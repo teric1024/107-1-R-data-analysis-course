@@ -11,6 +11,6 @@ B06505001 凃皓瑋
       - [ ] PChomeRCrawler.html
       - [ ] PChomeRCrawler.r
       - [ ] PChomeRCrawler.Rmd
-  - [ ] hw_2_extra_OOXX_game.r
+  - [x] hw_2_extra_OOXX_game.r
 - Notes
 
