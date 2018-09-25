@@ -6,6 +6,6 @@
     - practice_1.R (done in class)
     - practice_2.R (done at home)
     - practice_3.R (done at home)
-- task_1_question
+- hw_1
     - hw_1_basic.R (done at home)
     - hw_1_guess_number.R (done at home)
