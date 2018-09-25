@@ -63,7 +63,7 @@ for(i in c(52:66))
 
 # 請寫一段程式碼，能判斷輸入之西元年分 year 是否為閏年
 year <- as.integer(readline("Please input an year!!"))
-3if(year %% 400 == 0)
+if(year %% 400 == 0)
 {
   cat("Yes")
 }else if (year %% 100 == 0)
