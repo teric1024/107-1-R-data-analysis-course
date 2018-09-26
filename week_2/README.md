@@ -18,7 +18,7 @@ B06505001 凃皓瑋
   - [x] practice_2
 - Notes
 
-### Introdution of folders
+### Introdution of this repository
 ---
 - course_2
     - hw_2_example_teacher.R
