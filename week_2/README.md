@@ -24,8 +24,9 @@ B06505001 凃皓瑋
     - hw_2_example_teacher.R
     - test_website.html
     - warframe_market_search.R (only find garbage data)
-    - practice_1
-    - practice_2
+    - practice
+        - practice_1
+        - practice_2
     - test_data.csv
 - hw_2
     - hw_2_crawler
