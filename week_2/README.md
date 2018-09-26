@@ -29,10 +29,13 @@ B06505001 凃皓瑋
         - test_data.csv
 - hw_2
     - Pchome_crawler
-        - [PChomeRCrawler.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_2/hw_2/Pchome_crawler/Pchome_crawler.html)
+        - Pchome_crawler.html
         - Pchome_crawler.r
         - Pchome_crawler.Rmd
     - hw_2_extra_OOXX_game.R
+    - Teacher_crawler_example
+        - teacher_crawler_example.html
+        - teacher_crawler_example.Rmd
 
 ### Things I learn
 ---
