@@ -9,14 +9,13 @@ B06505001 凃皓瑋
   - hw_2_example_teacher.R
   - test_website.html
 - Done at home
-  - hw_2_crawler_example 
-      - [ ] PChomeRCrawler.html
-      - [ ] PChomeRCrawler.r
-      - [ ] PChomeRCrawler.Rmd
+  - [x] hw_2_crawler_example 
+      - [PChomeRCrawler.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_2/hw_2/Pchome_crawler/Pchome_crawler.html)
+      - PChomeRCrawler.r
+      - PChomeRCrawler.Rmd
   - [x] hw_2_extra_OOXX_game.r
   - [x] practice_1
   - [x] practice_2
-- Notes
 
 ### Introdution of this repository
 ---
@@ -29,9 +28,19 @@ B06505001 凃皓瑋
         - practice_2
         - test_data.csv
 - hw_2
-    - hw_2_crawler
-        - .html
-        - .r
-        - .Rmd
+    - Pchome_crawler
+        - [PChomeRCrawler.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_2/hw_2/Pchome_crawler/Pchome_crawler.html)
+        - Pchome_crawler.r
+        - Pchome_crawler.Rmd
     - hw_2_extra_OOXX_game.R
+
+### Things I learn
+---
+- In class
+    - crawling
+    - find the data type of search results
+    - use github to make my own site
+- At home
+    - use RMarkdown
+    - use "knit" to generate html file
 
