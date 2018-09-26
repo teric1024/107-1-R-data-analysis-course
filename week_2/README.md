@@ -14,6 +14,8 @@ B06505001 凃皓瑋
       - [ ] PChomeRCrawler.r
       - [ ] PChomeRCrawler.Rmd
   - [x] hw_2_extra_OOXX_game.r
+  - [x] practice_1
+  - [x] practice_2
 - Notes
 
 ### Introdution of folders
@@ -22,9 +24,13 @@ B06505001 凃皓瑋
     - hw_2_example_teacher.R
     - test_website.html
     - warframe_market_search.R (only find garbage data)
+    - practice_1
+    - practice_2
+    - test_data.csv
 - hw_2
     - hw_2_crawler
         - .html
         - .r
         - .Rmd
     - hw_2_extra_OOXX_game.R
+
