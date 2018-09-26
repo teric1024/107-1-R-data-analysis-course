@@ -57,7 +57,7 @@ df <- rbind(df, Kobe)
 str(df)
 
 # kobe的Grade資料出現了NA值，請將其重新設定為990分。
-df$Grade[Kobe] <- 990
+df$Grade[11] <- 990
 
 # 轉換df欄位的資料型態 # Grade: integer     Age, Height, Weight: numeric
 df$Grade <- as.integer(df$Grade)
@@ -75,7 +75,7 @@ df <- df[order(df$Grade, decreasing = T), ]
 df <- subset(df, select = c(-Age))
 
 # 使用names()，重新將Grade欄位命名為ToeicGrade
-names(df)[Grade] <- "ToeicGrade"
+names(df)[4] <- "ToeicGrade"
 
 # 使用subset()，篩選出ToeicGrade大於900並且身高大於170的人
 # 且欄位只需要Name, ToeicGrade與Height
