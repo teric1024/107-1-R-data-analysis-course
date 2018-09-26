@@ -1,0 +1,29 @@
+---
+title: "Pchome_crawler"
+author: "Tu hao wei"
+date: "2018/9/26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Crawler
+
+```{r RCrawler}
+library(httr)
+
+web <- 'https://ecshweb.pchome.com.tw/search/v3.3/all/results?q=macbook&page=1&sort=rnk/dc'
+result <- GET(web)
+result.json <- content(result)
+raw.data <- data.frame(do.call(rbind, result.json$prods))
+```
+
+## Show Results
+
+
+```{r Table}
+library(knitr)
+kable(raw.data)
+```
