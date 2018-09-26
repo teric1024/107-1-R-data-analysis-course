@@ -27,7 +27,7 @@ B06505001 凃皓瑋
     - practice
         - practice_1
         - practice_2
-    - test_data.csv
+        - test_data.csv
 - hw_2
     - hw_2_crawler
         - .html
