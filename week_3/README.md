@@ -1,4 +1,3 @@
-
 # R-data-analysis-course
 
 ## week_3
@@ -7,7 +6,7 @@ B06505001 凃皓瑋
 ### Introdution of works
 ---
 - Done in class
-  - player_gameplay
+  - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
 - Done at home
   - 
 
