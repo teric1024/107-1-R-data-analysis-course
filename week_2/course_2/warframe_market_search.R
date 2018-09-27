@@ -1,7 +1,7 @@
 library(httr)
 
-url <- "https://www.pixiv.net/search.php?s_mode=s_tag&word=warframe"
+url <- "https://api.warframe.market/v1/items/saryn_prime_blueprint"
 res = GET(url)
 res_json = content(res)
-do.call(rbind,res_json$prods)
-View(data.frame(do.call(rbind,res_json$prods)))
+do.call(rbind,res_json$payload$item$items_in_set)
+View(data.frame(do.call(rbind,res_json$payload$item$items_in_set)))
