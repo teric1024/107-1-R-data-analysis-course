@@ -34,5 +34,6 @@ B06505001 凃皓瑋
 - At home
     - how to rotate the x text vertically
     - get all the team name from data by using function "append()"
+    - use function, is.na(), to know if we load every data
 
 
