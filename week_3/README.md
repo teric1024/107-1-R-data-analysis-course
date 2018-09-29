@@ -8,14 +8,20 @@ B06505001 凃皓瑋
 - Done in class
   - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
 - Done at home
-  - 
+  - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
 
 ### Introdution of this repository
 ---
 - course_3
-    - 
+    - lcs-2017-summer-split-fantasy-player-team-stats
+    - player_gameplay.R
+    - player_gameplay.Rmd
+    - player_gameplay.html
 - hw_3
-    - 
+    - lcs-2017-summer-split-fantasy-player-team-stats
+    - player_gameplay.R
+    - player_gameplay.Rmd
+    - player_gameplay.html
 ### Things I learn
 ---
 - In class
@@ -26,6 +32,7 @@ B06505001 凃皓瑋
             2. use function, nchar(), to check the length
             3. use function, which(), to get the data's lengths are not zero
 - At home
-    - 
+    - how to rotate the x text vertically
+    - get all the team name from data by using function "append()"
 
 
