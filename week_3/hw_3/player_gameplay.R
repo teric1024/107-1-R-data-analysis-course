@@ -23,14 +23,17 @@ repeat{
 }
 
 #plot the data of player in team (one by one)
+#http://www.sthda.com/english/articles/24-ggpubr-publication-ready-plots/81-ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
 
 #if(!require(devtools)) install.packages("devtools")
 #devtools::install_github("kassambara/ggpubr")
 #use above two lines to install package
+
+#failed
 library(ggpubr)
 graph <- vector()
 for(i in 1:length(all.team.name)){
   team.name <- all.team.name[i]
   team.Data <- getData[getData[, "Team"] == team.name,]
-  graph[i] <- ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) + geom_bar( stat = "identity" ) + ggtitle(team.name)
+  graph[i] <- list(ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) + geom_bar( stat = "identity" ) + ggtitle(team.name) + theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 }
