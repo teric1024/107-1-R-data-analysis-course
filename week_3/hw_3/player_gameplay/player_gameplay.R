@@ -35,5 +35,5 @@ graph <- vector()
 for(i in 1:length(all.team.name)){
   team.name <- all.team.name[i]
   team.Data <- getData[getData[, "Team"] == team.name,]
-  graph[i] <- list(ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) + geom_bar( stat = "identity" ) + ggtitle(team.name) + theme(axis.text.x = element_text(angle = 90, hjust = 1)))
+  graph[i] <- list(ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) + geom_bar( stat = "identity" ) + ggtitle(team.name))
 }

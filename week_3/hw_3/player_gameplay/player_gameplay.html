@@ -233,8 +233,7 @@ library(ggpubr)</code></pre>
 for(i in 1:length(all.team.name)){
   team.name &lt;- all.team.name[i]
   team.Data &lt;- getData[getData[, &quot;Team&quot;] == team.name,]
-  graph[i] &lt;- list(ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) + geom_bar( stat = &quot;identity&quot; ) + ggtitle(team.name))
-  graph[i]
+  graph[i] &lt;- list(ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) + geom_bar( stat = &quot;identity&quot; ) + ggtitle(team.name) + theme(axis.text.x = element_text(angle = 90, hjust = 1)))
 }</code></pre>
 </div>
 
