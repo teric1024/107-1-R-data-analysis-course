@@ -7,6 +7,7 @@ B06505001 凃皓瑋
   - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
 - Done at home
   - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
+  - [draw_map_from_IP](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/search_address_from_IP/search_address_from_IP.html)
 
 ### Introdution of this repository
 ---
@@ -22,6 +23,12 @@ B06505001 凃皓瑋
         - player_gameplay.R
         - player_gameplay.Rmd
         - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
+    - search_address_from_IP
+        - address.csv
+        - draw_map.R
+        - get_address_crawler.R
+        - [search_address_from_IP.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
+        - search_address_from_IP.Rmd
 ### Things I learn
 ---
 - In class
@@ -35,6 +42,9 @@ B06505001 凃皓瑋
     - how to rotate the x text vertically
     - get all the team name from data by using function "append()"
     - use function, is.na(), to know if we load every data
+    - use function, Sys.sleep(), to stop the program for a while
+    - use Selenium and RSelenium
+    - graph a map
 ---
 - Notes
     - [web crawler &...](https://ithelp.ithome.com.tw/users/20107033/ironman/1437?page=1)
