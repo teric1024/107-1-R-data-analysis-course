@@ -1,0 +1,186 @@
+---
+title: "IP_to_address"
+author: "Tu hao wei"
+date: "2018年10月3日"
+output: html_document
+---
+
+#Test 1
+## Get Address Crawler !Failed! (page did not finish loading when program requested)
+```{r}
+#ref : https://blog.gtwang.org/r/rselenium-r-selenium-browser-web-scraping-tutorial/
+#      https://blog.csdn.net/Eastmount/article/details/48108259
+#      https://blog.gtwang.org/r/rvest-web-scraping-with-r/
+#      https://ropensci.org/tutorials/rselenium_tutorial/
+#install.packages("RSelenium")
+library(RSelenium)
+
+#start up 
+#input the string below this row into cmd
+#java -Dwebdriver.chrome.driver=D:\chromedriver.exe -jar D:\selenium-server-standalone-3.14.0.jar
+
+#connect to Selenium server, use chrome
+remDr <- remoteDriver(
+  remoteServerAddr = "localhost",
+  port = 4444,
+  browserName = "chrome")
+
+#open the browser
+remDr$open()
+
+#open a website eg: google
+remDr$navigate("http://dir.twseo.org/ip-check.php")
+
+#get elements
+web.elem.input <- remDr$findElement(using = "name", value = "inputip")
+
+#input ip
+web.elem.input$sendKeysToElement(list("111.248.209.209"))
+web.elem.input$sendKeysToElement(list("\uE007"))
+
+#get output data
+web.elem.output <- remDr$findElement(using = 'id', value = "log_res")
+
+#manipulate data
+output <- web.elem.output$getElementText()
+output <- as.character(output)
+
+#mine longitude and latitude
+pos.longitude <- regexpr("經度", output)
+pos.end <- nchar(output)
+longitude <- substr(output, start = pos.longitude+3, stop = pos.end)
+pos.lantitude <- regexpr("緯度", output)
+lantitude <- substr(output, start = pos.lantitude+3, stop = pos.longitude-3)
+
+
+#save longitude and latitude as list
+gold <- list(longitude = longitude, lantitude = lantitude)
+write.csv(gold, file = "address.csv")
+
+#close the window
+remDr$close()
+
+
+```
+
+
+## draw a map  !Failed! (page did not finish loading when program requested)
+```{r}
+#----------install ggmap with register_google--------
+#install.packages("devtools")
+#library(devtools)
+#install_github("dkahle/ggmap")
+#---------------------------------------------------
+
+#get the data
+address <- read.csv("address.csv")
+longitude <- as.numeric(address["longitude"])
+lantitude <- as.numeric(address["lantitude"])
+
+#ref: https://blog.gtwang.org/r/r-ggmap-package-spatial-data-visualization/
+#install.packages('ggmap')
+#install.packages("mapproj")
+library(ggmap)
+library(mapproj)
+library(ggplot2)
+register_google(key = "AIzaSyCYIbzoIJnDaWbTjYg2do0cJvnKvQcfdos", day_limit = 1000)
+ggmap_credentials()
+
+#make the camera in place
+map <- get_map(location = c(lon = longitude, lat = lantitude),
+               zoom = 15, maptype = "roadmap")
+
+#plot the location
+ggmap(map, darken = c(0.5, "white")) + geom_point(aes(x = longitude, y = lantitude), data = address, color = "red")
+
+```
+
+
+#Test 2
+## Get Address Crawler !successful!
+```{r}
+#ref : https://blog.gtwang.org/r/rselenium-r-selenium-browser-web-scraping-tutorial/
+#      https://blog.csdn.net/Eastmount/article/details/48108259
+#      https://blog.gtwang.org/r/rvest-web-scraping-with-r/
+#      https://ropensci.org/tutorials/rselenium_tutorial/
+#install.packages("RSelenium")
+library(RSelenium)
+
+#start up 
+#input the string below this row into cmd
+#java -Dwebdriver.chrome.driver=D:\chromedriver.exe -jar D:\selenium-server-standalone-3.14.0.jar
+
+#connect to Selenium server, use chrome
+remDr <- remoteDriver(
+  remoteServerAddr = "localhost",
+  port = 4444,
+  browserName = "chrome")
+
+#open the browser
+remDr$open()
+
+#open a website eg: google
+remDr$navigate("http://dir.twseo.org/ip-check.php")
+
+#get elements
+web.elem.input <- remDr$findElement(using = "name", value = "inputip")
+
+#input ip
+web.elem.input$sendKeysToElement(list("111.248.209.209"))
+web.elem.input$sendKeysToElement(list("\uE007"))
+
+#get output data
+Sys.sleep(2) #wait 2 seconds
+web.elem.output <- remDr$findElement(using = 'id', value = "log_res")
+
+#manipulate data
+output <- web.elem.output$getElementText()
+output <- as.character(output)
+
+#mine longitude and latitude
+pos.longitude <- regexpr("經度", output)
+pos.end <- nchar(output)
+longitude <- substr(output, start = pos.longitude+3, stop = pos.end)
+pos.lantitude <- regexpr("緯度", output)
+lantitude <- substr(output, start = pos.lantitude+3, stop = pos.longitude-3)
+
+
+#save longitude and latitude as list
+gold <- list(longitude = longitude, lantitude = lantitude)
+write.csv(gold, file = "address.csv")
+
+
+
+```
+
+
+## draw a map  successful
+```{r}
+#----------install ggmap with register_google--------
+#install.packages("devtools")
+#library(devtools)
+#install_github("dkahle/ggmap")
+#---------------------------------------------------
+
+#get the data
+address <- read.csv("address.csv")
+longitude <- as.numeric(address["longitude"])
+lantitude <- as.numeric(address["lantitude"])
+
+#ref: https://blog.gtwang.org/r/r-ggmap-package-spatial-data-visualization/
+#install.packages('ggmap')
+#install.packages("mapproj")
+library(ggmap)
+library(mapproj)
+library(ggplot2)
+register_google(key = "AIzaSyCYIbzoIJnDaWbTjYg2do0cJvnKvQcfdos", day_limit = 1000)
+ggmap_credentials()
+
+#make the camera in place
+map <- get_map(location = c(lon = longitude, lat = lantitude),
+               zoom = 15, maptype = "roadmap")
+
+#plot the location
+ggmap(map, darken = c(0.5, "white")) + geom_point(aes(x = longitude, y = lantitude), data = address, color = "red")
+
+```
