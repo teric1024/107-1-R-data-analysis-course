@@ -1,6 +1,4 @@
-# R-data-analysis-course
-
-## week_3
+# R-data-analysis-course_Week_3
 B06505001 凃皓瑋
 
 ### Introdution of works
@@ -14,14 +12,16 @@ B06505001 凃皓瑋
 ---
 - course_3
     - lcs-2017-summer-split-fantasy-player-team-stats
-    - player_gameplay.R
-    - player_gameplay.Rmd
-    - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
+    - player_gameplay
+        - player_gameplay.R
+        - player_gameplay.Rmd
+        - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
 - hw_3
     - lcs-2017-summer-split-fantasy-player-team-stats
-    - player_gameplay.R
-    - player_gameplay.Rmd
-    - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
+    - player_gameplay
+        - player_gameplay.R
+        - player_gameplay.Rmd
+        - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
 ### Things I learn
 ---
 - In class
@@ -35,5 +35,6 @@ B06505001 凃皓瑋
     - how to rotate the x text vertically
     - get all the team name from data by using function "append()"
     - use function, is.na(), to know if we load every data
-
-
+---
+- Notes
+    - [web crawler &...](https://ithelp.ithome.com.tw/users/20107033/ironman/1437?page=1)
