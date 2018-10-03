@@ -27,7 +27,7 @@ B06505001 凃皓瑋
         - address.csv
         - draw_map.R
         - get_address_crawler.R
-        - [search_address_from_IP.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
+        - [search_address_from_IP.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/search_address_from_IP/search_address_from_IP.html)
         - search_address_from_IP.Rmd
 ### Things I learn
 ---
