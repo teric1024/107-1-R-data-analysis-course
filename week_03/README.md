@@ -4,10 +4,10 @@ B06505001 凃皓瑋
 ### Introdution of works
 ---
 - Done in class
-  - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
+  - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_03/Course_3/player_gameplay/player_gameplay.html)
 - Done at home
-  - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
-  - [draw_map_from_IP](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/search_address_from_IP/search_address_from_IP.html)
+  - [player_gameplay](https://teric1024.github.io/107-1-R-data-analysis-course/week_03/hw_3/player_gameplay/player_gameplay.html)
+  - [draw_map_from_IP](https://teric1024.github.io/107-1-R-data-analysis-course/week_03/hw_3/search_address_from_IP/search_address_from_IP.html)
 
 ### Introdution of this repository
 ---
@@ -16,18 +16,18 @@ B06505001 凃皓瑋
     - player_gameplay
         - player_gameplay.R
         - player_gameplay.Rmd
-        - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/Course_3/player_gameplay.html)
+        - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_03/Course_3/player_gameplay/player_gameplay.html)
 - hw_3
     - lcs-2017-summer-split-fantasy-player-team-stats
     - player_gameplay
         - player_gameplay.R
         - player_gameplay.Rmd
-        - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/player_gameplay.html)
+        - [player_gameplay.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_03/hw_3/player_gameplay/player_gameplay.html)
     - search_address_from_IP
         - address.csv
         - draw_map.R
         - get_address_crawler.R
-        - [search_address_from_IP.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_3/hw_3/search_address_from_IP/search_address_from_IP.html)
+        - [search_address_from_IP.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_03/hw_3/search_address_from_IP/search_address_from_IP.html)
         - search_address_from_IP.Rmd
 ### Things I learn
 ---
