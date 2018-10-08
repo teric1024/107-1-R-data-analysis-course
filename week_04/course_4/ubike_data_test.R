@@ -20,8 +20,8 @@ freqFrame = as.data.frame(table(unlist(docs)))
 
 par(family=("Heiti TC Light"))
 wordcloud(freqFrame$Var1,freqFrame$Freq,
-          min.freq=1,max.words=1,
-          random.order=TRUE, random.color=FALSE, 
-          rot.per=.1, colors=brewer.pal(8, "Dark2"),
+          min.freq=1,max.words=1000,
+          random.order=TRUE, random.color=FALSE,
+          scale=c(2,0.1), rot.per=.1, colors=brewer.pal(8, "Dark2"),
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
