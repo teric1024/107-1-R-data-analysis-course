@@ -10,7 +10,7 @@ B06505001 凃皓瑋
   - test_website.html
 - Done at home
   - [x] hw_2_crawler_example 
-      - [PChomeRCrawler.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_2/hw_2/Pchome_crawler/Pchome_crawler.html)
+      - [PChomeRCrawler.html](https://teric1024.github.io/107-1-R-data-analysis-course/week_02/hw_2/Pchome_crawler/Pchome_crawler.html)
       - PChomeRCrawler.r
       - PChomeRCrawler.Rmd
   - [x] hw_2_extra_OOXX_game.r
