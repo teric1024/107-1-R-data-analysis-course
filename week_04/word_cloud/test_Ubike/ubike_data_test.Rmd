@@ -1,3 +1,12 @@
+---
+title: "ubike_data_test"
+author: "Tu hao wei"
+date: "2018/10/9"
+output: html_document
+---
+
+#Test the use of wordcloud
+```{r}
 #clean enviroment
 rm(list=ls(all.names = TRUE))
 
@@ -15,13 +24,18 @@ filename <- list.files(getwd(), pattern="*.csv")
 files <- read.csv(filename)
 docs <- files$result.records.sarea
 
-#
+
 freqFrame = as.data.frame(table(unlist(docs)))
 
+#(in Mac)use the line below to set font, or there will be many rectangles
 par(family=("Heiti TC Light"))
+
 wordcloud(freqFrame$Var1,freqFrame$Freq,
           min.freq=1,max.words=1000,
           random.order=TRUE, random.color=FALSE,
           scale=c(1.5,0.5), rot.per=.1, colors=brewer.pal(8, "Dark2"),
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
+
+```
+
