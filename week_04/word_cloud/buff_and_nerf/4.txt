@@ -1,0 +1,2905 @@
+"x"
+"1" "
+		
+		
+			Waddup fam,
+			Midseason is coming up soon and balance will be a bit wobbly for a patch, so consider this patch more of a setup. That being said, we’re focusing on changes that either need to happen now, or will have evergreen results going forwards.
+			First, we’re taking this chance to look at the way latency interacts with gameplay. Obviously, nobody likes playing on high latency, but some champions suffer far more from the impact. We’re putting in some Quality of Life changes to make those champions less punishing when your inputs aren’t quite as responsive.
+			Then, there’s the pro scene. With MSI coming up, there are a few strong outliers we’d like to make sure aren’t completely dominating pick/ban phase, so we’re making appropriate changes as needed.
+			On the other end of the spectrum, now is the perfect time to show love to some underpowered champions who need playstyle love. Aatrox is getting some extra power in the aftermath of his update, while Udyr is getting a tiny update of his own.
+			Finally, we’re taking this chance to retune some of the game systems in Twisted Treeline and ARAM to give some of our quicker game modes a cleaner experience.
+			So get out there and toss some Poros,
+		
+		
+			 Paul \"Aether\" Perscheid  Phillip \"Costy\" Costigan  Mattias \"Gentleman Gustaf\" Lehman  Lucas \"Luqizilla\" Moutinho
+					
+		Back to top
+		Champions
+		
+			
+				
+					
+						
+					Xayah & Rakan
+					
+						Xayah, the Rebel, and Rakan, the Charmer, will be released later on during patch 7.8! In the meantime, learn more about the vastaya freedom fighters here:
+					
+					
+							Xayah & Rakan Reveal
+						
+						
+							Xayah Bio
+						
+						
+							Rakan Bio
+						
+						
+							The Puboe Prison Break
+						
+						
+							Nothing Rhymes with Tubebow
+						
+						
+							Xayah & Rakan: Wild Magic
+						
+						
+							Xayah Champ Spotlight
+						
+						
+							Rakan Champ Spotlight
+						
+					
+			
+		
+		
+			
+				
+					
+					Aatrox
+					Hellbent attack speed up and now refreshes on monsters. W missing health heal up.
+					
+						 Despite some love in patch 7.6, Aatrox is still struggling with consistency (especially in the jungle). His new passive is much more difficult to access in the jungle than the old one, so we’re tuning that. As well, we’re adding some power back into his self-healing to help him feel safer staying in fights.
+					
+					Passive - Blood Well
+					
+						newMONSTROUS DETERMINATION Hellbent now refreshes when fighting monsters
+					
+					
+						ATTACK SPEED 20/30/40/50% ⇒ 30/40/50/60%
+					
+					W - Blood Thirst
+					
+						HEAL 5% of Aatrox’s missing health ⇒ 6.5% of Aatrox’s missing health
+					
+				
+			
+		
+		
+			
+				
+					
+					Amumu
+					Passive now true damage. Passive numbers down.
+					
+						The function of Amumu’s passive (post-mitigation true damage) didn’t match expectations (true damage), so we’re switching to the latter and adjusting the numbers accordingly.
+					
+					Passive - Cursed Touch
+					
+						BONUS TRUE DAMAGE 15% of magic damage dealt, calculated after that damage was reduced by magic resist ⇒ 10% of magic damage dealt, calculated before that damage was reduced by magic resist
+					
+					W - Despair
+					
+						PERCENT HEALTH DAMAGE 1/1.5/2/2.5/3% target’s maximum health per second ⇒ 1/1.25/1.5/1.75/2% target’s maximum health per second
+					
+				
+			
+		
+		
+			
+				
+					
+					Ivern
+					A single brush no longer blocks vision of epic monsters.
+					
+						Ivern’s brush is already brimming with utility (let’s not get too deep into the weeds listing every use case); controlling neutral objectives so easily doesn’t need to be one of them.
+					
+					W - Brushmaker
+					
+						TOO BIG TO HIDE Dropping brush directly on top of an Epic Monster no longer hides it from enemy vision. (You can still deny enemy vision of an entire area by creating walls of brush, thereby denying vision of the monster.)
+					
+				
+			
+		
+		
+			
+				
+					
+					Karthus
+					Q casting made more fluid.
+					
+						Latency limits what you can do with a character, but for a low cooldown spellcaster like Karthus, it can feel like your internet plays more of a role than your opponent’s juking. We’re fixing that with some quality of life magic.
+					
+					Q - Lay Waste
+					
+						LAYAWAY LAY WASTE Lay Waste can now be buffered. Casts input as Lay Waste explodes will now automatically fire once Lay Waste comes off cooldown, unless Karthus cancels the command.
+					
+				
+			
+		
+		
+			
+				
+					
+					Lissandra
+					Q damage scaling up. Passive cooldown down at later levels.
+					
+						We want Lissandra to be rewarded for her good positioning by getting to land multiple Ice Shards. Currently that often just leads to her running OOM, so we’re giving her more access to the mana from her passive as the game goes on.
+					
+					Passive - Iceborn
+					
+						COOLDOWN 18 seconds at all ranks ⇒ 18/15/12/9 seconds at levels 1/6/11/16
+					
+					
+						BUGFIX Fixed a bug that caused Iceborn's cooldown to not be reduced when Ring of Frost killed a unit
+					
+					Q - Ice Shard
+					
+						RATIO 0.65 ability power ⇒ 0.7 ability power
+					
+				
+			
+		
+		
+			
+				
+					
+					Malzahar
+					Armor down. Voidling health down.
+					
+						Malzahar’s voidlings are too damaging to ignore, but - for many bot laners - too difficult to dispatch quickly. Counters to their health pattern exist (on-hit abilities, recurve bow, or area of effect damage), but we’re reducing voidling health to make those counters somewhat more consistently effective when they are opted into.
+					
+					Base stats
+					
+						ARMOR 20 ⇒ 18
+					
+					W - Void Swarm
+					
+						VOIDLING HEALTH 3 ⇒ 2
+					
+					
+						VOIDLING GOLD REWARD 10 ⇒ 5
+					
+				
+			
+		
+		
+			
+				
+					
+					Nautilus
+					Mana regen per level decreased. E mana cost increased.
+					
+						Nautilus creates a ton of free pressure if he constantly pushes with Riptide, but still gets to have mana to do whatever else he wants, whether that’s assist ganks, escape them, or fight duels. Pushing constantly with his abilities - specifically before he’s invested in Sunfire Cape or mana items - should make a bigger dent in his mana pool so that opponents have more opportunities to punish him.
+					
+					Base stats
+					
+						MANA REGEN GROWTH STAT 0.7 ⇒ 0.5
+					
+					E - Riptide
+					
+						COST 40/50/60/70/80 mana ⇒ 50/60/70/80/90 mana
+					
+				
+			
+		
+		
+			
+				
+					
+					Ryze
+					Q cooldown resets on W/E cast, not hit.
+					
+						Much like Karthus, Ryze’s quick combos create a large gap between low and high ping players by decreasing accessibility to his combos. We’re making his resets a bit more fluid to bridge that gap.
+					
+					Q - Overload
+					
+						ANTICIPATION Cooldown reset now occurs when Rune Prison or Spell Flux are cast, rather than when they hit their targets
+					
+				
+			
+		
+		
+			
+				
+					
+					Shen
+					Q does less damage to minions but more to champions. R shield scales with missing health.
+					
+						 Shen is one of those champions who always performs considerably better in organized play, thanks to the top-tier roaming power Stand United affords him. At the moment, his built-in waveclear gives him consistent map-pressure (which significantly decreases any costs he might face for leaving lane). We’re trimming both his waveclear and his roaming pressure but adding baseline damage and more crowd control consistency to compensate.
+					
+					Q - Twilight Assault
+					
+						EMPOWERED ATTACK BONUS DAMAGE 30/50/70/90/110 against non-champions (at ranks 1-5) ⇒ 15/20/25/30/35/40 against any enemy (at levels 1/4/7/10/13/16)
+					
+					
+						newMONSTROUS DETERMINATION Deals double damage to monsters (still has a cap though)
+					
+					E - Shadow Dash
+					
+						COST 180 energy ⇒ 150 energy
+					
+					
+						THICC Width increased from  100 ⇒ 120
+					
+					R - Stand United
+					
+						COOLDOWN 180/150/120 ⇒ 200/180/160
+					
+					
+						SHIELD 250/550/850 ⇒ 175/350/525, scaling up to 280/560/840 based on ally’s current health (shield maxes out at 40% health)
+					
+				
+			
+		
+		
+			
+				
+					
+					Udyr
+					Q and W now have effects every 3 hits. Ability mana costs adjusted.
+					
+						Udyr players currently feel pretty pinned into playing Phoenix Udyr or Tiger Udyr, while skipping out entirely on the other one until the end of the game. We’d like to ensure that using all of Udyr’s abilities is at least an option. That means making Tiger and Turtle more compelling stances to remain in, while also making low-level abilities less of a drain on his mana pool.
+					
+					General
+					
+						ABILITY COSTS 47/44/41/38/35 mana ⇒ 50 - 33 mana (at levels 1-18)
+					
+					Q - Tiger Stance
+					
+						removedBONUS ATTACK DAMAGE Basic attacks no longer deal an additional 15% of Udyr’s total attack damage as bonus damage while in Tiger Stance
+					
+					
+						newREPEATED MAULINGS Udyr’s first and every third basic attack after that while in Tiger Stance are Tiger Strikes, applying the stance’s damage over time effect
+					
+					
+						TIGER STRIKE DAMAGE 30/80/130/180/230 over 2 seconds ⇒ 30/60/90/120/150 over 2 seconds
+					
+					
+						newGO FOR THE THROAT Successive Tiger Strikes against the same target will instantly deal all remaining damage of the previous instance in addition to applying a new one
+					
+					W - Turtle Stance
+					
+						removedLIFESTEAL Udyr no longer gains lifesteal while in Turtle Stance
+					
+					
+						newSLOW AND STEADY Udyr’s first and every third basic attack while in Turtle Stance heal him for 2.5% of his maximum health, increasing to up to 5% based on Udyr’s missing health
+					
+				
+			
+		
+		Back to top
+		
+			Howling Abyss
+		
+			
+				
+					Several changes to make ARAMs faster. More poros.
+					
+						When playing ARAM people are usually looking for a shorter game, but sometimes what ends up happening is a tug-of-war of inhibitor pushes till someone really screws up. We want to reduce the scenarios where that happens reducing average time per game in the process.
+					
+					Gold pacing
+					
+						WATCHER’S FAVOR Being near an enemy minion death without last-hitting it now grants 3 gold
+					
+					
+						MELEE MINION GOLD 28 ⇒ 20
+					
+					
+						CASTER MINION GOLD 20 ⇒ 17
+					
+					Removed items
+					
+						NO LONGER SUPPORTED Ancient Coin, Relic Shield, Spellthief’s Edge, and their upgrades have been removed from Howling Abyss
+					
+					
+						CULLED Cull has also been removed from Howling Abyss
+					
+					Heath Relics
+					
+						INITIAL SPAWN TIME 3:00 ⇒ 2:00
+					
+					
+						HEAL 81 + 13*level ⇒ 50 + 5*level, increasing by up to 200% based on missing health
+					
+					Assists
+					
+						CHAMPION ASSISTS Contributing to a fight within 10 seconds ⇒ 20 seconds of a kill grants assist gold and experience
+					
+					
+						TURRET ASSISTS Damaging a turret within 10 seconds ⇒ 30 seconds of its destruction grants assist gold and experience
+					
+					Minion spawns
+					
+						INITIAL SPAWN TIME 1:00 ⇒ 0:45
+					
+					
+						WAVE SPAWN TIMER 30 seconds ⇒ 25 seconds
+					
+					
+						SIEGE MINION SPAWNS Every three waves, starting with the third wave ⇒ Every other wave, starting with the first wave
+					
+					
+						MINION GROWTH Minions become stronger every 90 seconds ⇒ every 60 seconds
+					
+					Super minions
+					
+						BASE ARMOR 30 ⇒ 100
+					
+					
+						BASE ATTACK DAMAGE 180 ⇒ 306
+					
+					
+						newINSPIRE Champions and minions gain 20% out-of-combat movement speed while near allied super minions
+					
+					Recall
+					
+						POOL PARTY RENEKTON Recall’s tooltip now indicates that it plays your recall animation
+					
+					Poros
+					
+						GUERILLA WARFARE Poros no longer begin the game hidden in brush
+					
+					
+						WANDERER Poros now wander around the map on their own accord
+					
+					
+						BLOOD SCENT Poro smell detection radius reduced
+					
+					
+						WILD GROWTH Poro health reduced to 1000 from 100,000 (still unkillable)
+					
+					
+						ICATHIAN SURPRISE Fixed a bug where poros would die when they exploded
+					
+					
+						MIMIC Two additional poros have been added to the lane
+					
+					
+						GET EXCITED Fixed some animation bugs with happy poros
+					
+				
+			
+		
+		Back to top
+		
+			Twisted Treeline
+		
+			
+				
+					Death timers changed, minions and super minions are stronger, attack speed on Nexus turrets reduced, Vilemaw HP reduced. Health Relics now heal more health if you’re lower on it.
+					
+						Twisted Treeline has two consistent metas: one with two laners and a jungler, the other with two laners and a support. We think this interplay makes the map pretty cool, but at the moment the support style is dominant thanks to the ease of funneling experience into one champion. That one champion is typically one who gains shields, resistances, or sustain that are meant to allow them survivability in the 5v5s of Summoner’s Rift, and instead afford them insane tankiness in the 3v3s of Twisted Treeline. That - combined with their high stats from levels - allows them to carry a game a little too hard. To combat this, we’re changing the way experience works to make that snowballing a bit less prevalent. Basically, if you’re ahead in levels, you get less experience.
+						We also want to address the game mode’s potential to turn immediately off of one mid-game teamfight. We’re tuning death timers in the late game to be shorter, allowing a team with a huge lead some chance to recover from a single mistake. Finally, we’re making Vilemaw easier to take, scaling up minions, and lowering Nexus Turret’s overall damage so that when you do lean on a lead, you have better potential to close a game out. To top it all off, we’re having minions spawn earlier to get you out of the game slightly more quickly.
+					
+					Death timers
+					
+						APPROXIMATIONS Slightly longer earlier, slightly shorter later
+					
+					Experience
+					
+						newSLOW DOWN Champion kills grant 10% less experience for each level higher you are than the enemy slain, capping at 50%
+					
+					
+						newRUBBERBANDING Synced with SR
+					
+					Minions
+					
+						newMINIONS HATE TURRETS Minion damage to turrets now scales with game time, increasing every 60 seconds
+					
+					
+						CASTER MINION DAMAGE SCALING +1 attack damage every 60 seconds ⇒ +1.5 attack damage every 60 seconds
+					
+					
+						SIEGE MINION GOLD 42.5 ⇒ 44.65
+					
+					Super minions
+					
+						BASE ARMOR 30 ⇒ 100
+					
+					
+						BASE ATTACK DAMAGE 180 ⇒ 306
+					
+					
+						SUPER MINION GOLD 42.5 ⇒ 44.65
+					
+					Nexus Turret
+					
+						ATTACK SPEED 2.5 ⇒ 2.0
+					
+					Vilemaw
+					
+						BASE HEALTH 5500 ⇒ 4500
+					
+					Timers
+					
+						INITIAL MINION SPAWN 1:15 ⇒ 0:45
+					
+					
+						INITIAL SIEGE MINION SPAWN RATE INCREASE 12 minutes ⇒ 10 minutes
+					
+					
+						INITIAL MONSTER SPAWN 1:35 ⇒ 1:05
+					
+					
+						ALTAR UNLOCK TIME 3:00 ⇒ 2:30
+					
+					
+						INITIAL HEALTH RELIC SPAWN 3:00 ⇒ 2:30
+					
+					
+						SMITE CHARGE TIMER Smite begins recharging at 1:30 ⇒ 1:00
+					
+					Heath relics
+					
+						HEAL 81 + 13*level ⇒ 50 + 5*level, increasing by up to 200% based on missing health
+					
+					
+						BUGFIX Health relics no longer heal for double the intended amount
+					
+				
+			
+		
+		Back to top
+		Masteries
+		
+			
+				
+					
+					Stormraider's Surge
+					
+						Because you should know when you activate your keystone mastery.
+					
+					
+						SURGE VFX Now has a louder visual effect when it activates.
+					
+				
+			
+		
+		Back to top
+		Jungle
+		
+			
+				
+					Krugs
+					
+						Mini Krugs get back in your cave.
+					
+					
+						NO LOITERING Mini krugs now leash back to their nook, not to the place they fell when their parent died
+					
+					Rift Scuttler
+					
+						Clarity around who killed Rift Scuttler
+					
+					
+						FIST-SHAKING Rift Scuttler now submerges a bit more slowly, allowing hit VFX for things that killed her to play
+					
+				
+			
+		
+		Back to top
+		Ward Death Audio
+		
+			
+				
+					
+						Gold sound KACHING
+					
+					
+						*COIN NOISES* Wards now play the gold gain sound when killed
+					
+				
+			
+		
+		Back to top
+		Loot
+		
+			
+				
+					
+						WHAT’S IN THE BOX? The description for Hextech Chests in the Hextech Crafting section of the store now displays the possible contents inside
+					
+				
+			
+		
+		Back to top
+		Rotating Game Modes
+		
+			
+				
+					
+						Legend of the Poro King returns from 4/21/17 12:00 PT - 4/25/17 04:00 PT and 4/28/17 12:00 PT - 5/2/17 04:00 PT. Pelt your enemies in a grand snowball fight on the Howling Abyss to summon the resplendent Poro King.
+					
+					
+						
+					
+						TL;DR:
+					
+					Use Poro TossI to bowl your friendly poro across the map. If it hits a target, activate Poro Dash to dart toward your opponent.
+						Once a team lands 10 Poro Tosses against enemy champions, the Poro King is summoned. Any ally can join His Royal Highness’s side by activating To The King!
+						Until defeated, the Poro King heals you, boosts your mana regeneration, and helps siege enemy towers with his majestic poro-splosions.
+						Thank the Poro King for his assistance (and boost his power) by feeding him Poro Snax.
+						May you always bowl straight and true, and may you be fast-footed to avoid those fluffballs.
+					
+			
+		
+		Back to top
+		
+			League Client Update
+		
+			
+				
+					
+						As we near the end of beta, we’re focused on fixing bugs and tuning performance.
+						A while back, we introduced our plan for replacing the legacy client. We’ve recently kicked off Phase 2 in Oceania and the results so far are encouraging. This patch, we’ll be extending it to more regions. Check out our latest beta update for details on the client rollout.
+						You can find solutions to most common issues in the Known Issues section of our support site.
+					
+					Notable Fixes
+					Fixed an issue that was causing the PLAY button to appear grayed out.
+						The client will now automatically focus on the password field after launching.
+						Your profile background will once again display the correct champion.
+						Fixed an issue that was preventing the settings panel from opening.
+						Fixed an issue with audio hitching during login.
+						Fixed an issue that delayed ready check pop up while editing your Runes / Masteries.
+						Fixed an issue that prevented the chat window from opening after completing a game.
+						Fixed a rare issue that caused chat to become invisible.
+						Reduced padding and altered layout of text in chats to specifically improve Club chat readability.
+						Added new message notification visibility to collapsed folders
+					
+			
+		
+	Back to top
+	Queue Health Update
+	
+	
+		
+			What does this update mean?
+			
+		
+		
+			
+				Ranked Solo/Duo
+			
+			
+				Ranked Flex
+			
+        
+	
+
+	Back to top
+	Bugfixes
+	
+		
+			
+				Lucian’s Q - Piercing Light now costs the correct amount of mana
+					Fixed a bug where disconnecting during the cast of R - Hero’s Entrance could cause Galio to be unable to target units and structures
+					Galio’s W - Shield of Durand magic shield now properly recharges after he revives
+					Fixed a bug where Gragas’ E - Body Slam would sometimes pass through targets close to walls
+					Nunu no longer gets a second Passive - Visionary passive after recalling.
+					Fixed a bug where Jax could not use Blast Cone Plant after casting Q - Leap Strike
+					Kha’Zix no longer shows the incorrect visuals when evolving his R - Void Assault
+					PROJECT: Yi now displays the correct particles during W - Meditate, not his base skin particles
+					High Noon Yasuo’s chromas no longer use the base skin particles for Passive - Way of the Wanderer
+					Made Dragonslayer Vayne’s Green chroma easier to see on Summoner’s Rift
+					Fixed a bug where Dragonslayer Xin Zhao and his chromas were using the classic skin’s SFX
+					Gatekeeper Galio’s recall particles no longer stretch back to the Spawning Pool
+					Fixed a bug where Cosmic Reaver Kassadin’s particles would flicker when zooming in and out
+					Fixed a bug where Club names could disappear from the in-game scoreboard hovercard
+					Fixed a bug where Order’s minions incorrectly spawned behind the nexus turret
+				
+		
+	
+	Back to top
+	Upcoming Skins & Chromas
+	
+		
+			
+				The following skins will be released during patch 7.8:
+				
+					
+						
+						Cosmic Dawn Rakan
+						Cosmic Dusk Xayah						
+					
+					
+						
+						Cosmic Blade Master Yi
+						
+					
+						
+						Conqueror Karma
+					
+				
+			
+		
+	
+	Back to top
+"
+"2" NA
+"3" "
+
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+	Salutations!
+	Welcome to the patch 7.7 notes, the one where we’ve got changes to a lot of different stuff - forgotten supports and weak junglers for starters. Also, the header art’s different, so that’s neat. (We found a folder of cool pictures from seasons past, so we’re gonna start rotating through ‘em patch by patch!)
+	In terms of highlights, we've made chime collecting more rewarding for Bard and given Amumu better tools to help his teammates. Maybe now they’ll stick around after the match and be friends. We also have some quality of life buffs to some junglers that aren't so popular right now, such as Volibear and Jarvan IV. Plus, given the MSI hype engine is warming up, we’re taking another pass at the competitive scene (the faces will be pretty familiar).
+	In terms of a different kind of Highlight, the updated client’s got some improvements to the Highlights viewing experience (spoiler: you no longer have to root around in your file explorer). Those details, plus the rest of our client updates, can be found further down in the patch notes as usual.
+	That's it for this patch! Buckle up and dive into the buffet of changes below. See you on the Rift!
+
+
+	 Paul \"Aether\" Perscheid  Phillip \"Costy\" Costigan  Mattias \"Gentleman Gustaf\" Lehman  Lucas \"Luqizilla\" Moutinho
+
+Back to top
+Champions
+
+	
+		
+			
+			Amumu
+			Passive causes magic damage against the target to deal extra true damage, rather than reducing magic resist. W deals more damage and ticks faster.
+			
+				Let’s face it, Amumu was the Sad Mummy for a reason. He didn't have a reliable way to use his passive and while he had some degree of amping up his fellow \"friends\" magic damage, he couldn't maintain it very often. We want Amumu enabling other people, so we're giving the tools to Amumu to do it doing what's he's the very best at: crying and trying to hug people. We hope Amumu will finally be able to make some friends.
+			
+			updatedPassive - Cursed Touch
+			
+				IS THIS LOVE Amumu's basic attacks reduce enemy magic resist by 15/20/25 (at levels 1/7/13) ⇒ cause 15% of all magic damage dealt to the target to be dealt again as true damage
+			
+			W - Despair
+			
+				DAMAGE 8/12/16/16/20/24 per second ⇒ 10/15/20/25/30 per second
+			
+			
+				TICK RATE Once per second ⇒ Once per half-second (half damage per tick)
+			
+			
+				newAS SALTY AS THEY COME Despair refreshes Cursed Touch on all enemies hit
+			
+			R - Curse of the Sad Mummy
+			
+				newHUG THEM TO DEATH Applies Cursed Touch to enemies after damage is dealt
+			
+		
+	
+
+
+	
+		
+			
+			Alistar
+			Passive heals all nearby allies. E cooldown reduced; empowered attack deals more damage.
+			
+				Back in pre-season we gave Alistar brand new tools - our goal was to give him more uptime during teamfights and take away the option to be a heal bot during laning phase. Looking back, Ali's got the added uptime we wanted, and his healing patterns are way healthier, but he could scale better into later phases of the game. The payoff for fully stacking Trample could be higher, given how long Alistar has to stay in the thick of battle to do so, and now that the mad cow can't spam his healing we’re comfortable restoring its potentially-team-wide effectiveness.
+			
+			Passive - Triumphant Roar
+			
+				COW CHARITY Heals the nearest ally ⇒ Heals all nearby allies
+			
+			E - Trample
+			
+				COOLDOWN 16/15.5/15/14.5/14 seconds ⇒ 12/11.5/11/10.5/10 seconds
+			
+			
+				EMPOWERED ATTACK BONUS DAMAGE 40 + 10 per level (max. 220 at level 18) ⇒ 40 + 15 per level (max. 310 at level 18)
+			
+			
+				BUGFIX Minions affected by Trample now display the proper visual effects
+			
+		
+	
+
+
+	
+		
+			
+			Bard
+			Bard gains bonus meep damage at every chime tier. Damage-only tiers removed; other tiers restructured. Bard can now hold a maximum of nine meeps.
+			
+				Although Bard saw some improvement after his last buffs, it was far from enough to land him in a good spot. Bard's pretty underwhelming compared to other supports, and part of that comes from how taxing chime collection can be. So we're revisiting the payoff he gets from roaming around the map! To be clear, we’re not looking for massive power shifts: while Meeps should matter enough for Bard to leave lane for chimes, they shouldn’t compel him to abandon his lane altogether. We’re just looking to ensure Bard’s early chimes provide him enough of a bonus to exert pressure in the lane once he returns from his wandering.
+			
+			Passive - Traveler's Call
+			
+				newGROW YOUR MEEPS Meeps now gain 15 damage every five chimes in addition to other chime bonuses
+			
+			
+				YA-HA-HA! Chime tier bonuses restructured. All damage tiers have been removed, and every tier now grants improved utility.
+			
+			
+				YOU FOUND ME! Bard can now hold a maximum of nine meeps... if he collects enough chimes
+			
+			
+				EFFICIENCY Tiers from 150 chimes ⇒ 105 chimes onward grant no effects aside from damage
+			
+			
+				
+						
+								Full list of chime tiers
+							
+								
+									5 CHIMES 25% slow (unchanged)
+								
+								
+									10 CHIMES +25 damage ⇒ +1 meep (2 max)
+								
+								
+									15 CHIMES +1 meep (2 max) ⇒ Meeps deal damage in a cone behind the target
+								
+								
+									20 CHIMES +25 damage ⇒ 7-second meep respawn
+								
+								
+									25 CHIMES Meep attacks deal damage in a cone behind the target ⇒ +10% slow (35% total)
+								
+								
+									30 CHIMES +30 damage ⇒ +1 meep (3 max)
+								
+								
+									35 CHIMES 7-second meep respawn ⇒ Damage cone size increased
+								
+								
+									40 CHIMES +30 damage ⇒ 6-second meep respawn
+								
+								
+									45 CHIMES +20% slow (45% total) ⇒ +10% slow (45% total)
+								
+								
+									50 CHIMES +35 damage ⇒ +1 meep (4 max)
+								
+								
+									55 CHIMES +1 meep (3 max) ⇒ 5-second meep respawn
+								
+								
+									60 CHIMES +35 damage ⇒ +10% slow (55% total)
+								
+								
+									65 CHIMES Damage cone size increased ⇒ +1 meep (5 max)
+								
+								
+									70 CHIMES +35 damage ⇒ 4-second meep respawn
+								
+								
+									75 CHIMES 6-second meep respawn ⇒ +10% slow (65% total)
+								
+								
+									80 CHIMES +35 damage ⇒ +1 meep (6 max)
+								
+								
+									85 CHIMES +15% slow (60% total) ⇒ +10% slow (75% total)
+								
+								
+									90 CHIMES +30 damage ⇒ +1 meep (7 max)
+								
+								
+									95 CHIMES +1 meep (4 max) ⇒ +1 meep (8 max)
+								
+								
+									100 CHIMES +30 damage ⇒ +1 meep (9 max)
+								
+								
+									105 CHIMES 5-second meep respawn ⇒ +15 damage
+								
+								
+									110 CHIMES +30 damage ⇒ +15 damage
+								
+								
+									115 CHIMES +10% slow (70% total) ⇒ +15 damage
+								
+								
+									120 CHIMES +25 damage ⇒ +15 damage
+								
+								
+									125 CHIMES 4-second meep respawn ⇒ +15 damage
+								
+								
+									130 CHIMES +25 damage ⇒ +15 damage
+								
+								
+									135 CHIMES +5% slow (75% total) ⇒ +15 damage
+								
+								
+									140 CHIMES +20 damage ⇒ +15 damage
+								
+								
+									145 CHIMES +5% slow (80% total) ⇒ +15 damage
+								
+								
+									150+ CHIMES +20 damage ⇒ +15 damage
+								
+							
+						
+				
+		
+	
+
+
+	
+		
+			
+			Camille
+			W no longer heals off non-champions. R duration reduced at earlier ranks.
+			
+				Camille's in a much healthier spot than she was on release, but the Steel Shadow is still performing too well in certain scenarios, particularly the laning phase. As a hyper-mobile, high-damage diver, Camille is naturally potent when it comes to supporting ganks. Hextech Ultimatum is one of her strongest tools for locking down a target, but it lasts so long in the early game that opponents have almost no chance to escape their sharp demise. We’re leaving Hextech Ultimatum’s late game potency untouched, but hitting its early duration to give Camille's opponents at least a fleeting chance of living through a gank.
+				On the flipside, we also want Camille’s opponents to have more opportunities to successfully gank her. The Steel Shadow has plenty of tools to slip away from impending ganks, but easy sustain on top of that means she still tends to survive the encounters she doesn’t manage to dodge. Meaningful damage will now better stick to Camille, allowing enemy assailants to kill her when opportunities arise, or at least push her out of lane.
+			
+			W - Tactical Sweep
+			
+				removedNON-CHAMPION HEAL Camille no longer heals for up to 10% of her maximum health when Tactical Sweep's outer half damages minions or monsters
+			
+			R - The Hextech Ultimatum
+			
+				DURATION 4 seconds at all ranks ⇒ 2.5/3.25/4 seconds
+			
+		
+	
+
+
+	
+		
+			
+			Galio
+			Passive damage down, Q missile ratio up, tornado zone damage down.
+			
+				We're quite happy with how Galio landed on Summoner's Rift and while we're happy with how well he soaks damage and protects teammates with dedicated tank builds, he shouldn't pack such a punch without investing in ability power.
+			
+			Passive - Colossal Smash
+			
+				DAMAGE 15-100 (at levels 1-18) ⇒ 12-80 (at levels 1-18)
+			
+			Q - Winds of War
+			
+				INITIAL WINDBLAST RATIO 0.6 ability power ⇒ 0.75 ability power
+			
+			
+				TORNADO ZONE DAMAGE 9% target's maximum health ⇒ 6% target's maximum health
+			
+		
+	
+
+
+	
+		
+			
+			Graves
+			True Grit no longer grants magic resist.
+			
+				We're pretty confident we could just say \"Graves is absurd right now, so we're nerfing him\" and leave it at that, but let's dive in. Right now the cowboy is just universally strong: he deals a hell of a lot of damage, he clears well, he's tanky for a marksman... the list goes on.
+				Graves needs some weaknesses for opponents to exploit, and we identified True Grit’s resistance stats as an opportunity to add one. He’s now significantly more vulnerable to magic damage threats, whether you’re attacking his early game (Elise says hi!) or trying to blow him up in teamfights. How to capitalize on this is up to you, but you now have better options to deal with a Graves than spamming the ban button in champion select.
+			
+			E - Quickdraw
+			
+				removedCOWBOYS HATE MAGIC True Grit no longer grants 5/7.5/10/12.5/15 magic resist per stack (40/60/80/100/120 magic resist at max stacks)
+			
+		
+	
+
+
+	
+		
+			
+			Jarvan IV
+			W base shield higher at earlier ranks, slightly lower at rank 5. W bonus shield per enemy hit now based on Jarvan IV's maximum health.
+			
+				Jarvan likes to start fights, continue fights, and finish fights, diving deep into the enemy team and staying there until the fight ends. For a champion with such an in-your-face playstyle, Jarvan feels surprisingly awkward to build tanky on. We want to make building for durability feel a bit better for the Exemplar of Demacia, so we’re giving his Golden Aegis shield scaling that feels more in line with the fantasy of “giant dude who plants a flag in the enemy and claims that territory for his team”.
+			
+			W - Golden Aegis
+			
+				BASE SHIELD 50/80/110/140/170 ⇒ 65/90/115/140/165
+			
+			
+				BONUS SHIELD 20/40/60/80/100 per enemy champion hit ⇒ 2/2.5/3/3.5/4% of Jarvan IV's maximum health per enemy champion hit
+			
+		
+	
+
+
+	
+		
+			
+			Jinx
+			E cooldown reduced at later ranks.
+			
+				As champion identities have grown deeper and more distinct over time, we’ve gotten more comfortable giving marksmen a splash (or three) of utility. The rise of carries like Ashe and Jhin has given us a clearer picture of what healthy teamfight utility looks like on a marksman. And so we come to Jinx. The Loose Cannon’s damage in teamfights is on-target, but she could use a bit more late-game access to the safety and/or lockdown Flame Chompers provide. Bumping up Jinx’s utility should help bring her back into the loop.
+			
+			E - Flame Chompers!
+			
+				COOLDOWN 24/22/20/18/16 seconds ⇒ 24/20.5/17/13.5/10 seconds
+			
+		
+	
+
+
+	
+		
+			
+			Kassadin
+			W attack fixed to no longer cancel against targets that leave its range. E cooldown reduced. R ratio increased.
+			
+				Oh boy, Kassadin time. The Void Walker has always promised bonkers mobility and eye-watering damage as the game progresses, but that late-game payoff is currently feeling a bit lackluster. Buffing Kassadin has historically been a risky affair, though, so we’re being pretty cautious in our approach. Force Pulse’s lower cooldown only helps when Kassadin can quickly re-stack it (which is relatively hard during lane phase), and Riftwalk’s buff is tied to its baseline effectiveness, rather than its per-cast scaling.
+			
+			W - Nether Blade
+			
+				BUFF-FIX Nether Blade's empowered attack is no longer canceled if its target leaves range during its windup
+			
+			E - Force Pulse
+			
+				COOLDOWN 6 seconds ⇒ 5 seconds
+			
+			R - Riftwalk
+			
+				RATIO 0.2 ability power ⇒ 0.3 ability power
+			
+		
+	
+
+
+	
+		
+			
+			Katarina
+			E cooldown increased at early ranks.
+			
+				At the moment it's somewhat difficult to punish Katarina in the early game thanks to Shunpo’s low cooldown, even when she isn’t taking advantage of the partial reset from jumping to daggers. Increasing Shunpo’s downtime opens up more opportunities to catch Katarina out, particularly if you can force her to Shunpo back to a less-than-ideal target.
+			
+			E - Shunpo
+			
+				COOLDOWN 10/9.5/9/8.5/8 seconds ⇒ 14/12.5/11/9.5/8 seconds
+			
+		
+	
+
+
+	
+		
+			
+			Lux
+			R refunds part of its cooldown if it kills a champion.
+			
+				Lux is great at picking off enemy champions, thanks in no small part to Final Spark. However, the high cooldowns on her kit mean that even when she's sniped a priority target, Lux is left without enough tools to reliably convert that pick-off into a greater advantage. This can lead to scenarios where Lux stalls out a game without the firepower to actually close it out. When Lux really nails her fights, she'll be rewarded with a faster recharge on her most threatening tool so she and her team can more immediately press the lead.
+			
+			R - Final Spark
+			
+				newI'M INSANE TO BEGIN WITH If Final Spark kills an enemy champion, 10/30/50% of its remaining cooldown is refunded
+			
+		
+	
+
+
+	
+		
+			
+			Nunu
+			Passive causes Nunu's next ability to cast at one rank higher than Nunu has leveled it. Base health and base health regen down.
+			
+				There’s not much room to make interesting decisions around a free spellcast: just use it on the most expensive spell. Bam, decision made. We’re updating Visionary to offer Nunu a real choice: which ability does he need to super-cast for the fight at hand?
+			
+			Base stats
+			
+				BASE HEALTH 598.28 ⇒ 575
+			
+			
+				BASE HEALTH REGEN 8.4 per 5 seconds ⇒ 7 per 5 seconds
+			
+			updatedPassive - Visionary
+			
+				newI CAN GO BEYOND Nunu's next ability is upgraded by 1 rank:
+			
+			
+				CONSUME +160 damage and +50 healing (Rank 6: 1140 damage and 300 healing)
+			
+			
+				BLOOD BOIL +1% movement speed and +5% attack speed (Rank 6: 13% movement speed and 50% attack speed)
+			
+			
+				ICE BLAST +40 damage and +5% movement speed slow (Rank 6: 280 damage and 65% movement speed slow)
+			
+			
+				ABSOLUTE ZERO +250 maximum damage (Rank 4: 1375 maximum damage)
+			
+			Q - Consume
+			
+				DAMAGE DEALT 400/550/700/850/1000 ⇒ 340/500/660/820/980/1140
+			
+			
+				HEALING 70/115/160/205/250 ⇒ 50/100/150/200/250/300
+			
+		
+	
+
+
+	
+		
+			
+			Rengar
+			Q base damage reduced at later ranks.
+			
+				Rengar's still ripping and tearing his way through pro play, despite multiple visits to the patch notes. We’re following up on patch 7.5’s hits to Rengar’s early durability with tone-downs to his early damage. Lowering Savagery's numbers will lengthen his early clears out a bit, while also reducing how much upfront damage he deals when he jumps on a target. With a slower clear speed, he’ll have to work a bit harder to earn early gold leads, making him more reliant on well-executed ganks to maintain scaling momentum.
+			
+			Q - Savagery
+			
+				DAMAGE PER STRIKE 35/55/75/95/115 ⇒ 25/45/65/85/105 (empowered damage unchanged)
+			
+			
+				RATIO PER STRIKE 0.3/0.4/0.5/0.6/0.7 bonus attack damage ⇒ 0.2/0.3/0.4/0.5/0.6 bonus attack damage (empowered damage unchanged)
+			
+		
+	
+
+
+	
+		
+			
+			Rumble
+			E recharge time increased.
+			
+				Since Electro Harpoon changed to an ammo system last season, Rumble's had too easy of a time managing waves, controlling his Heat, and last-hitting from safety. (Turns out being able to pace harpoons one at a time makes the ability suuuper versatile.) We’re reintroducing some of that laning challenge, as well as giving enemies more breathing room in prolonged fights, by extending the downtime between harpoon charges.
+			
+			E - Electro Harpoon
+			
+				RECHARGE TIME 5 seconds ⇒ 6 seconds
+			
+		
+	
+
+
+	
+		
+			
+			Shaco
+			Passive attack damage scaling down. Q base damage removed, cooldown increased. Q's ability power ratio moved to Passive.
+			
+				Shaco's mini-update brought him to the fore as one of the most prominent junglers in solo queue, with some cameos in pro play to boot. He’s currently dealing a frustrating amount of damage in the instant he comes out of invisibility, considering most of it’s impossible to avoid (especially from you, AD Shaco). We’re bringing his surprise burst back down to more reasonable levels.
+			
+			Passive - Backstab
+			
+				newABILITY POWER RATIO 0.4 ability power
+			
+			
+				ATTACK DAMAGE RATIO 1.2-1.45 total attack damage (at levels 1-11) ⇒ 1.3 total attack damage at all levels
+			
+			Q - Deceive
+			
+				removedBASE DAMAGE No longer has 20/35/50/65/80 base damage
+			
+			
+				removedABILITY POWER RATIO No longer has an 0.4 ability power ratio
+			
+			
+				COOLDOWN 14 seconds at all ranks ⇒ 16/15.5/15/14.5/14 seconds
+			
+		
+	
+
+
+	
+		
+			
+			Syndra
+			Bugfixes!
+			R - Unleashed Power
+			
+				OVERLY UNLEASHED Unleashed Power's cooldown is no longer reset if the first cast was interrupted (the interrupted cast dealt no damage but still spawned three spheres)
+			
+			
+				BEATING A DEAD HECARIM If Syndra's target dies mid-cast, remaining nearby Dark Spheres will continue to pummel their corpse
+			
+			
+				EXISTENTIAL CRISIS If Syndra's target becomes untargetable during Unleashed Power, Dark Spheres that were in-flight now drop in place rather than disappearing entirely
+			
+		
+	
+
+
+	
+		
+			
+			Talon
+			Q damage reduced at lower ranks.
+			
+				Talon’s update gave Noxian Diplomacy extra potency against enemies within arm’s reach, and while that’s opened the door to a wider variety of decisions (and outcomes) against ranged enemies in midlane, the Blade’s Shadow is crushing melee matchups over in top. If you’ve gotta walk up to Talon to deal damage, you’re guaranteed to take an empowered Q to the face... but if you never start fights, you’ll never beat him in lane. We’re pulling Noxian Diplomacy’s damage down a bit to give melee opponents more opportunities for favorable lane trades.
+			
+			Q - Noxian Diplomacy
+			
+				BASE DAMAGE 80/100/120/140/160 ⇒ 60/85/110/135/160
+			
+		
+	
+
+
+	
+		
+			
+			Volibear
+			R can bounce to twice as many enemies.
+			
+				Whether you're a fan of armoured bears or not (who isn't?), a lot of Volibear’s abilities just aren’t satisfying to use. That's where our change to Thunder Claws is aimed: smashing enemies with giant lightning-imbued bear claws should feel goddamn cool.
+			
+			R - Thunder Claws
+			
+				MAXIMUM BOUNCES 4 ⇒ 8
+			
+			
+				CONNECT THE DOTS There's now a small delay between bounces
+			
+			
+				LIGHTNING ROD Thunder Claws is better at searching for additional targets before ending the chain early
+			
+		
+	
+
+
+	
+		
+			Karma Splash Updates
+			
+				Three of Karma's oldest splashes have been updated!
+			
+			
+				
+					   
+						 
+					Traditional Karma
+				
+				
+					   
+						 
+					Sakura Karma
+				
+				
+					   
+						 
+					Sun Goddess Karma
+				
+			
+		
+	
+
+Back to top
+
+	Summoner's Rift
+
+	
+		
+			Raptors
+			More HP, less damage
+			
+				Raptors have been the most predatory camp on the Rift since their preseason update, and while some champions can quickly pop the little birds without suffering mass amounts of damage, everyone else is guaranteed to walk away covered with beak-shaped dents. We’re all for jungler clear styles favoring certain camps over others, but the discrepancy here was pretty extreme.
+			
+			Raptors
+			
+				BASE ATTACK DAMAGE 16 ⇒ 13.33
+			
+			
+				HEALTH 350-612.5 (at levels 1-10) ⇒ 400-680 (at levels 1-10)
+			
+		
+	
+
+Back to top
+Lifesteal Interactions
+
+	
+		
+			
+				Attacking units with ward-like health points no longer grants lifesteal as if they had a normal health bar.
+			
+			
+				We already made this change to wards back in pre-season, but didn’t carry the functionality shift over to everything else that doesn’t have “real” health. Call this a consistency pass.
+			
+			Affected units
+			Yorick's W - Dark Procession wall
+				Malzahar's W - Void Swarm voidlings
+				Illaoi's P - Prophet of an Elder God tentacles
+				Kalista's W - Sentinel ghost
+				Nidalee's W - Bushwack, Jhin's E - Captive Audience and Teemo's R - Noxious Trap traps
+			
+	
+
+Back to top
+Magic Damage Shield UI
+
+	
+		
+			
+				After your feedback last patch, we're improving the clarity on magic damage shields!
+			
+			
+				MAGIC DAMAGE SHIELD COLOR Kinda light pink ⇒ Blue-ish purple
+			
+		
+	
+
+Back to top
+
+Rotating Game Modes
+
+	
+		
+			
+				All Random is coming to Rift! Mix it up with All Random Summoner's Rift (ARSR) from 4/7/17 12:00 PT - 4/11/17 04:00 PT and 4/14/17 12:00 PT - 4/18/17 04:00 PT.
+			
+			
+				TL;DR:
+			
+			Champions are randomized from your own champ pool and the free-to-play rotation.
+				All other gameplay mechanics are the same: you still get ambient gold and exp, reroll, etc.
+				Mastery rewards also work the same as on regular SR: you can still earn Hextech Keys, Hextech Chests, and Mastery Tokens
+			
+				Good luck (with your picks), have fun.
+			
+		
+	
+
+Back to top
+
+	League Client Update
+
+	
+		
+			
+				We're shipping performance improvements every patch—this time around we've further improved speed and responsiveness during champ select. Editing masteries should feel particularly faster now.
+				We've also added the ability to view your saved replay clips (highlights) on your profile page.
+				You can find solutions to most common issues in the Known Issues section of our support site.
+			
+			New features
+			
+				newHIGHLIGHTS Highlights let you carve out your favorite moments from replays, saving them as a .webm video file so you can always relive your best and biggest in-game moments. You'll now see a highlights section in your profile where you can watch, rename, and delete saved clips.
+			
+			
+			
+				Highlights are only available in the updated client. For more details, visit the Highlights section of the patch notes.
+			
+			
+				newIMPROVED MATCH HISTORY We added the ability to see your mastery grade and IP earned on the match history page.
+			
+			
+				newCLOSE CLIENT DURING GAME TOGGLE We added an optional toggle in the settings that allows players to close the client while in-game. Enabling this will improves your in-game FPS. However, it increases the amount of time it takes to return to the scoreboard screen at the end of a game.
+			
+			
+				We recommend enabling this option if you have a low-spec machine and are experiencing low FPS in-game.
+			
+			Notable Fixes
+			Background rendering has been made more efficient, increasing the overall speed of champ select.
+				Editing masteries during champ select is much faster now.
+			
+	
+
+Back to top
+Highlights Update
+
+	
+		
+			
+				Highlights let players relive their most memorable moments from Replays. In the past, they've been difficult to watch and share, so we've incorporated your feedback to make this part of the Replays experience better. Now you'll see a Highlights section under your Profile in the updated client, where you can watch, rename and delete saved clips.
+				These updates to Highlights are only available in the updated client.
+			
+			New features
+			
+				AT LAST, VIEW CLIPS IN CLIENT You can now watch Highlights under your Profile tab
+			
+			
+				LEARNING If you've never created a Highlight before, you'll find instructions when you first visit the Highlights section
+			
+			
+				FIND 'EM THEN SHARE 'EM You can now see where Highlight clips are stored on your computer
+			
+			
+				NAME YOUR PENTAKILLS You can now change Highlights filenames in-client
+			
+			
+				THE CHOICE IS YOURS You can now change the location of where Highlights and Replays get saved in the Settings menu of the client
+			
+			Notable fixes
+			Fixed a bug where special characters in filenames caused a number of playback issues
+			
+	
+
+Back to top
+Queue Health Update
+
+	
+		
+			What does this update mean?
+			
+		
+		
+			
+				Ranked Solo/Duo
+			
+			
+				Ranked Flex
+			
+        
+	
+
+Back to top
+Bugfixes
+
+	
+		
+			Fixed a bug where Arcade Miss Fortune was playing the wrong critical strike hit sound-effect
+				If Galio disconnected while flying up during R - Hero's Entrance, he no longer loses the ability to attack units and structures after reconnecting
+				Cho'Gath's R- Feast kill indicator now properly takes ability power into consideration
+				Fixed a couple of bugs around using Shift + Left click as a ping hotkey
+				While dead, pinging abilities that are on cooldown no longer tells allies they’re ready to cast
+				Fixed a bug where Flashing right after casting E - Elastic Slingshot would change Zac's position and move the range indicator, but the damage and knock-up would still be applied in the original location
+				Fixed a rare bug where Zac’s Passive - Cell Division could sometimes cause him to instantly revive (and potentially revive a second time if he’s killed again before his bloblets recombined)
+				Mega Dino Gnar and Mega Gentleman Gnar’s Q - Boulder Toss boulder replacements no longer visually disappear earlier than intended
+				Fixed a bug where Lucian was able to basic attack during R -The Culling if he fired an energized attack immediately before casting The Culling
+				Fixed a bug where moving the camera away from Dunkmaster Darius as he was recalling would desync the sound of it
+				Fixed some dark textures appearing on the scalpel in Kennen M.D.’s basic attack
+				Fixed a bug where a random particle would appear when using Blood Moon Kennen’s E - Lightning Rush
+				Fixed a bunch of cases where Lulu's W - Whimsy polymorph effect wasn’t properly canceling or interrupting certain effects and abilities
+				Champions no longer visually fly offscreen into the sky (and take forever to reappear) if you gain vision of them as soon as certain displacement effects hit them
+				If Elise casts R - Spider Form at the same time Thresh's Q - Death Sentence connects, she no longer cleanses the effect
+				Fixed a bug where Vi's R - Assault and Battery and Nautilus R - Depth Charge would properly consume spell shields of champions in their path, but displace them anyway
+				Fixed some busted textures on Swain’s W - Nevermove claws
+				Tahm Kench is no longer able to W - Devour Red Brambleback or Blue Sentinel without first stacking his passive when enemy champions are nearby
+				Fixed Ivern's R - Daisy, Wait! tooltips (the ones that appear while Daisy is active)
+				Fixed a bug where some types of enemy champion damage (e.g. Ignite, Titanic Hydra, Statikk Shiv etc) didn't end Quinn's R - Behind Enemy Lines
+				Headmistress Fiora's E - Bladework first hit particles no longer exceed the ruler's length.
+				Fixed a bug where Leona’s model didn’t fade away during her death animation for her base and a few of her skins
+				Fixed some weird interactions with spell shields locking some abilities out of use
+				Restored missing particles on Dragonslayer Braum and El Tigre Braum when killing an enemy with Q - Winter's Bite
+				Fixed a bug where some ammo-based abilities (ex. Teemo’s R - Noxious Trap) wouldn’t consume a charge if used at the instant a new charge was gained
+				If Pulsefire Ezreal uses Q - Mystic Shot while affected by the aura buff of Sona’s Q - Hymn of Valor, he now properly uses his own VFX rather than Sona’s
+			
+	
+
+Back to top
+Upcoming Skins & Chromas
+
+	
+		
+			God Fist Lee Sin will be released in patch 7.7!
+			
+				
+					   
+						 
+					God Fist Lee Sin
+				
+			
+			Dreadnova Darius is joining Hextech Annie and Soulstealer Vayne as a Hextech Crafting exclusive skin!
+			
+				
+					   
+						 
+					Dreadnova Darius
+				
+			
+		
+	
+
+"
+"4" NA
+"5" "
+		
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+		
+			 Greetings, Summoners,
+			 Welcome to patch 7.6, the one where leg day pays off for Galio and he begins jumping halfway across the map.
+			 We’re taking a lighter touch than normal this time around, but that isn’t to say we’re devoid of changes altogether. 7.6 brings follow-up to recent projects such as Aatrox, Warlord’s Bloodlust, and Varus/Miss Fortune. Fun fact: a bunch of stuff’s being outright buffed, but nothing’s being nerfed without some form of buff to offset. It’s been a while since that’s happened.
+			 Gameplay aside, it’s been a while since we talked about the updated client here in the intro. The team’s been focusing on performance and stability improvements, and while these don’t make for the sexiest patch notes, they add up to make for significant improvements. We’ve got snappier mastery page edits and a smoother champ select experience across the board. Check the League Client Update section below for the specifics.
+			 That’s it for this patch! As always, best of luck on the Rift. We’ll see you next time!
+		
+		
+			 Paul \"Aether\" Perscheid  Mattias \"Gentleman Gustaf\" Lehman  Lucas \"Luqizilla\" Moutinho
+		
+		Back to top
+
+
+Mid-Patch Updates
+
+	
+		
+			
+				Additional Bugfixes
+			
+			
+			
+				Fiora
+			
+			
+				STUNNING W - Riposte now consistently applies its stun when blocking crowd control from empowered basic attacks
+			
+			
+			
+				Galio
+			
+			
+				NEEDS A MAP When Galio casts R - Hero's Entrance on an out-of-range ally, his landing point is now properly the spot his ally was at when Galio entered cast range, rather than where they were at when Galio first attempted to cast Hero's Entrance
+			
+			
+			
+				Lulu
+			
+			
+				TRANSMOGULATE Fixed a few cases where W - Whimsy's polymorph wasn't interacting properly with effects that block, mitigate, or remove spell effects
+			
+			
+			
+				Basic Attack Modifiers
+			
+			
+				WHAT ARE YOU WAITING FOR Spamming the hotkey for a basic attack modifier (ex. Ashe's Q - Ranger's Focus, Nasus's Q - Siphoning Strike) no longer causes the empowered attack to be delayed
+			
+			
+			
+				Cloud Drake
+			
+			
+				HEAD IN THE CLOUDS Cloud Drake's effects now properly increase with additional stacks
+			
+
+
+				In-Game Chat
+			
+			
+				CAN YOU HEAR ME NOW Fixed a few issues around sending or receiving private messages from a player currently in a game
+			
+			
+			
+		
+	
+
+
+
+		Champions
+		
+			
+				
+					
+					Galio
+					
+						Galio, the Colossus, will be updated with the launch of patch 7.6! For more details, check the following links:
+					
+					
+							Champion Reveal
+						
+						
+							Gameplay Teaser
+						
+						
+							The Hour of Need
+						
+						
+							Champion Bio
+						
+						
+							A Hero Wakes
+						
+						
+							Champion Insights
+						
+						
+							Champion Spotlight
+						
+					
+						Head to the “Extras” section of Galio’s Champion Reveal article above for high-res images of his updated base and skin splash art!
+					
+				
+			
+		
+		
+			
+				
+					
+					Aatrox
+					After reviving, Aatrox now keeps his primed Blood Price/Thirst hits and gets full Blood Well.
+					
+						Between the depth of Aatrox’s changes last patch and the buffs we shipped shortly thereafter, the dust has yet to settle. We’re holding off on targeted balance follow-up until his performance has stabilized, but in the interim, we’re delivering some quality of life changes that should make the revive experience feel more consistent. Also... is it Darkin here or were Aatrox’s tooltips just hard to read? Turns out, a bit of the latter, so we’re doing some cleanup work. 
+					
+					Passive - Blood Well
+					
+						NOT ACTUALLY DRAVEN Aatrox’s full Blood Well buff is now “Hellbent”, not “Blood Rush”
+					
+					
+						THIS ISN’T EVEN MY FINAL FORM On reviving from his passive, Aatrox now has a full Blood Well
+					
+					
+						WAIT FOR IT Aatrox now no longer loses his third hit from Blood Price/Thirst after reviving
+					
+					
+						DARK BUT NOT MYSTERIOUS Aatrox’s passive tooltips rewritten for clarity
+					
+					
+					
+						
+							
+								These changes are already live; we’re just putting them here as a reminder.
+							
+							
+								Base stats
+							
+							
+								HEALTH 537.8 ⇒ 580
+							
+							
+							
+								Q - Dark Flight
+							
+							
+								COOLDOWN 16/15/14/13/12 seconds ⇒ 13/12.5/12/11.5/11 seconds
+							
+							
+							
+								W - Blood Price
+							
+							
+								BASE DAMAGE 30/60/90/120/150 ⇒ 45/80/115/150/185
+							
+						
+					
+					
+				
+			
+		
+		
+			
+				
+					
+					Cho'Gath
+					R grants more health per stack and stacks an additional time from minions/small monsters.
+					
+						There’s always a relearning curve after we update a champion. In Cho’Gath’s case, this was more notable: few players had been picking him before the update, so there’s more learning than relearning. That being said, we think he’s slightly on the weak side even for those players who have adjusted. He is a giant monster, so we think a bit more base tankiness from Feast should do the trick.
+					
+					R - Feast
+					
+						BONUS HEALTH 80/110/140 per stack ⇒ 80/120/160 per stack
+					
+					
+						MINION/SMALL MONSTER CAP 5 stacks ⇒ 6 stacks
+					
+				
+			
+		
+		
+			
+				
+					
+					Fiddlesticks
+					Q cast range increased. W refunds its remaining duration when its target dies.
+					
+						Fiddlesticks has been having a rough time clearing camps since pre-season’s updates - particularly the raptors. While Dark Wind is a solid AoE tool, it’s the only one Fiddle’s got, so after he’s Drained the Crimson Raptor, he’s left with nothing but basic attacks to slap the remaining little birds with. We’re giving him the option of chain-Draining the chicken nuggets (and other small monsters, like the smaller Krugs), provided he’s got the mana to do so.
+						On a completely separate note, we’re reverting last mid-season’s change to Terrify’s cast range. Our thinking back then was that if Terrify had a lower cast range than Drain, Fiddlesticks would get better mileage out of his Terrify-Drain combo since his target wouldn’t be forced out of tether range as quickly. What ended up happening is that trying to quickly execute the combo only worked if Fiddle was already in Terrify range - otherwise, his attempt to walk up would immediately be overwritten by Drain. This is equally - if not more - problematic than the original interaction, so we’re giving our scarecrow his 50 cast range back. Caw Caw.
+					
+					Q - Terrify
+					
+						CAST RANGE 525 ⇒ 575
+					
+					W - Drain
+					
+						newI CAN CAST IT TWICE?! If Drain’s target dies before the channel completes, the remaining duration is applied as cooldown reduction
+					
+				
+			
+		
+		
+			
+				
+					
+					Gnar
+					Mini Gnar and Mega Gnar have the same health regen.
+					
+						When Gnar is ahead, his constant basic attacks and ability-casts send him Mega that much more often. But when Gnar is behind, he often can’t safely build the fury he needs to transform, denying access to Mega Gnar’s increased health regeneration. We’re smoothing out Gnar’s regen between forms to make him a little more capable of healing up when he falls behind. That being said, this should be an overall buff to Gnar; he spends more time small than large, even when he’s not behind.
+					
+					Base stats
+					
+						HEALTH REGEN (MINI) 2.5 ⇒ 4.5 health per 5 seconds
+					
+					
+						HEALTH REGEN GROWTH STAT (MINI) 0.5 ⇒ 1.75 health per 5 seconds
+					
+					
+						HEALTH REGEN (MEGA) 6.5 ⇒ 4.5 health per 5 seconds
+					
+					
+						HEALTH REGEN GROWTH STAT (MEGA) 3 ⇒ 1.75 health per 5 seconds
+					
+					Mega E - Crunch
+					
+						BUFF-FIX Mega Gnar can now queue another spell during E - Crunch’s cast time
+					
+				
+			
+		
+		
+			
+				
+					
+					Miss Fortune
+					Q damage up. Q and E are smoother to use.
+					
+						Last patch’s shifts to Lethality, Deathfire Touch and Double Up were a big, coordinated swing at Miss Fortune’s strength. While these changes were important to keep MF healthy in the long run, it was overall a bigger power-down than was needed, so we’re adding a few follow-up buffs. Double Up should pack a bit more of its old punch (still not three-quarters of a health bar), especially as she transitions into the mid and late game, and we’ve bundled in some Lucian-style slickness improvements to boot. These changes will help the pirate hunter scale better as she starts to pick up her big-ticket crit items.
+					
+					Q - Double Up
+					
+						DAMAGE 20/35/50/65/80 ⇒ 20/40/60/80/100
+					
+					
+						RATIO 0.85 total attack damage ⇒ 1.0 total attack damage
+					
+					
+						NOW WE’RE PLAYING WITH POWER Cast range now adjusts based on Miss Fortune’s attack range (ex. Rapidfire Cannon)
+					
+					
+						HAIR TRIGGER Miss Fortune no longer briefly pauses after casting Double Up
+					
+					E - Make It Rain
+					
+						HAIR TRIGGER Miss Fortune no longer briefly pauses after casting Make it Rain
+					
+				
+			
+		
+		
+			
+				
+					
+					Orianna
+					The Ball no longer returns to Orianna if the target it’s attached to dies.
+					
+						The one-liner below is a one-stop ‘fix’ to a few bugs that occurred when an ally holding the Ball died (more specifically, when the Ball returned to Orianna immediately after). Unintended benefit of ditching the bugged mechanic entirely: one less case of accidentally ulting yourself!
+					
+					E - Command: Protect
+					
+						STAY! If an ally dies while holding the Ball, it now drops in place rather than returning to Orianna
+					
+				
+			
+		
+		
+			
+				
+					
+					Quinn
+					Harrier procs grant more attack speed. Skystrike damage down. Quinn respawns as Valor once R is available.
+					
+						Let’s paint a picture: you’re minding your own business when a blazing-fast bird streaks out of the fog of war. In an instant, your vision disappears. A moment later, you’re dead. Quinn’s burst - combined with her high movement speed - gives opponents little time to react to her entrance. We want Quinn’s kill combo to have a little more room for enemy reaction, shifting some of that burst into extended trade strength.
+					
+					W - Heightened Senses
+					
+						BONUS ATTACK SPEED 20/25/30/35/40% on Harrier proc ⇒ 20/35/50/65/80% on Harrier proc
+					
+					R - Behind Enemy Lines
+					
+						SKYSTRIKE DAMAGE 100% total attack damage ⇒ 40% total attack damage
+					
+					
+						newCATCH THE PIGEON After putting at least one point in Behind Enemy Lines, Quinn respawns as Valor after deaths for the rest of the game
+					
+				
+			
+		
+		
+			
+				
+					
+					Varus
+					Q refund from Blight procs no longer reduced by cooldown reduction.
+					
+						Last patch’s changes to Varus were part of a three-pronged approach to knocking Varus off the bot-lane throne (the other two being Edge of Night and Deathfire Touch nerfs). Speaking to Varus specifically, we tied Piercing Arrow’s cooldown to Varus’s willingness to use basic attacks to nock enemies dead. We’re happy with this direction, but have some room to restore a bit of power.
+						Part of Piercing Arrow’s cooldown refund mechanic included anti-scaling with cooldown reduction: we were hesitant to give him the option of getting Piercing Arrow’s cooldown lower than it was pre-nerf. Ultimately, though, Varus still has to use his basic attack to get his refund, which is the main improvement we wanted to see. Nixing the anti-scaling is a power-up for Varus that also makes the refund easier to understand and feel better in cooldown reduction builds.
+					
+					Q - Piercing Arrow
+					
+						COOLDOWN REFUND ON BLIGHT PROC 4 seconds, scaling down with cooldown reduction ⇒ 4 seconds
+					
+				
+			
+		
+		
+			
+				
+					Lux VO Expansion
+					
+						We’ve added a bunch of new lines to Lux’s existing voiceover. She’s now got about four times as much to say, including many champion-specific interactions!
+					
+				
+			
+		
+		
+			
+				
+					Magic Damage Shield UI
+					
+						Real quick: we’re slightly changing the color health bars use to represent magic damage shields (Morgana, Camille, and now Galio!)
+					
+				
+			
+		
+		Back to top
+		Masteries
+		
+			
+				
+					
+					Warlord's Bloodlust
+					Now restores health based on attack damage rather than granting lifesteal.
+					
+						7.5’s update to Warlord's Bloodlust is living up to its goal of creating discrete-high impact moments. It also came with a few kinks to smooth out, thanks to the way lifesteal works. Since lifesteal works based on damage dealt, the health you get can vary from one attack to the next, depending on stuff like basic attack modifiers and enemy armor. This becomes a pretty significant difference once the lifesteal value climbs up to 50%.
+						Warlord’s should have success cases, but “Caitlyn Headshots a minion” shouldn’t be more rewarding than “Caitlyn kites the enemy frontline”. Switching to a heal effect keeps Warlord’s rewarding as a combat sustain tool while making success easier to ID: kite and reposition against any threat that comes your way.
+					
+					
+						SUSTAIN BONUS Grants 1-50% lifesteal (at levels 1-18) ⇒ Restores health equal to 3-40% total attack damage (at levels 1-18)
+					
+					
+						CRITICAL HEAL If the attack that procs Warlord’s Bloodlust critically strikes, the heal crits as well (further increased by crit damage modifiers, ex. Infinity Edge)
+					
+				
+			
+		
+		Back to top
+		
+			Summoner’s Rift
+		
+			
+				
+					Red Brambleback
+					Magic resist down.
+					
+						Per our pre-season changes, Red Brambleback is meant to be resilient against magic damage, while Blue Sentinel offers the same challenge against physical damage. Those numbers didn’t line up, so we’re standardizing them now.
+					
+					
+						MAGIC RESIST 15/20/26/29/30 (at levels 1/4/8/9/10) ⇒ 10/15/18/19/20 (at levels 1/3/5/7/8), matching Blue Sentinel’s armor
+					
+				
+			
+		
+		Back to top
+		In-Game Options Menu
+		
+			
+				
+					
+						Back in 7.4, we increased the size of the Options menu to make it more readable at high resolutions. The resulting size was a bit too large at super-high resolutions, so we’re reining the change in to a sweet spot somewhere in between.
+					
+					
+						COMFORTABLE SIZE The Options menu has been significantly reduced in size at larger than 1200 vertical resolution (smaller size reductions at smaller screen resolutions)
+					
+					
+						CONVENIENT POSITIONING The Options menu can now be click-and-dragged from any empty spot, not just the title bar
+					
+				
+			
+		
+		Back to top
+		Rotating Game Modes
+		
+			
+				
+					
+						Attack. Defend. Repeat. Nexus Siege blasts back into rotation from 3/24/17 12:00 PT - 3/28/17 04:00 PT and 3/31/17 12:00 PT - 4/4/17 04:00 PT.
+					
+					
+						TL;DR:
+						Take turns charging and protecting the Nexus with a crazy arsenal of unique and mega powerful siege weapons.
+							Earn the fastest base destruction (in attack mode) and victory is yours.
+							Average game length: 25 minutes.
+						Seem simple enough? Let the mayhem begin.
+					
+				
+			
+		
+		Back to top
+		
+			League Client Update
+		
+			
+				
+					
+						We’ve updated Low-Spec Mode to make it feel smoother and improve performance even more drastically. There’s still some work to be done here, but we think enabling Low-Spec Mode will solve most performance issues for players having trouble running the updated client.
+						Enabling Low-Spec Mode kills the client while you're in-game, boosting your in-game machine performance but adding to the time it takes to get to the end-of-game screen (since the process has to automatically reboot the client). Based on player feedback, we’re working on making this an optional toggle in the settings so you can enable Low-Spec mode without killing the client in the background (or vice versa).
+						You can find solutions to most common issues in the Known Issues section of our support site.
+					
+					Notable Fixes
+					We've improved the performance of the chat module in champ select, eliminating bugs that were causing lock-ups.
+						When using Low-Spec Mode, mastery pages should now work more smoothly in both champ select and the collection.
+						We rebuilt the ready-check process to improve stability and responsiveness.
+						Interactions with the champ select grid are now smoother—including hover, click, and open/close actions.
+						Clicking on the summoner name of \"recently played with\" players in the \"Add Friend\" interface will now take you to their profile.
+						You can now right-click friends in the conversation chat panel to invite them to your game, view their profile, or spectate their match.
+					
+			
+		
+		Back to top
+		Queue Health Update
+		
+	
+		
+			What does this update mean?
+			
+		
+		
+			
+				Ranked Solo/Duo
+			
+			
+				Ranked Flex
+			
+        
+	
+
+		Back to top
+		Bugfixes
+		
+			
+				
+					Fixed a bug causing Viktor’s R - Chaos Storm to fizzle on death
+						When Yorick’s Q - Last Rites-empowered basic attack crits, the basic attack portion of the damage is now properly modified, rather than the bonus damage					
+						Knight's Vow’s healing now properly interacts with Forbidden Idol
+						Illaoi can no longer spam W - Harsh Lesson to ignore the cast time of E - Test of Spirit
+						LeBlanc’s Mimic’d R - Shadow of the Rose cooldown no longer resets when LeBlanc casts R - Mimic if she died between casting Shadow of the Rose and casting Mimic
+						Dr. Mundo’s W - Burning Agony VFX no longer stutter when he turns
+						Anivia’s Q - Flash Frost slow no longer overrides her R - Glacial Storm slow (giving movement speed back to affected enemies)
+						Attack-moving during Vladimir’s E - Tides of Blood no longer causes it to immediately release
+						Fixed a bug where Fizz's R - Chum of the Waters wouldn't slow enemies properly when the shark erupted
+						Fixed some interactions causing abilities to do weird things if cast at the same time a spell shield on the user was popped
+						Ivern no longer gains vision of both wolf camps on Twisted Treeline when freeing one of them or the other. Too friendly, Ivern.
+						If a teammate becomes invisible or camouflaged while hidden from you by Nocturne's R - Paranoia, you now still properly gain vision of them if they enter your reduced vision radius before Paranoia ends
+						Enemies affected by Ahri's E - Charm during a dash are no longer still able to cast spells during the dash
+						Using W - Riposte while Banshee’s Veil is active no longer causes it to visually go on cooldown in Fiora’s inventory (or to visually fizzle, then instantly reappear)
+						SKT T1 Alistar no longer slides around during Passive - Triumphant Roar’s animation
+						SKT T1 Alistar’s recall animation audio is no longer bullishly loud
+						Blood Moon Jhin no longer uses Base Jhin’s critical strike VFX
+						Technically not a bugfix: Made colorblind readability improvements to Blood Moon Twisted Fate’s W - Pick A Card
+						Technically not a bugfix: Arcade Corki’s E - Gatling Gun VFX have been toned down to be less overwhelming
+						Technically not a bugfix: Arcade Corki’s R - Missile Barrage VFX have been updated to be more recognizable
+					
+			
+		
+		Back to top
+		Upcoming Skins & Chromas
+		
+			
+				
+					The following skins will be released in patch 7.6:
+					
+						
+						Moo Cow Alistar
+						Pug'Maw
+						Renektoy
+						Superhero Kennen
+					
+				
+			
+		
+		
+			
+				
+					The following chromas will be released in patch 7.6:
+					
+						
+						Dino Gnar
+						
+						
+						Meowkai
+						
+						
+						Moo Cow Alistar
+						
+						
+						Surprise Party Amumu
+					
+				
+			
+		
+	"
+"6" NA
+"7" NA
+"8" "
+	
+
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+	
+		Greetings, Summoners
+		Welcome to patch 7.5, the one where we try diving into some long-term problems that have been around for awhile.
+		First, let’s talk marksmen. While it’s true we’ve been looking more closely at the marksman problem in recent weeks, we overstated ourselves last patch. Apologies for getting everyone’s hopes up! We are, however, continuing that work, so let’s talk about what’s on deck. This patch, we’re taking steps to address how much goddamn damage Varus, Jhin, and Miss Fortune are dealing. (The Virtuoso doesn’t show up by name, but don’t let that fool you! Our DFT power-down hits him the hardest.) We’ve also got updates to Warlord’s Bloodlust and Blade of the Ruined King, sprucing up a few options for marksmen to experiment with.
+		A few champions have been tearing up pro play, despite the changes they’ve seen over the last couple of patches. We’re diving deeper into their strengths in the best hands, but there’s a good chance we’ll have to hit them again.
+		Finally, we’re taking a look at some larger projects we’ve been putting off for awhile, whether they be champions like Kindred or Aatrox, or keystone masteries like Bond of Stone (plus the aforementioned Warlord’s and BotRK changes!) The perma-lifesteal on Warlord’s Bloodlust might be gone, but if life leeching people to death was your thing, give Aatrox a spin and tell us what you think!
+		That’s it for us! Check out the full details below, and we’ll see you on the Rift!
+	
+	
+		 Paul \"Aether\" Perscheid  Mattias \"Gentleman Gustaf\" Lehman  Lucas \"Luqizilla\" Moutinho
+	
+	
+		Back to top
+	
+
+Mid-Patch Updates
+
+	
+		
+			
+			
+				Aatrox Balance Update
+			
+			
+			
+				While there's always a re-learning process when we make substantial changes to a champion, Aatrox is suffering more than usual, regardless of whether he's in jungle or top lane. We're giving the Darkin Blade a better shot at stacking Blood Well without dying in the process and upping his payoff when he commits to a fight.
+			
+			
+				Base stats
+			
+			
+				HEALTH 537.8 ⇒ 580
+			
+			
+			
+				Q - Dark Flight
+			
+			
+				COOLDOWN 16/15/14/13/12 seconds ⇒ 13/12.5/12/11.5/11 seconds
+			
+			
+			
+				W - Blood Price
+			
+			
+				BASE DAMAGE 30/60/90/120/150 ⇒ 45/80/115/150/185
+			
+			
+		
+	
+
+			
+
+	
+		
+			
+				3/10/2017 
+				
+
+			
+				Lucian
+			
+			
+				BUGFIX Fixed a bug causing Q - Piercing Light's cooldown to be refunded if its primary target died during the cast time (allowing for double-Q shenanigans)
+			
+			
+			
+				Varus
+			
+			
+				BUGFIX Varus's Q - Piercing Arrow cooldown refund against Blighted targets now properly applies at Piercing Arrow's max distance 
+			
+			
+			
+				Sion
+			
+			
+				AXE TOO HEAVY Fixed a bug that caused Sion to stand still for a brief moment after casting Q - Decimating Smash
+			
+			
+			
+				Taliyah
+			
+			
+				VISUAL BUG Fixed a bug causing Q - Threaded Volley's Worked Ground visual indicator to last past the duration of the effect for enemies 
+			
+			
+		
+	
+
+
+	
+			Champions
+		
+	
+		
+			
+				
+				
+					Aatrox
+				
+				
+					Health costs reduced. Blood Well now gives a large buff when filled.
+				
+				
+					It’s been awhile since we’ve given the Darkin Blade a patch note (to say the least), and we owe Aatrox players an apology for that. We know it doesn’t feel good to hear that your champion is a “game health issue”, and it’s even more demoralizing when we don’t do anything to solve that.
+					When we have talked about Aatrox, we’ve typically focused on his self-heal based gameplay, and how difficult it is to maintain. Tackling a project that large is something more appropriate for a full VGU or a champion class update, but that focus has led us to neglect Aatrox for far too long. Aatrox has other problems besides the dicey-ness of self-healing, and we’re taking this time to tackle some of those problems. Hopefully, we’ll come out the other side more comfortable giving Aatrox balance tweaks in the future.
+					As it stands, Aatrox is always perched on a fine line between smashing everything and not having any options at all. His abilities cost health, which makes fighting from behind even harder. And since his healing scales with his damage, building tanky not only hurts his kill potential, but also doesn’t make him that much harder to kill (because he sacrifices healing potential in the process). We want to give Aatrox more to do in the games he’s not running away with. That means making it more rewarding for him to invest some gold in durability, as well as making it less punishing for him to use his abilities.
+					PS - turns out a certain Glorious Executioner has an ability called Blood Rush. We’ll be fixing the mix-up next patch.
+				
+				
+					updatedPassive - Blood Well
+				
+				
+					BLOOD WELL Aatrox fills his Blood Well through his abilities. When he reaches 100%, Blood Well begins to drain over 4 seconds, giving him Blood Rush for the Duration.
+				
+				
+					BLOOD RUSH Aatrox gains 25% base attack damage and 20-50% attack speed depending on his level. Upon taking fatal damage, Aatrox will revive and recover 30% of his max health.
+				
+				
+					REVIVE COOLDOWN 225/200/175/150 (at levels 1/6/11/16) ⇒ 180-120 seconds (at levels 1-18)
+				
+				
+					Q - Dark Flight
+				
+				
+					removedCOST 10% current health ⇒ No cost
+				
+				
+					BASE DAMAGE 70/115/160/205/250 (+.6 bonus attack damage) ⇒ 10/35/60/95/120 (+1.1 total attack damage)
+				
+				
+					newFOR THE BLOOD GOD Now fills 20% of Blood Well upon cast
+				
+				
+					W - Blood Thirst/Blood Price
+				
+				
+					Changes to Blood Thirst:
+				
+				
+					HEAL 20/25/30/35/40 (+0.25 bonus attack damage) ⇒ 30/45/60/75/90 (+5% missing health)
+				
+				
+					removedBLOODIED No longer triples the healing while below 50% health
+				
+				
+					Changes to Blood Price:
+				
+				
+					removedCOST 15/23.75/32.5/41.25/50 health ⇒ No cost
+				
+				
+					DAMAGE 60/95/130/165/200 (+1.0 bonus attack damage) ⇒ 30/60/90/120/150 (+0.75 bonus attack damage)
+				
+				
+					newFOR THE BLOOD GOD Now fills 20% of Blood Well on proc
+				
+				
+					E - Blades of Torment
+				
+				
+					COST 5% current health ⇒ 30 health
+				
+				
+					DAMAGE 75/110/145/180/215 (+0.6 AP) (+0.6 bonus attack damage) magic damage ⇒ 70/110/150/190/230 (+.7 bonus attack damage) physical damage
+				
+				
+					SLOW POTENCY 40% at all ranks ⇒ 30/35/40/45/50%
+				
+				
+					SLOW DURATION 1.75/2/2.25/2.5/2.75 seconds ⇒ 2 seconds at all ranks
+				
+				
+					newFOR THE BLOOD GOD Now fills 20% of Blood Well upon cast
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Fizz
+				
+				
+					Q AP ratio up. W bleed duration down, mark duration up. R pickup radius at the end of travel distance reduced. Whiffed fishes can no longer be picked up.
+				
+				
+					Since Fizz’ changes in the assassin update, a lot of his power has been concentrated in Chum the Waters. Landing the shark spells a briny end for the poor soul that catches the bait, but if misplaced, Fizz can feel less effective than a fish out of water. Rather than continue to prop up his ult with a bunch of failsafes, though, we’re kicking the reliability crutches out from under him and transferring that strength into his basic abilities. Hurling slop at the squishy across the screen is still the best way to send them to the deep end, but a stab from Fizz’ trident is now a more painful affair across the (sea)board.
+				
+				
+					Q - Urchin Strike
+				
+				
+					AP RATIO 0.35 ⇒ 0.55
+				
+				
+					W - Seastone Trident
+				
+				
+					BLEED DURATION 4 seconds ⇒ 3 seconds (total damage unchanged)
+				
+				
+					MARK DURATION 4 seconds ⇒ 6 seconds
+				
+				
+					R - Chum the Waters
+				
+				
+					GO FISH When fishes reach their target location without attaching to anything, the check for a nearby target to attach to is now less generous
+				
+				
+					removedSTICKY SCALES Whiffed fishes are no longer picked up by enemies that walk over them
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kindred
+				
+				
+					Passive’s jungle mark rules updated to be more favorable for Kindred.
+				
+				
+					When we updated the jungle camps in pre-season to give each a stronger identity, this left Kindred in an odd state. While other junglers have the option of clearing camps based on their individual strengths, Kindred’s passive forces them to fight whatever Wolf has marked. This hits hardest with Wolf’s very first mark: Kindred has significantly different choices to make if their target is the enemy Raptors instead of a Rift Scuttler. Given how crucial the start of a game is for junglers, the volatility in possibilities for Kindred’s first mark felt exceptionally bad.
+					We’ve made a few other changes to smooth Kindred’s jungle mark progression by pushing highly-contested monsters later in Wolf’s mark tiering system and preventing enemies from stalling the Eternal Hunters out by holding marks hostage. We also cleared up a feels-bad scenario where Kindreds who chain-cleared their first seven marks were left without a new Wolf target until 20 minutes, when Baron Nashor finally spawned.
+				
+				
+					Passive - Mark of the Kindred
+				
+				
+					WOLF MARKING After 70 seconds ⇒ 50 seconds of having no active jungle mark, Wolf marks an enemy jungle monster for 5 minutes ⇒ 3 minutes
+				
+				
+					BIGGER PREY Possible camps for Wolf’s jungle marks have been updated, based on how many stacks Kindred currently has. At the indicated number of stacks, Wolf can mark:
+				
+				
+					FIRST TIER Rift Scuttler, Crimson Raptor (with 0, 1, 2 stacks) ⇒ Rift Scuttler (with 0 stacks)
+				
+				
+					SECOND TIER Crimson Raptor, Gromp, Ancient Krug, Greater Murk Wolf (with 3, 4 stacks) ⇒ Rift Scuttler, Crimson Raptor, Gromp (with 1, 2, 3 stacks)
+				
+				
+					THIRD TIER Red Brambleback, Blue Sentinel, Rift Herald, Elemental Drakes (with 5, 6 stacks) ⇒ Red Brambleback, Blue Sentinel, Ancient Krug, Greater Murk Wolf (with 4, 5, 6, 7 stacks)
+				
+				
+					FOURTH TIER Baron Nashor, Elder Dragon (with 7+ stacks) ⇒ Rift Herald, Baron Nashor, Elemental Drakes, Elder Dragon (with 8+ stacks)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					LeBlanc
+				
+				
+					W damage reduced. Q deals more damage to minions.
+				
+				
+					LeBlanc is one of the strongest champions in the right hands, and despite multiple trips to the Patch Notes this season, she’s still one of the most contested champions. We’re pretty clear on what it is we want the Deceiver to be doing: using the split-second confusion of clone gameplay to avoid retaliation until her target is dead and she’s jumped back to safety. ...You know, deceiving people. Today’s LeBlanc has the tools to be a trickster, but her brute strength allows her to borrow from the “death is the longest CC” camp and treat damage as the ultimate trickery.
+					Normally, we feel comfortable hitting a champion’s unintended strengths, and giving them something back to compromise. In this case, LeBlanc has been so dominant that our top priority is getting her in line, and from there we can investigate ways to flesh out LeBlanc’s fantasy.
+				
+				
+					Q - Shatter Orb
+				
+				
+					DAMAGE TO MINIONS 40% ⇒ 80%
+				
+				
+					REMINDER Shatter Orb’s modified damage against minions extends to any Sigils of Malice it triggers
+				
+				
+					W - Distortion
+				
+				
+					DAMAGE 85/120/155/190/225 (+0.6 ability power) ⇒ 40/55/70/85/100 (+0.2 ability power)
+				
+				
+					MIMIC DAMAGE 125/225/325 (+0.5 ability power) ⇒ 60/120/180 (+0.3 ability power)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Lucian
+				
+				
+					Q and W are smoother to cast.
+				
+				
+					Despite his buffs at the start of the year, Lucian’s been struggling pretty hard. With the prevalence of massive poke damage in bot, Lucian simply can’t get close enough to start the skirmishes he’s meant for. As it so happens, we’ve recently shipped changes to rein in the dominant marksmen and their builds. That being the case, we’re treading carefully: moving Lucian too far up when others are moving down could overshoot the problem. For the time being, we’re smoothing out the flow of his gameplay, fixing up a few spots where Lucian felt a bit slow to respond.
+				
+				
+					Q - Piercing Light
+				
+				
+					CAST TIME 0.35 seconds ⇒ 0.4 - 0.25 seconds (at levels 1-18)
+				
+				
+					HAIR TRIGGER Lucian more reliably responds to commands issued immediately after Piercing Light’s cast time
+				
+				
+					W - Ardent Blaze
+				
+				
+					CAST TIME 0.3 seconds ⇒ 0.25 seconds
+				
+				
+					HAIR TRIGGER Lucian more reliably responds to commands issued immediately after Ardent Blaze’s cast time
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Miss Fortune
+				
+				
+					Q bounce now has the same base damage and ratios as the first hit. If the first hit kills a target, the bounce now crits instead of dealing 50% increased damage.
+				
+				
+					Though Miss Fortune hasn’t reached Jhin or Varus levels of prominence, she’s still pretty oppressive in her own right. (Those of you who’ve lost three-quarters of your health bar in lane to a Double Up bounce know what we mean.) By the numbers, Double Up’s early-game damage was bonkers even before Lethality and Deathfire Touch became the norm. Tying bonus damage to Miss Fortune’s last hitting is a slick reward for learning her playstyle, but bounces also just had bigger numbers to begin with. Double Up’s first hit now has to kill a unit for the bounce to hit hard early on, and even then, the numbers are far more reasonable. For Miss Fortunes willing to give crit another chance, however, late-game Q’s will reliably knock the teeth out of squishies no matter how she lines up the shot.
+				
+				
+					Q - Double Up
+				
+				
+					BOUNCE BASE DAMAGE 40/70/100/130/160 ⇒ 20/35/50/65/80 (matching the first hit)
+				
+				
+					BOUNCE TOTAL AD RATIO 100% ⇒ 85% (matching the first hit)
+				
+				
+					BOUNCE AP RATIO 50% ⇒ 35% (matching the first hit)
+				
+				
+					removedMINI CRIT Bounces no longer deals 50% increased damage when the first hit kills a target
+				
+				
+					newREAL CRIT Bounces can now critically strike, and always critically strike when the first hit kills a target. Damage is affected by crit multipliers (ex. Infinity Edge).
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Rengar
+				
+				
+					Base armor down, W monster damage conversion to grey health down.
+				
+				
+					Rengar relies on his ability to get early ganks and kills in order to snowball games, but when he’s able to do so without putting himself at some degree of risk, it puts him far ahead of other junglers that also need to go aggro early. Taking more damage in the jungle will force Rengar players to decide if they really want to gank that lane, or if they should go back to base after their first clear.
+				
+				
+					Base stats
+				
+				
+					BASE ARMOR 25.88 ⇒ 22
+				
+				
+					W - Battle Roar
+				
+				
+					GRAY HEALTH CONVERSION 100% monster damage taken ⇒ 75% monster damage taken
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ryze
+				
+				
+					W duration reduced, E cooldown now scales down with ability level
+				
+				
+					Ryze has been a constant in Patch Notes this year - this stems from the fact that we're still working to reduce the gap between pro play and regular play. This time we're aiming to reduce his reliability at setting up ganks - for its reliability, Rune Prison’s point-and-click root results in success far too often. The long root also lets Ryze players on low-ping environments churn out combos (WQEQ) that aren’t similarly with even a little latency added to the mix. Together with that, we're also reducing the amount of pressure he puts on waves and enemies - we want Ryze's enemies to have more opportunities to interact with the minion wave without getting Flux’d in the process.
+				
+				
+					W - Rune Prison
+				
+				
+					BASE ROOT DURATION 1 second ⇒ 0.75 seconds (empowered duration unchanged)
+				
+				
+					E - Spell Flux
+				
+				
+					COOLDOWN 2.25 seconds ⇒ 3.25/3/2.75/2.5/2.25 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Varus
+				
+				
+					Q deals less damage when fully charged and has a longer base cooldown, but the cooldown is partially refunded if Q detonates Blight on a champion.
+				
+				
+					As most bot- or mid-laners can attest to, Varus's Piercing Arrow is really good at bringing the full force of Lethality (and Deathfire Touch) to bear from long range. This is (or was) somewhat intentional: when Varus is behind, Piercing Arrow lets him contribute to fights without feeding the enemy more kills. Right now, that backup plan doesn’t actually cost Varus that much damage, raising the question “why take the risks associated with basic attacking if safe Q spam works just as well?”
+					While it's clear that Piercing Arrow needs to be brought in line, the larger goal is to encourage Varus to do things we can support in the long run. To that end, the changes below are lessened when he uses Q as a Blight detonator between attacks, rather than a fully-charged fog-of-war snipe. Granted, even a basic-attacking Varus won’t escape the Deathfire Touch changes further below, but that’s honestly how far off the rails Piercing Arrow was.
+				
+				
+					Q - Piercing Arrow
+				
+				
+					RATIO 100 - 165% total attack damage, scaling with charge duration ⇒ 100 - 150% total attack damage, scaling with charge duration
+				
+				
+					COOLDOWN 16/14/12/10/8 seconds ⇒ 20/18/16/14/12 seconds
+				
+				
+					newBLIGHT BURSTING Piercing Arrow’s cooldown is now reduced by 4 seconds (reduced by cooldown reduction) if it detonates Blight stacks on a champion
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Zyra
+				
+				
+					Along with her sweet new skin, Zyra’s sporting a brand new death animation. If you feel compelled to see it for yourself, please avoid doing so in ranked.
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Items
+		
+	
+		
+			
+				
+				
+					Blade of the Ruined King
+				
+				
+					Attack damage and lifesteal up, attack speed down. Active deals flat damage and no longer heals.
+				
+				
+					When evaluating items, we want to ensure each has its own important role to play in the item system as a whole. Blade of the Ruined King has filled a number of roles over time: dueling spike, kite enabler, and tank buster, to name a few. In recent years, we've introduced new items dedicated to filling one or another of those needs, meaning many former Blade users now have better options. Blade no longer needs to cover so many bases, so we're focusing its strength onto one main behavior.
+					The primary purpose for Blade is now to be another compelling lifesteal option for champions who care about basic attacking a lot. This focus guided our decisions on how to shuffle power. First, basic attackers reliably grab dedicated attack speed items - Blade doesn’t need to pull nearly as much of that weight. Second, quite a bit of Blade’s strength used to be tied into its active, but its new target audience needs power that manifests in every attack. We took strength from these areas and pushed it into power Blade’s users are best able to optimize.
+				
+				
+					COMBINE COST 900 gold (total cost: 3400 gold) ⇒ 800 gold (total cost: 3300 gold)
+				
+				
+					ATTACK DAMAGE 25 ⇒ 40
+				
+				
+					ATTACK SPEED 40% ⇒ 25%
+				
+				
+					LIFE STEAL 10% ⇒ 15%
+				
+				
+					ACTIVE DAMAGE 10% of target’s max health as physical damage ⇒ 100 magic damage
+				
+				
+					removedACTIVE HEAL Damage dealt by the active is no longer converted to a heal
+				
+				
+					BUFF-FIX Blade of the Ruined King’s passive on-hit damage now has a minimum of 10 ⇒ 15 (matching Recurve Bow’s on-hit damage)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Edge of Night
+				
+				
+					Shield duration decreased.
+				
+				
+					We mentioned last patch that we were working on Edge of Night nerfs… and then hotfixed two thirds of them in the next day. Edge of Night was ridiculously overpowered and many of you are probably just glad to see it nerfed, but we should still chat. How did Edge of Night end up busted to begin with?
+					No other item or spell shield has to be channeled. This gave Edge a pretty steep learning curve on release. Given Lethality’s weakness at that point, most players who could’ve been learning to use Edge of Night weren’t, dragging the process out even further. So, when we were working on 7.2, all signs pointed to Edge needing extra buffs on top of Lethality’s own. We reduced its cooldown to make it more forgiving to use, even though players hadn’t yet figured out how to properly use it to begin with (read: we reacted to unstable data).
+					The outcome, as we now know, is that Lethality builds became the norm and the correct use of Edge of Night devolved to mashing the cooldown as soon as enemies appeared (timing went out the window). This brought two concerns to light. First, the cooldown has to be long enough for skittish users to be punished if they shield up at the wrong time. Second, the shield has to expire quickly enough for enemies to have the option of waiting it out without being forced to back off entirely in the process. We’ve now made changes to address both.
+				
+				
+					New changes
+				
+				
+					SHIELD DURATION 10 seconds ⇒ 5 seconds
+				
+				
+					Mid-patch 7.4 update
+				
+				
+					Just as a reminder.
+				
+				
+					ATTACK DAMAGE 60 ⇒ 55
+				
+				
+					ACTIVE COOLDOWN 30 seconds ⇒ 45 seconds
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Masteries
+		
+	
+		
+			
+				 new
+				
+					Stoneborn Pact
+				
+				
+					Bond of Stone replaced with Stoneborn Pact. Allies heal when attacking enemies you’ve marked with movement-impairing effects.
+				
+				
+					Bond of Stone feels pretty underwhelming at the moment. It’s not incredibly weak per se, but its strength is pretty invisible. Keystone Masteries are supposed to impact your playstyle, and to do that, they need more clear success - and failure - cases. The new Stoneborn Pact still delivers on the promise of “make allies harder to kill”, but in a way that offers more for players to actually do.
+				
+				
+					newSTONE SKIN Gain 5% maximum health
+				
+				
+					newHEY, LISTEN Your movement impairing effects effects mark enemy champions with an earthen rune that heals other allied champions who basic-attack them for 5 (+2.5% of your maximum health) over 2 seconds. The mark lasts 4 seconds.
+				
+				
+					GROUND RULES If an enemy is marked by multiple Stoneborn Pacts, allies heal from the strongest mark that’s not their own
+				
+				
+					(This bit’s here for those of you who CTRL+F to find stuff)
+				
+				
+					removedBOND OF FOSSIL Bond of Stone has been removed
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Deathfire Touch
+				
+				
+					Bonus attack damage ratio reduced.
+				
+				
+					As far as botlane goes, Deathfire Touch is meant for marksmen who lean heavily on their abilities to deal damage (Jhin, Varus, Miss Fortune). That said... they’re still marksmen. Basic attacking may not be as important to them as others, but when basic attacks aren’t even needed as filler between cooldowns, DFT is doing far too much work. (To be honest, we should have hit it in last patch’s damage mastery sweep.) Marksmen who lack poke tools of their own can’t even approach the minion wave without eating a full trade’s worth of damage and dealing none in return, choking out a lot of bot lane picks.
+					We won’t dance around the subject - this is going to sting for DFT marksmen. We fully expect them to lose footing, particularly while reacquainting themselves with their basic attack ranges. That said, DFT is still strong for the champions who can repeatedly proc it, but at a level more in line with what mage users get.
+				
+				
+					BONUS AD RATIO 60%⇒ 45%
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Warlord's Bloodlust
+				
+				
+					Is now an Energized effect. Energized attacks gain lifesteal and grant movement speed.
+				
+				
+					Easy access to low-risk healing is pretty bad for the early game. Winning a trade or poking an opponent should lead to an edge, but when somebody can just heal it back up, what’s the point? Last patch, our bandaid fix was to just nerf the numbers on Warlord’s Bloodlust.
+					This patch, we’re shifting direction on Warlord’s, enhancing its lifesteal when used the way marksmen already fight: kiting and repositioning. We hope to create high moments of lifesteal that will feel more impactful, rather than a slow, consistent drain. With less flat lifesteal, this will also temper marksmen’s ability to use minions as health batteries in lane.
+				
+				
+					removedMINION BATTERY Basic attacks no longer gain up to 15% lifesteal based on your missing health. 50% effective against minions for melee champions (25% for ranged champions)
+				
+				
+					newTAKE MY ENERGY Moving or attacking will make an attack Energized. Your energized attacks have lifesteal and grant 30% movement speed for 0.75 seconds.
+				
+				
+					LIFESTEAL AT LEVEL 1 1%
+				
+				
+					LIFESTEAL AT LEVEL 18 50%
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Summoner Spells
+		
+	
+		
+			
+				
+				
+					Exhaust
+				
+				
+					No longer reduces attack speed or resistances.
+				
+				
+					Are assassins bursting your carry at the start of teamfights? Is Kennen ultimate destroying your team? Then we’ve got the summoner spell for you: Exhaust! However, Exhaust is pulling too many extra strengths beyond “anti-burst” - even making its targets easier to kill. There’s nothing wrong with a summoner spell serving multiple functions, but when a defensive summoner spell is about as good for killing people as an offensive one like Ignite, it’s time to trim some fat.
+				
+				
+					removedATTACK SPEED REDUCTION No longer reduces target’s attack speed by 30%
+				
+				
+					removedRESISTANCE SHRED No longer reduces target’s armor and magic resist by 10
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Recall Animations
+		
+	
+		
+			
+				
+					Older champions didn't have recall animations, and that sucked. By using animations you’d typically never see anyways (who idles in League anymore? MAD APM BROS), we made it so every champion and skin now has a recall.
+				
+				
+					Champions affected:
+				
+				Ahri, Akali, Alistar, Amumu, Anivia, Ashe, Blitzcrank, Brand, Caitlyn, Cassiopeia, Cho'Gath, Corki, Dr. Mundo, Evelynn, Ezreal, Fiddlesticks, Fiora, Fizz, Galio, Graves, Hecarim, Irelia, Janna, Jarvan IV, Jax, Kassadin, Kayle, Kennen, Kog'Maw, LeBlanc, Lee Sin, Leona, Lulu, Lux, Malphite, Malzahar, Maokai, Miss Fortune, Mordekaiser, Morgana, Nautilus, Nunu, Olaf, Orianna, Pantheon, Rammus, Renekton, Riven, Rumble, Shaco, Shen, Shyvana, Singed, Skarner, Sona, Swain, Talon, Teemo, Tryndamere, Udyr, Urgot, Varus, Vayne, Veigar, Viktor, Vladimir, Volibear, Wukong, Xerath, Xin Zhao, Ziggs, Zilean
+					
+					All skins for the above champions without skin-specific recall animations
+					
+				
+		
+	
+	
+		Back to top
+	
+	
+			Sizing
+		
+	
+		
+			
+				
+					Last time we did a pass on sizing was in 5.23 - quite a while ago. Some folks joined the Rift since then, so we're checking and keeping them aligned with the rest. All of them are slightly (very slightly) smaller. This shouldn’t affect their in-game hitboxes or have any impact on the game.
+				
+				Jhin
+					
+					Ivern
+					
+					Candy King (Queen?) Daisy
+					
+					Mecha Zero Sion
+					
+					Arcade Corki
+					
+				
+		
+	
+	
+		Back to top
+	
+	
+			Tooltips
+		
+	
+		
+			
+				
+					We updated our in-game tooltips to better match the visual changes we’ve made to League over the years. Also, to use real arrows instead of a dash and a bracket.
+				
+				  
+					 
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Visual Clarity Adjustments
+		
+	
+		
+			
+				
+				
+					Jax
+				
+				
+					Animation timing
+				
+				
+					NOW IT’S A REAL WEAPON Altered cast frames on Jax’s basic attacks to be more visually consistent.
+				
+				
+					W - Empower
+				
+				
+					HARDER BETTER FASTER STRONGER Empower's attack now always uses Crit animation.
+				
+				
+					E - Counter Strike
+				
+				
+					LESS COUNTERINTUITIVE Resized Counterstrike hit particle and did some rotation/swirl editing to more accurately convey the range and shape of effect.
+				
+				
+					R - Grandmaster's Might
+				
+				
+					WALTZ Once he levels his ultimate, Jax cycles consistently through his different basic attack animations
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Cho'Gath
+				
+				
+					W - Feral Scream
+				
+				
+					CONSISTENCY Adjusted particle to match actual cone size
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Nocturne
+				
+				
+					E - Unspeakable Horror
+				
+				
+					newNOT UNSEEABLE HORROR Added indicator (visible to Nocturne only) to show tether range
+				
+				
+					R - Paranoia
+				
+				
+					newBRACE FOR IMPACT Added pre and on-hit animations which sync with Paranoia’s damage
+				
+			
+		
+	
+	
+		
+			
+				
+					VFX Cleanup
+				
+				
+					We’re cleaning up some of the more distracting visuals in spectator mode and in game. For the most part, we’re simply reducing visual noise, such as the lightning particles on Jayce’s Lightning Field. Toning these effects down makes it easier to track other information at the same time.
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Rotating Game Modes
+		
+	
+		
+			
+				  
+					 
+				
+				
+					Ascension is now live from 3/10/17 12:00 PT - 3/14/17 04:00 PT and 3/17/17 12:00 PT - 3/21/17 04:00 PT.
+					Check out this Ascension post for more details on the rotating game mode. For those who just need a TL;DR:
+				
+				Go 5v5 to claim the incredible power of Ascension by taking down Ancient Ascendant Xerath. Use Ascension to conquer the Crystal Scar of Shurima.
+					
+					First team to reach 200 points wins. Score:
+					
+					
+						1 point for champion kills.
+							
+							3 points for capturing a Shuriman relic.
+							
+							5 points for landing the killing blow on an Ascended champion.
+							
+							2 points for each kill you acquire while Ascended.
+							
+						
+				
+					Go forth. Conquer. Ascend.
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+		
+			League Client Update
+		
+	
+		
+			
+				
+					We’ve released a beta update that talks about our plans for replacing the legacy client and future development of the client. Check it out here. We will continue to do these on a regular basis to keep players up to date with our plans.
+					You can also find solutions to most common issues in the Known Issues section of our support site.
+				
+				
+					Notable fixes
+				
+				Animated profile backgrounds are back. (Disabled on Low-Spec mode)
+					
+					We’ve fixed the black screen bug that some players have been experiencing when transitioning to champ select.
+					
+					The client will now warn you if your game settings need to be reset to default value. (ie: The game was unable to retrieve your settings from the server)
+					
+				
+		
+	
+	
+		Back to top
+	
+	
+			Queue Health Update
+		
+	
+	
+		
+			What does this update mean?
+			
+		
+		
+			
+				Ranked Solo/Duo
+			
+			
+				Ranked Flex
+			
+        
+	
+
+	
+		Back to top
+	
+	
+			Bugfixes
+		
+	
+		
+			
+				Fixed Spirit Guard Udyr's VO interactions with other champions
+					
+					DJ Sona no longer stops moving after switching tracks... Can’t stop the beat.
+					
+					Fixed tutorial bugs regarding weird stuff happening when leveling up skills at the wrong time
+					
+					Fixed a bug where using Chilling or Challenging Smite would cause Kled's R - Chaaaaaaaarge!!! to re-route and extend the range of his charge
+					
+					Fixed a bug where if Master Yi’s Passive - Double Strike killed a champion, the second hit could hit nearby invisible champions
+					
+					Fixed a bug where Sivir's Q - Boomerang Blade disappeared into the ground if thrown at a higher-elevation location
+					
+					Fizz and Katarina’s intermediate bots now have Keystone Masteries
+					
+					Fixed a bug where casting Sion's Q - Decimating Smash could remove Spell Shield effects from enemies behind him
+					
+					Fixed a bug where Yorick's R - Maiden of the Mist consumed Pantheon's Passive - Aegis Protection as intended, but dealt damage anyway
+					
+					Fixed a bug where casting Jhin’s Q - Dancing Grenade from fog of war / brush would not reveal Jhin to enemy champions
+					
+					Fixed a bug where if Kled leveled up W - Violent Tendencies while auto attacking an enemy, his 4th hit would not deal bonus damage 
+					Casting Cassiopeia's E - Twin Fang now respects Stop and Hold commands for her movement queueing
+					Fixed a bug where casting Sion's Q - Decimating Smash right before an basic attack against a turret would cancel the basic attack.
+					Fixed a bug on Haunted Zyra where Enrage was barely visible on Q - Thorn Spitters
+					Fixed a bug where no on-ground particles would appear beneath SKT Zyra when using R - Stranglethorns
+					Fixed a bug on Project Ashe where the particles for killing enemy units with basic attacks and critical strikes weren’t displaying correctly
+					Fixed a bug on Winter Wonder Orianna where poros wouldn't have shadows during her recall animation. Soulless.
+					Fixed a bug where moving the camera away and back during Zombie Brand's death animation would make his gravestone and earth particles to disappear
+					Fixed a bug with Blackfrost Anivia and Festival Queen Aivia where using flash while casting W - Crystallize would allow enemies and allies to walk through the wall
+					Fixed a bug where High Noon Jhin's R - Curtain Call range indicator was too large.
+					Fixed a bug where moving the camera away and back would cause a chunk of Passive - Cell Division to disappear when using Pool Party Zac
+					Fixed a bug where Final Boss Veigar's R - Primordial Burst VFX would be misplaced. 
+					Fixed a bug where  Super Galaxy Shyvana's Cinders Mark would be fade out too early. 
+					Fixed a bug where Haunted Zyra wasn't able to use the Champion Mastery emote during death
+					Fixed a bug where, after a certain point, the writers got stuck in a  “fixed a bug” loop for every bugfix. Developer note: fix failed. We need to try again next patch.
+				
+		
+	
+	
+		Back to top
+	
+	 
+            Upcoming Skins & Chromas
+        
+    
+        
+            
+                
+                    The following skins will be released in patch 7.5:
+                
+                
+                    
+                        
+                        
+                            Dragon Sorceress Zyra
+                        
+                    
+                    
+                        
+                        
+                            Dragonslayer Xin Zhao
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                
+                    The following chromas will be released in patch 7.5:
+                
+                
+                    
+                        
+                        
+                            Dragonslayer Pantheon
+                        
+                    
+                    
+                        
+                        
+                            Dragonslayer Xin Zhao
+                        
+                    
+                
+            
+        
+    
+"
+"9" NA
+"10" NA

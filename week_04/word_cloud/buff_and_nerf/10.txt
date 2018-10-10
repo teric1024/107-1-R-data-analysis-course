@@ -1,0 +1,5388 @@
+"x"
+"1" NA
+"2" "
+	
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+	
+		Greetings, summoners.
+		Welcome to patch 6.5, the one where we check in with some old friends that haven’t stopped by patch notes for a while and Soraka gets some spicy healing changes. After writing that sentence we’re not really sure what ‘spicy healing’ is, but it probably tastes delicious.
+		Let’s go back and talk about those ‘old friends’ for a bit. Sejuani? Renekton? Jarvan? While it’s true that these champions were certainly meta-defining champions at one point or another in the game’s history, it’s important to really dig in and ask why they were so strong in the first place. For these three (and quite a few more on the list), their dominating position within the metagames of yesteryear can be easily explained: more than just powerful champions, they were powerful generalists.
+		Bolded text? Let’s back up and slap some context on that phrase. What’s a generalist? As the name implies, they’re champions who don’t truly excel in any one category, but check enough of the boxes that they’re always performant or valuable. While there’s definitely room for champions that are swiss-army-knives (somewhere, a giant neon sign with the name ‘THRESH’ is blinking), having many reasons to be picked shouldn’t exclude you from having to play along with League’s core value of having strengths and weaknesses. As we’ve seen recently with champions like Gangplank and Lucian, being good at a lot of things and bad at very few things is a big no-no for champion diversity and balance alike.
+		So what do we have in store? While we’ve got some power reductions to some of League’s main offenders this patch, much of 6.5 is a love-letter to these bygone generalists, increasing power in ways that aim to sharpen those niches as more than just ‘pretty good.’ Oh, and leveling an account to 30 now takes half the time it used to. There’s not really a cool narrative to tie that to, but it’s pretty huge for new players. A moment of silence for those of us who survived the grind.
+		So here’s to you, generalists. Jacks-of-all-trades. People who pick ‘Fill’ in dynamic queue (even if it really just means ‘Support’). Your commitment to providing value and bravery trying new things is an inspiration to us all. So if you get trampled by Hecarim, dunked by Vi, or diced by Renekton this patch - try not to be angry. That’s just how they show their love.
+		Good luck, and have fun.
+	
+	
+		 Patrick \"Scarizard\" Scarborough
+	
+	
+		Back to top
+	
+
+
+
+Patch Updates
+
+		
+			
+			
+				Hextech Crafting & Loot
+			
+				
+					Hextech Crafting is now live in NA.
+				
+				
+					As a refresher, Hextech Crafting is one of our 2016 season update features. It's a new system tied to Champion Mastery that rewards you when you or your premade perform well. Those rewards can be used to craft, earn, or purchase content like champions, skins, ward skins and summoner icons.
+					Hextech Crafting is now live!
+				
+				
+					IT'S COMPLICATED The mechanics of Hextech Crafting and Loot are a bit too lengthy to cover here in the patch notes. Make sure to head back to the 2016 season update site for everything you need to know about these new features!
+				
+				
+					PRESS HERE FOR STUFF Hextech Crafting can be accessed via the \"Loot\" button (next to the \"Store\" button)
+				
+				
+					NO REFUNDS Mastery Chests (and Keys) purchased in the store for RP cannot be refunded, even if unopened!
+				
+				
+					STILL NO REFUNDS If you purchase a Mastery Chest, receive a Shard, and use it to activate a rental, you won’t get RP back after the rental ends
+				
+				
+					NOT-QUITE-FULL LAUNCH Hextech Crafting and Loot values (ex. drop rates, chest contents) may be tuned as the system rolls out globally
+				
+				
+					YOU CAN'T TAKE IT WITH YOU If you transfer to a different server, your in-progress Loot inventory will be erased, including any permanents you’ve earned!
+				
+				
+					PLAY NICE Players who are not in good standing due to negative behavior are unable to earn chests or keys
+				
+				
+					With Hextech Crafting, we’re also changing the new player reward for hitting summoner level 5. This reward has historically been 400 RP, but it’s put limits on what we can offer for less than 400 RP due to the risk of incentivizing bot account farming. We’re swapping it out for a new player chest which removes the botting risk by having predetermined content, while better catering to new players by offering a pair of familiar, accessible champions and a path to earning a free skin.
+				
+				
+					WHAT A NICE GIFT Players no longer receive 400 RP upon reaching level 5. Instead, they receive a special chest and key with an Ashe champion shard, a Garen champion shard, enough blue essence to craft both champs, and either a Sanguine Garen or a Sherwood Ashe skin shard.
+				
+			
+		
+	
+	
+		Back to top
+	
+
+
+	
+		
+			
+				3/11/2016
+			
+			
+			
+				Azir
+			
+			
+				OVERENTHUSIASTIC STABBING Sand soldiers beyond the first now properly deal less damage when attacking the same target
+			
+			
+				DISTRACTED Sand soldier attacks will no longer fail to deal damage to their original target if Azir directs his soldiers to switch to an out-of-range target during their in-progress attack (targets that move out of range will still avoid damage)
+			
+			
+				MOMENT OF SILENCE Azir is no longer briefly locked out of his abilities if a Sand soldier's target dies mid-attack
+			
+			
+			
+				Kog'Maw
+			
+			
+				WHY AREN'T THEY MELTING Fixed a bug that caused on-hit effects to deal significantly reduced damage while W - Bio-Arcane Barrage was active
+			
+			
+		
+	
+
+
+	
+		
+			
+				3/10/2016
+			
+			
+			
+				Twisted Fate
+			
+			
+				MAKE UP YOUR MIND Fixed a bug where the cards in Cutpurse Twisted Fate's overhead W - Pick a Card indicator weren't dimming out as the ability cycled, making it difficult to tell which card would be locked if Pick a card was reactivated
+			
+			
+		
+	
+
+
+
+			Clubs
+		
+	
+		
+			
+				
+					Clubs have been added to League and will be rolling out in the days following the patch.
+				
+				
+					Back in November, we announced clubs as part of the 2016 season update. Clubs are a new way to organize chat groups you create and join. They persist through login sessions, making it easy to surround yourself with like-minded League players and get into games with friends you want to throwdown alongside. Persistent chat rooms are just the beginning for clubs -- expect to see us in the patch notes again as we build out the system!
+				
+				
+					YES, THE CHAT ROOM BUTTON EXISTED Access clubs by clicking the \"Clubs\" button, which replaced the \"chat room\" button in the social panel
+				
+				
+					BY OUR POWERS COMBINED Clubs have space for up to 49 of your fellow pollution fighters (cap may be adjusted)
+				
+				
+					POP CULTURE REFERENCE #2 Club leaders have access to roster management and chat moderation tools
+				
+				
+					THERE CAN BE ONLY ONE Clubs are designated by unique tags that appear next to members’ summoner names, both in and out of game
+				
+				
+					PARDON OUR DUST Visual elements will continue to be updated and polished in future patches
+				
+			
+		
+	
+	
+		Back to top
+	
+
+	
+			Champions
+		
+	
+		
+			
+				
+				
+					Azir
+				
+				
+					Just some birdfixes for our most glorious emperor.
+				
+				
+					General
+				
+				
+					CAN’T CAST THAT YET Fixed a bug that allowed Azir to queue up basic ability combos without sufficient mana for all involved abilities
+				
+				
+					DONT GIVE UP Fixed various cases where Azir could unintentionally cancel or be entirely locked out of his basic attack
+				
+				
+					ONE FRAME LINK Azir’s abilities can now be queued during basic attacks
+				
+				
+					PRAISE THE SUN Sun Discs now appear on the minimap
+				
+				
+					W - Arise!
+				
+				
+					OOPS Now properly triggers a 1.5 second internal cooldown when used on turrets
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Gnar
+				
+				
+					Base attack damage up.
+				
+				
+					Simply put - Gnar's underperforming in the top lane, specifically in the early stages of the lane. That in itself isn't a problem - Gnar's a champion of highs and lows (on account of his rapidly oscillating 'Mega' and 'Mini' forms), so a little bit of variance isn't out of the question. What's actually worrying is that Gnar's underperforming when the majority of his opposing top laners are the very tanks he's intended to bully. Gnar's always been an important 'release-valve' pick teams can fall on when tanks get out of line, so we're tossing him the same attack damage adjustment we gave marksmen back in Preseason to help him curve smoothly into the adorable little predator he was born to be.
+				
+				
+					General
+				
+				
+					BASE ATTACK DAMAGE 48 ⇒ 51
+				
+				
+					Passive - Rage Gene
+				
+				
+					ONE FIST SHORT Now accurately displays the amount of bonus range Gnar gets over Mega Gnar.
+				
+				
+					R - GNAR!
+				
+				
+					REAL MATURE Fixed a bug where minions and monsters tossed by GNAR! would receive damage after a brief delay rather than upon landing.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Hecarim
+				
+				
+					E moves faster and knocks back more the further Hecarim travels.
+				
+				
+					Though it hasn’t been that long since Hecarim’s era of dominance in the toplane, our little pony is struggling to be relevant after his last few rounds in the patch notes. Specifically, many of the recent changes Hecarim received were to limit the abuse cases of an early Homeguard purchase - something that’s no longer possible after preseason. A happy Hecarim is one that’s blissfully trampling the enemy’s ranks, so we’re peeling back some of our previous changes and supporting Hec’s effectiveness when pulling off his signature flanking maneuvers.
+				
+				
+					E - Devastating Charge
+				
+				
+					new?I MUST GO SWIFTLY Devastating Charge's bonus movement speed is now multiplicative
+				
+				
+					KNOCKBACK DISTANCE 300 ⇒ 250 - 450 (based on distance traveled)
+				
+				
+					CLIP-CLOP CLARITY Now displays Devastating Charge's level of knockback and speed on the buff bar
+				
+				
+					THAT'S NOT HOW ROOTS WORK Fixed a bug where Devastating Charge would move Hecarim while rooted
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Jarvan IV
+				
+				
+					W cooldown decreased. R costs less and deals area-of-effect damage.
+				
+				
+					At the height of his power, Jarvan excelled at everything. He could snowball games early, and yet scale hard into the late game. He brought burst damage, initiation, peel, tankiness… you get the point. We’re in no hurry to return players to the terror of his glory days, but right now Jarvan players don’t really feel good about doing, well, anything. We’re sharpening Jarvan’s identity as a top-notch teamfighter by giving him the tools to perform better when more enemies are around. Jarvan won’t feel much different in 1-on-1 situations, but he’ll feel more impactful when he wades into the thick of things, fighting harder for Demacia the more enemies - or allies - are around.
+				
+				
+					W - Golden Aegis
+				
+				
+					COOLDOWN 20/18/16/14/12 seconds ⇒ 12 seconds at all ranks
+				
+				
+					R - Cataclysm
+				
+				
+					COST 100/125/150 mana ⇒ 100 mana
+				
+				
+					YOU'RE STUCK IN HERE WITH ME Now deals damage to all targets trapped inside the Cataclysm
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kog'Maw
+				
+				
+					Attack speed per level up. Q cost down. W has a base damage, but no longer grants any attack speed per rank.
+				
+				
+					Before we talk 6.5, let’s talk about how we got here.
+					Kog’Maw’s identity is one of the clearest we have in league - a baby voidling that if sheltered and protected, grows into a hyper-carrying win condition all his own. Historically this has been done through balancing his laning phase to a state where it’s nearly impossible to withstand aggression, given that the rewards for succeeding were that you’d have an extremely powerful Kog’Maw on your team. Cut to the Marksman Update for Preseason, and now Kog has an additional tradeoff for his power - specifically ‘can you engineer a fight such that he can stand still and obliterate everything in sight’. Granted, the tradeoffs between high damage and mobility isn’t actually ordinary for a Marksman - they usually kite and fight simultaneously. Understandably, the early days of Kog’Maw’s update were a rough learning time for us all. We had a glass cannon that was all glass and no cannon.
+					So we thought, ‘If he’s not performing, let’s give him some love in a way that boosts his laning phase!’ That was 6.3. Terror ensued.
+					Back in the present, we’re looking to make a sustainable Kog’Maw for the long-term, free from the binary teeter-totter of ‘really strong or really weak’ that hypercarries tend to fall into. The changelist below represents a shift in thinking about Kog’s power curve - he’ll still scale incredibly with items, but that curve is now more even across the game (rather than spiking at any one particular point). Smoothing this curve means that Kog’s lane can be in a state that’s relatively normal compared to his peers, but the ‘race against the clock’ should feel less harsh for those that fall behind. Kog’Maw may always be the posterchild for what the term ‘hyper-carry’ means in League of Legends, but the hope is for that term to extend beyond just ‘bad lane, great late game’ and into meaningful interactions between the champions and their environments.
+				
+				
+					General
+				
+				
+					ATTACK SPEED GROWTH STAT 1.5% ⇒ 3.5%
+				
+				
+					Q - Caustic Spittle
+				
+				
+					COST 60 mana ⇒ 40 mana
+				
+				
+					W - Bio-Arcane Barrage
+				
+				
+					removedSPITSTORM No longer gains attack speed passively
+				
+				
+					LET’S TRY THAT AGAIN Now deals 5/10/15/20/25 additional base damage on-hit (instead of a minimum of 15 damage)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Nautilus
+				
+				
+					E damage down.
+				
+				
+					If you remember our Malphite changes from 6.4 this one’s going to sound familiar. Top lane’s a tank-friendly place these days, and Nautilus has resurfaced as the anchor-wielding lane-bully of choice. Given Naut’s level of reliability as an initiator and overall teamfight nuisance, we’re cutting down on his damage output and (literal) wave-clear in lane to give opponents a shot at getting ahead.
+				
+				
+					E - Riptide
+				
+				
+					DAMAGE PER WAVE 60/95/130/165/200 ⇒ 55/85/115/145/175
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Pantheon
+				
+				
+					E damage down. R costs less, but gives no mana back and has a greater cooldown when canceled.
+				
+				
+					While Pantheon’s always had ‘these numbers don’t even look real’ levels of damage, it wasn’t until the changes to Aegis Protection’s block mechanic in 5.22 that he started really taking off. We’re digging how those changes have made Pantheon more flexible in top and jungle, but his damage output is simply too high for that level of consistency. Heartseeker Strike’s important to give Pantheon something to do in fights that isn’t just stun + spear, but its current power level makes him nearly impossible to fight solo. Pulling back Heartseeker’s damage and cleaning up how generous Grand Skyfall is when fishing for engages should combine to make Pantheon’s risk in line with his incredible rewards.
+				
+				
+					E - Heartseeker Strike
+				
+				
+					TOTAL BASE DAMAGE TO CHAMPIONS 80/140/200/260/320 ⇒ 80/130/180/230/280
+				
+				
+					TOTAL RATIO TO CHAMPIONS 3.6 bonus attack damage ⇒ 3.0 bonus attack damage
+				
+				
+					DAMAGE TO MONSTERS 50% ⇒ 60%
+				
+				
+					R - Grand Skyfall
+				
+				
+					COST 125 mana ⇒ 100 mana
+				
+				
+					removedTHEY WILL NOT ENJOY THIS No longer refunds mana when canceled
+				
+				
+					COOLDOWN WHEN CANCELED 10 seconds ⇒ 30 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Quinn
+				
+				
+					While Blinding Assault doesn't truly blind anymore, there was a nasty bug that would make key abilities like Udyr's E- Bear Stance or Twisted Fate's W - Pick-A-Card miss while nearsighted. That's pretty frustrating, and also just not how the ability is meant to work. Fixed!
+				
+				
+					Q - Blinding Assault
+				
+				
+					I SEE Fixed a bug where some empowered basic attacks would miss while nearsighted.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Renekton
+				
+				
+					E generates less fury on minions, but you can now gain fury on first cast. R has more health early.
+				
+				
+					Once heralded as the preeminent lane bully, Renekton’s struggled to keep up with the top tops as the seasons progress. When we last saw Renekton’s reign of anger, teams were picking him as the one champion that could reliability ‘do it all’, giving equal parts damage, defense and crowd-control to anyone that needed it. Not wanting to reinstate Renekton as the go-to top lane generalist, we’re looking at his ability to secure advantages via skirmishes and laning prowess to really drive home his identity as the early-game croc on the block.
+				
+				
+					E - Slice and Dice
+				
+				
+					newFURY SWIPES Slice now generates Fury (Instead of only Dice generating Fury)
+				
+				
+					FURY GENERATION ON MINIONS 2.5 Fury ⇒ 2 Fury
+				
+				
+					R - Dominus
+				
+				
+					BONUS HEALTH 200/400/800 ⇒ 250/500/750
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Shen
+				
+				
+					Shen's still a little too subtle when letting his allies know he's coming to save them in the heat of battle, even for a ninja. Clarity!
+				
+				
+					R - Stand United
+				
+				
+					NOT VERY NINJA-LIKE Increased the visibility of Shen's shield when channeling
+				
+				
+					STOP RUNNING AWAY The targeted ally's screen is now color-tinted during Stand United's channel
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Sejuani
+				
+				
+					W animates faster. E deals more damage early.
+				
+				
+					Sejuani hasn’t been feeling like her teamfight-dominating self ever since Cinderhulk’s rise to prominence last season. Given how she’s fallen behind her beefy initiator brethren (like Amumu or Gragas), we’re boosting Sej’s performance in the earlier stages to bring her scrapping back up to a level befitting the barbarian queen.
+				
+				
+					W - Flail of the Northern Winds
+				
+				
+					FLAILING AROUND Increased the speed at which Sejuani's basic attack is reset
+				
+				
+					E - Permafrost
+				
+				
+					DAMAGE 60/90/120/150/180 ⇒ 80/105/130/155/180
+				
+				
+					R - Glacial Prison
+				
+				
+					CRYSTAL CLARITY Now shows the area-of-effect in the target indicator
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Soraka
+				
+				
+					Q always slows and gives Soraka a heal-over-time and movement speed when not running towards enemies. W heals for less, but copies the Q buff onto its target if Soraka is affected by it.
+				
+				
+					Though Soraka isn't overperforming like she was at the beginning of preseason, she's still seeing too much success hanging back and passively heal-botting her marksman. Without windows of interaction with Soraka, opponents don’t have much choice other than to try and focus down her lane partner, which is the exact scenario Soraka is built to counter. Starcall is supposed to create these windows of interaction via its shorter range, but its payoff isn’t exciting enough to justify its risks given how much general strength Soraka gained from preseason.
+					The below changes have a lot of moving parts, but the gist is that Astral Infusion is now far less effective at undoing enemy aggression unless Soraka’s backing it up with frequent Starcalls. Starcall itself has been played up as a kiting tool to make it satisfying for Soraka on its own merits, and not just a prerequisite for impactful healing. Put together, Soraka should now be more accessible to her opponents, but in a way she can feel good about.
+				
+				
+					Q - Starcall
+				
+				
+					COST 70/75/80/85/90 mana ⇒ 40 mana at all ranks
+				
+				
+					COOLDOWN 7/6.5/6/5.5/5 seconds ⇒ 5 seconds at all ranks
+				
+				
+					CELESTIALLY BODIED Now slows all targets damaged by Starcall (instead of just slowing in the center)
+				
+				
+					removedSTARFALLEN No longer deals 150% increased damage to targets hit in the center
+				
+				
+					newHOTNESS Now grants Rejuvenation for 4 seconds, restoring 14/16/18/20/22 (+0.1 ability power) health per second and granting 15% movement speed when not moving towards enemies.
+				
+				
+					W - Astral Infusion
+				
+				
+					HEAL AMOUNT 120/150/180/210/240 ⇒ 80/110/140/170/200
+				
+				
+					HOT POTATO If cast while under the effect of Rejuvenation, Soraka gives her target Rejuvenation for 3/3.5/4/4.5/5 seconds (based on rank of Starcall)
+				
+				
+					removedMISALIGNED No longer increases Starcall's healing amount against champions
+				
+				
+					removedSORAKACARE No longer able to target minions
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Talon
+				
+				
+					R costs more and has a higher cooldown.
+				
+				
+					Talon’s one of the most unstoppable champions when running with a lead. While some assassins might effortlessly pick off single targets in the backline, snowballing Talons kill that single target… and just about everyone else in the fight. We’re not taking away Talon’s blades (he’s very attached to them), but increasing the windows between his ‘outbursts’ so his victims can catch their breath between respawns.
+				
+				
+					R - Shadow Assault
+				
+				
+					COOLDOWN 75/66/55 seconds ⇒ 100/80/60 seconds
+				
+				
+					COST 80/90/100 mana ⇒ 100 mana at all ranks
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Urgot
+				
+				
+					Base damage up. W duration down, but can be cast during R. R now fears in a small area after finishing.
+				
+				
+					Piloting Urgot successfully is a lot harder than it looks, often forcing you to make tough decisions around positioning. Do you wait to reverse yourself out of harm’s way, or do you isolate a key target and put yourself at massive risk? We don’t want to remove the weight of this decision, but adding some fear-inducing spice to his Hyper-Kinetic Position-Reversing ways should help the ability feel more ‘ultimate’ when you successfully pull off the big plays. Add in some light numbers tuning and you’ve got an Urgot that’s a little cleaner, a little fresher, but still terrifying in every way you’d expect a machine-man hybrid to be.
+				
+				
+					General
+				
+				
+					BASE ATTACK DAMAGE 52 ⇒ 54
+				
+				
+					W - Terror Capacitor
+				
+				
+					DURATION 7 seconds ⇒ 5 seconds
+				
+				
+					newMORE TERROR Can now be cast while channeling R - Hyper-Kinetic Position Reverser
+				
+				
+					R - Hyper-Kinetic Position Reverser
+				
+				
+					newIT SWAPS Now fears enemies 375 units around Urgot for 1.5 seconds after completing the swap
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Vi
+				
+				
+					E costs less and deals more damage.
+				
+				
+					Picked for her ability to reliably dive priority targets, Vi’s been reliably warming the bench more often than not in 2016. Vi’s ganks have always been high-impact thanks to Vault Breaker + Assault and Battery, but it’s when she fails to convert those ganks into kills and objectives that the Piltover Enforcer finds herself in huge trouble. Compared to her peers, Vi can get out-paced pretty quickly - ‘high cooldowns and high mana costs’ don’t exactly combine for the fastest clear-speed. Pumping power into Excessive Force’s usability and output mean that Vi’s more comfortable when she’s forced to take a time-out and farm if the game isn’t going her way.
+				
+				
+					E - Excessive Force
+				
+				
+					COST 60 mana at all ranks ⇒ 40/45/50/55/60 mana
+				
+				
+					DAMAGE 5/20/35/50/65 ⇒ 10/30/50/70/90
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Items
+		
+	
+		
+			
+				
+				
+					Enchantment: Devourer
+				
+				
+					Rift Herald grants less stacks.
+				
+				
+					It’s that time of year again, when auto-attackers rampage through the jungle, farming until the 20-minute mark and coming out stronger than the rest of their team. When we first released Devourer, we gave devourer junglers extra stacks for two types of monsters. Contested objectives - like Red Buff, Blue Buff, and Scuttle Crab - became worth two stacks, while team objectives like Dragon and Baron yielded five stacks. When we added Rift Herald to the game, we tagged it as an epic monster. Rift Herald, while contested, has not consistently drawn team pressure, and as such we’re aligning its stack reward with other contested objectives.
+					In addition, Devourer junglers were merely trading Dragon for Rift Herald, or vice versa, giving opposing teams no clear plan for shutting them down. With this change, Devourer junglers will still be able to stack up, but their opponents will feel better about denying them dragons.
+				
+				
+					STACKS ON RIFT HERALD 5 ⇒ 2
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Guardian Angel
+				
+				
+					Costs less and gives more health to squishy champions.
+				
+				
+					Guardian Angel’s effect is a game-changer in the right circumstances, but its incredibly high price tag makes it hard to feel confident you’ve made the right choice. It’s expensive for good reason, too - when GA is the go-to defensive item, the game state becomes one where almost every champion buys it after a lead, making it next to impossible for gold-starved opponents to break through all those extra lives. That said, squishy champions (primarily marksmen) have been feeling the pressures of being annihilated by assassins and spell-combos lately, so we’re making Guardian Angel more efficient when it’s the right call.
+				
+				
+					COMBINE COST 1380 gold ⇒ 1180 gold
+				
+				
+					TOTAL COST 2900 gold ⇒ 2700 gold
+				
+				
+					REVIVE AMOUNT 30% of maximum health ⇒ the greater of 700 health or 30% maximum health
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Summoner Level Progression
+		
+	
+		
+			
+				
+					Experience required to reach level 30 reduced by half.
+				
+				
+					We’ve thought for a while that it takes too long to hit level 30. A leveling system should create a sense of growth and accomplishment, but the reverse happens when the system is overtuned and game-to-game XP gains start feeling like mere drops in the bucket. Though “make leveling faster” sounds like a simple solution, we needed to be certain a shorter road to 30 wouldn’t introduce worse problems. Chief example: last year’s permanent discount on a bunch of Tier 3 runes was necessary preparation to ensure new 30’s will still be able to afford viable rune setups.
+					A few months of observation (and a live test in Russia) later, and we’re confident that the updated account leveling curve will provide a markedly improved experience for new players!
+				
+				
+					DING Total experience required to reach summoner level 30 reduced by half
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+	
+			New Champ Select
+		
+	
+		
+			
+				
+					We're back with a round of usability improvements and bugfixes!
+				
+				
+					New audio cues (shipping with 6.5)
+				
+				
+					BATTER UP New sounds will indicate when it's your turn to pick or ban
+				
+				
+					TRADE NEGOTIATIONS Added a trade notification sound
+				
+				
+					SNIPED Added a new sound when your pick intent is picked or banned away
+				
+				
+					Bugfixes (also shipping with 6.5)
+				
+				
+					I LIKE TO WATCH Fixed an issue where games in new champ select queues wouldn't appear in the spectator client card
+				
+				
+					SOUND OF MUSIC Ambient lobby sounds are now tied to music volume, rather than SFX settings
+				
+				
+					PLEASE WAIT IN THE LOBBY Players sitting through a queue dodge penalty can now wait in new champ select lobbies
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Bugfixes
+		
+	
+		
+			
+				Damage from Jarvan IV’s R - Cataclysm is now properly blocked by spellshields
+					
+					Renekton’s W - Ruthless Predator no longer occasionally fizzles
+					
+					Shen’s R - Stand United no longer continues channeling through the revive effect of Zilean’s R - Chronoshift
+					
+					Tahm Kench can no longer cast R - Abyssal Voyage while rooted
+					
+					If Rumble Overheats by casting E - Electro Harpoon, casting a second charge while Overheated no longer causes heat to continue rapidly draining after Overheated ends
+					
+					Tentacles spawned by Illaoi’s R - Leap of Faith no longer fail to attack W - Harsh Lesson targets the moment before expiring
+					
+					Mordekaiser’s Passive - Iron Man shield is now properly multiplied by the Runic Armor mastery bonus
+					
+					Ticks of Dragon’s Wrath (second buff) tower burn no longer proc Elixir of Sorcery’s true damage effect
+					
+					Ward Debris no longer tells people it’s a Giant Wolf via tooltip
+					
+					Grievous Wounds debuff particles now persist if reapplied longer than 3 seconds
+					
+					Zombie Brand’s VO when chasing enemy champions has been restored
+					
+					Card indicators for Cutpurse Twisted Fate’s W - Pick a Card have been brightened to be more readable for colorblind players
+					
+				
+		
+	
+	
+		Back to top
+	
+	
+			Upcoming Skins
+		
+	
+		
+			
+				
+					The following skins will be released during patch 6.5:
+				
+				
+					
+						
+						
+							Death Blossom Kha'Zix
+						
+					
+					
+						
+						
+							Elderwood LeBlanc
+						
+					
+				
+			
+		
+	
+"
+"3" NA
+"4" "
+	
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+	
+		Greetings, Summoners
+		Welcome to Patch 6.4, the one where Warlord's Bloodlust is useful.
+		“But I love healing in combat!” you might say.
+		To which we'd respond, “Just wait til' you get a load of it on Olaf!” We'd then ask why you’re talking to your computer (or mobile phone), but there’d be no response because we’re all just figments of each each other’s imagination.
+		As you ascend the mountain of context beneath this foreword, you might notice some champions like Ryze and Kog'Maw receiving buffs or nerfs despite having just gotten the opposite the patch before. What gives? Why not just revert the changes?
+		If our goal was only to make champions stronger or weaker, reverts (or partial reverts, like Zed's changes in 6.3) are a reasonable approach. However, when we take on balance work for a champion, the changes that make it to the patch notes often have more than one goal in mind. For example, if our goal was 'make X champion stronger and healthier' but the character became stronger and more frustrating, we'd prefer to solve the newly-created frustration than simply reverting everything. For us, game balance is an ongoing journey - meaning that at any given moment, you may be seeing a snapshot of an ongoing, iterative investigation.
+		So what snapshots do we have today? We've got heaps of changes to individual marksmen, some nerfs to top-tier pro play outliers, and a holistic reduction of movement speed. Zooming around the rift is cool and all, but the abundance of bonus movement speed is skewing the early game into a sonic-speed arms-race of who can stack it more, faster. We'll continue to monitor the game's mobility creep over the next few patches, but this is our first push toward solving what could become a larger problem.
+		And that's it for us! Check out all of the patch note goodness below, and we'll see you on the Rift, taking Warlord's Bloodlust on every champion and living like a true viking.
+		GL, HF.
+	
+	
+		 Patrick \"Scarizard\" Scarborough
+	
+	
+		Back to top
+	
+
+Patch Updates
+
+	
+		
+			
+				3/2/2016
+			
+			
+			
+				Corrupting Potion
+			
+			
+				GOOD TO THE LAST DROP Active charges of Corrupting Potion are now lost when Corrupting Potion is sold, preventing players from stacking charges before returning to lane with a full potion via a sell/undo interaction
+			
+			
+				THREE FANTASTIC FLAVORS This change also applies to Refillable Potion and Hunter's Potion
+			
+
+		
+	
+
+
+	
+		
+			
+				2/29/2016
+			
+			
+			
+				Aatrox
+			
+			
+				HIGH-FIVE, PANTHEON Fixed a  bug with Q - Dark Flight where Aatrox's character model could visually jump off the screen, allowing Aatrox to move and attack while \"invisible\" until his model landed
+			
+			
+			
+				Karma
+			
+			
+				OVERLY DEFIANT Karma's Mantra'd E - Defiance shield no longer refuses to break under certain circumstances
+			
+			
+			
+				Rengar
+			
+			
+				CATNIP Fixed an interaction that bugged out some of Rengar's abilities, allowing him to cast them without triggering their cooldowns
+			
+		
+	
+
+
+
+	
+		
+			
+				2/25/2016
+			
+			
+			
+				Fiora
+			
+			
+				OVERREACHING Fixed a bug that caused E - Bladework's cooldown to reset if Q - Lunge was cast during one of Bladework's empowered attacks
+			
+		
+	
+
+	
+			Champions
+		
+	
+		
+			
+				
+				
+					Ahri
+				
+				
+					Charm no longer stops dashes in their tracks.
+				
+				
+					Ahri's been strong for a long time, and it's not hard to see why. Her mobility, damage, and pick potential are all on the high end, playing a crucial role in her effectiveness. When assessing what areas to adjust, Charm stuck out as an area of inconsistency. While displacements (knockups and knockbacks) have always stopped movement abilities, stuns, fears and taunts do not. Charm was alone in this, and while having unique CC is definitely neat (both from a thematic and strategic perspective), it’s the fact that it’s on Ahri’s kit that we get into issues. Specifically, Ahri's intended to be a champion that uses superior damage and mobility to navigate deadly situations if she wants to emerge the victor. Instead, Ahri also happens to have the best in (and out of) class stopping power that negate some of her biggest predators with no real recourse.
+				
+				
+					E - Charm
+				
+				
+					removedSTONE COLD FOX Charm no longer interrupts dashes (Charm will still apply after their movement ends)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ashe
+				
+				
+					Q stacks fall off one at a time. Q duration increased.
+				
+				
+					As a 'utility carry', Ashe's strengths lie in kiting her pursuers rather than the consistent damage output of other marksmen. Embracing that style, however, can prove detrimental (even when she’s doing it right) due to the harsh restrictions on Ranger's Focus. We don't want the punishment for a single positioning error to be so binary, so we're making it harder for Ashe to lose focus when distracted.
+				
+				
+					Q - Ranger's Focus
+				
+				
+					FOCUS ENERGY Focus stacks fall off entirely after 4 seconds ⇒ fall off one at a time after 4 seconds
+				
+				
+					ACTIVE DURATION 4 seconds ⇒ 5 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Caitlyn
+				
+				
+					E cooldown lowered. W headshot bonus changed from a percentage to a flat bonus.
+				
+				
+					Despite seeing success in pro play, Caitlyn’s performance in normal games has been inconsistent since her update. One explanation for this is the lack of clarity around Caitlyn’s second level-up. Pumping points into Net for the lower cooldown is by far the most popular, but snap-traps second outperform it significantly. Considering snap-traps are key to Caitlyn’s strategic identity as the best-in-class siege markswoman, we’re shifting power to encourage Cait to realize those strengths without feeling unsafe for one-pointing 90 Caliber Net.
+				
+				
+					W - Yordle Snap Trap
+				
+				
+					INCREASED HEADSHOT DAMAGE ON TRAPPED TARGETS 10/20/30/40/50% ⇒ 30/70/110/150/190 + 0.7 attack damage
+				
+				
+					TRAP CLARITY Snap traps now display their area-of-effect range to Caitlyn
+				
+				
+					E - 90 Caliber Net
+				
+				
+					COOLDOWN 18/16/14/12/10 seconds ⇒ 16/14.5/13/11.5/10 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ezreal
+				
+				
+					R cooldown up.
+				
+				
+					Back in 5.24 we gave Ezreal a greater reward for hitting Mystic Shot to reinforce his poke-pattern and emphasize his unique interactions with cooldown reduction. Judging by his incredible popularity and effectiveness, it seems those buffs hit the mark, with 40% CDR Ezreal becoming the norm. As a result, the frequency of Trueshot Barrages are at an all-time high, terrorizing teamfights, objectives, and minion waves alike. We like the flexibility that Ezreal's global nuke brings to the table, but when he's able to overclock his cooldowns to the point of controlling lanes and having it up for an impending teamfight, something's gotta give.
+				
+				
+					R - Trueshot Barrage
+				
+				
+					COOLDOWN 80 seconds ⇒ 120 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Fiora
+				
+				
+					W cooldown up. E cooldown down, but starts after the attacks finish.
+				
+				
+					Demacia's Grand Duelist has more than earned her title with Fiora outshining her peers in almost every way. We're not looking to take Fiora out of the arena for good, so we're focused on lowering her strength in two ways. 1.) Give opponents more windows to stick damage on Fiora, particularly when she misplays. 2.) Remove a particularly abusive priming case that heavily inflates her burst damage (see: Jayce's Hyper Charge changes way back in 4.21). Fiora's fun and flashy, but we prefer her highs to come from moments of truly skillful reactions, not hidden cooldown mechanics.
+				
+				
+					W - Riposte
+				
+				
+					COOLDOWN 19/18/17/16/15 seconds ⇒ 24/22/20/18/16 seconds
+				
+				
+					E - Bladework
+				
+				
+					COOLDOWN 15/13/11/9/7 ⇒ 13/11/9/7/5 seconds
+				
+				
+					LIMITED BLADEWORKS Cooldown now starts on cast ⇒ after second hit
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Gangplank
+				
+				
+					Q gold generation down. Maximum barrels down.
+				
+				
+					No stranger to the Bounty Board (or whatever Patch Notes are in Bilgewater), we've taken a long hard look at Gangplank to find changes that don't just feel like we're picking at threads every two weeks. This patch, it's all about taking down the consistency at which GP hits lategame.
+					We talk a lot about consistency and reliability (it's mentioned in these patch notes alone about 6 or so times), so let's take a context-break to dive deep. Consistency is just what it sounds like - how often you can rely on a champion pulling off a specific output. Being consistent in and of itself isn't a bad thing - Alistar or Malphite pulling off consistent initiation means that you can come to understand the value they bring as a teammate and start to build expectations around that consistency. What should I pick that goes well with this? How do I take advantage of their reliable output?
+					When a champion's output is damage, that's when things can get a little trickier. Are you a champion with a consistently powerful late-game, ala Vayne? Then your early game is risky. Are you a champion with consistently powerful early-game, like Lee Sin? Then your success in the late-game isn't a sure thing. It's at the intersections of power spikes and power dips (oh god what's the opposite of a spike) that much of League's interaction occurs - turning most games into 'Can I take advantage of my power before my opponent can take advantage of theirs?'
+					When we apply this concept to Gangplank, it's easy to see why he's been a headache to balance. Even when teams assign the appropriate amount of pressure to attempt to stunt his growth, Cannon Barrage's global range and Parrrley's plundering make it impossible to keep him off of gold, turning him into a threat no matter what you throw at him. With that in mind, chipping away at the consistency with which he can accrue that advantage (and the consistency of his barrel chains in teamfights) means that when you keep the Dead Man down, he stays down.
+				
+				
+					Q - Parrrley
+				
+				
+					GOLD PLUNDERED 4/5/6/7/8 gold ⇒ 2/3/4/5/6 gold
+				
+				
+					E - Powder Keg
+				
+				
+					MAXIMUM BARRELS 2/3/4/5 (with rank of R - Cannon Barrage) ⇒ 3 at all levels
+				
+				
+					AMMO CHARGE TIME 18/17/16/15/14 seconds ⇒ 18/16/14/12/10 seconds
+				
+				
+					R - Cannon Barrage
+				
+				
+					removedANOTHER ONE No longer increases the maximum number of barrels per rank
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Illaoi
+				
+				
+					For those who aren't in the know, there's a nasty bug where being knocked up or knocked back during Illaoi's Leap of Faith will cause her tentacles to spawn away from her... or sometimes not at all. Fixed!
+				
+				
+					R - Leap of Faith
+				
+				
+					THIS IS MOTION Illaoi is now immune to being displaced while in her cast animation
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Jhin
+				
+				
+					Movement speed, health regen and regen per level increased. Passive mini-crits towers.
+				
+				
+					Nothing crazy here, just our standard post-release evaluation for new champions. Jhin's late-game strengths (thanks to Whisper's high-powered damage conversion and Curtain Call's executions) are receiving rave reviews, but most Jhin players are losing before the end of the first act (that's laning phase, for those keeping up with the metaphor). While the below section looks like a lot, it's mostly light adjustments to make up for the sacrifices the Virtuoso makes relative to other marksmen, especially around skirmishes and siege scenarios.
+				
+				
+					General
+				
+				
+					BASE MOVEMENT SPEED 325 ⇒ 330
+				
+				
+					BASE HEALTH REGEN 5.5 ⇒ 6
+				
+				
+					HEALTH REGEN GROWTH STAT 0.5 ⇒ 0.55
+				
+				
+					PLACES, PEOPLE Updated recommended items
+				
+				
+					Passive - Whisper
+				
+				
+					BREATHE IN Jhin's 4th bullet will 'mini-crit' structures for 44% reduced damage (still doesn't apply the execute damage)
+				
+				
+					THE PRICE OF PERFECTION All bonus attack speed will now be appropriately reduced by attack speed slows (base attack speed remains fixed)
+				
+				
+					EMPTY-HANDED Fixed a bug where Jhin would lose Rapid Firecannon's range bonus after reloading
+				
+				
+					W - Deadly Flourish
+				
+				
+					WHERE'S THE DRAMA IN THAT? Marks will no longer fall off while Jhin is casting Deadly Flourish
+				
+				
+					PRECISION Is now considered single target vs champions
+				
+				
+					E - Captive Audience
+				
+				
+					MORE VIOLENCE, MORE BLOODSHED! Now applies Deadly Flourish's Mark to all champions it slows or damages, not just ones present when it triggers
+				
+				
+					R - Curtain Call
+				
+				
+					PRECISION Is now considered single target vs champions
+				
+				
+					FOCUSED FINALE Fixed a bug where enemies would sometimes 'stutter' on the edge of Jhin's screen while ulting
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Katarina
+				
+				
+					Q damage no longer falls off. Detonation ratio up.
+				
+				
+					We know Katarina buffs make everyone worried, but the Sinister Blade's felt pretty dull compared to her assassin peers for the better part of a season. Kat's success cases are defined by her ability to roam, but the arms-race of waveclear she's up against in midlane makes it hard to find the right moments. We're upping Kat's agency when it comes to creating favorable situations - whether through shoving to set up a sneaky side-lane gank, or just killing her opponent outright.
+				
+				
+					Q - Bouncing Blades
+				
+				
+					DETONATION RATIO 0.15 ability power ⇒ 0.2 ability power
+				
+				
+					removedDEADLY STEEL Damage is no longer reduced on targets beyond the first
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kog'Maw
+				
+				
+					Attack speed down.
+				
+				
+					Since easing up on his laning-phase leash in 6.3, Kog'Maws taken revenge on his oppressors in a truly gruesome fashion. None would disagree Kog needs to be toned down, but let's go in-depth on the tactics. Toning down his attack speed might seem counterintuitive considering he's supposed to be a cute, corrosive machine-gun, but it's all about creating windows of power that are more nuanced than 'strong all the time.' Striking his core stat pushes Kog'Maw to be more careful around how he manages Bio-Arcane Barrage's uptime, as he'll be much less of a face-melting menace without it. Final note: you can consider this a two-part changelist as we dive deeper in 6.5 to see how we can get Kog to feel good about his abilities (Q and R in particular) when he's not right clicking and standing still.
+				
+				
+					General
+				
+				
+					BASE ATTACK SPEED 0.665 ⇒ 0.625
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Lucian
+				
+				
+					R range down.
+				
+				
+					New season, same problems. Lucian's strengths are numerous - burst damage, sustained damage, mobility, amazing haircut - but he's never had a very well defined weakness. This leads to situations where a popular Lucian shuts out similar champions entirely (like old Graves) and hurts marksman diversity overall, simple because it's too hard to compete with his reliability.
+					With this change, we're cementing Lucian's weakness explicitly as 'poor damage output from range'. This puts a greater importance on his mobility tools like Ardent Blaze and Relentless Pursuit for contributing to fights and introduces greater risk to the character overall. Lucian still brings a lot to the table, but teams should be able to tailor their strategies to account for (or exploit) his uses, rather than just seeing him as the every-marksman of League.
+				
+				
+					R - The Culling
+				
+				
+					RANGE 1400 ⇒ 1200
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Malphite
+				
+				
+					Health regen and E damage down.
+				
+				
+					Thanks to a mixture of preseason goodies (here's looking at you, Grasp), Malphite's putting up rock-solid performances across the board. Given Malphite's reliable lategame as a terrifying initiator, we're softening his laning phase to provide an opportunity to break up his consistency in getting there. Malphite may always be an unstoppable force, but playing against him shouldn't feel like you're caught between a rock and a hard place.
+				
+				
+					General
+				
+				
+					BASE HEALTH REGEN 8.374 ⇒ 7
+				
+				
+					E - Ground Slam
+				
+				
+					BASE DAMAGE 60/100/140/180/220 ⇒ 60/95/130/165/200
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Rumble
+				
+				
+					E works on an ammo system.
+				
+				
+					Rumble's ability to dominate mid-game with well placed Equalizers has always been gated by how strong or weak his laning phase lets him become. While we're taking care not to reinstate the flame-spitting lane oppressor of seasons past, Rumble's long due for some upgrades. We're suiting him up with a stronger fallback pattern for managing heat and last hitting, preventing Rumble from being shut down off of a few mistakes. This gives seasoned veterans and new pilots alike the flexibility to navigate tough situations to achieve Rumble's end-game fantasy of setting everything on fire.
+				
+				
+					E - Electro Harpoon
+				
+				
+					newFULLY LOADED Now works on an ammo system (max: 2 charges)
+				
+				
+					newRECHARGE TIMER 1 charge per 5 seconds
+				
+				
+					COST 10 heat per charge
+				
+				
+					SLOW DURATION 3 seconds ⇒ 2 seconds
+				
+				
+					BABY DON'T FAIL ME NOW If Rumble overheats using Electro Harpoon, he’ll always be able to fire while silence as long as he has 1 charge (same as live)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ryze
+				
+				
+					Q damage up.
+				
+				
+					Our last round of changes to Ryze left him feeling weak in the wake of his passive's spell-cap, so we're tossing him some love. We're still working on our long-term vision for Ryze (and continuing to monitor his state on live) but in the meantime we're letting him pack more of a punch, especially when weaving his signature combos.
+				
+				
+					Q - Overload
+				
+				
+					DAMAGE 60/85/110/135/160 ⇒ 60/95/130/165/200
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Shen
+				
+				
+					E affects monsters
+				
+				
+					Jungle Shen's having a disproportionately harder time finding success than his support and top lane Shen cousins, so we're adding damage to his early clear and allowing him to control certain passive freshwater crustaceans.
+				
+				
+					E - Shadow Dash
+				
+				
+					RIVER CONTROL Now affects monsters (including Rift Scuttler)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Sivir
+				
+				
+					W's bounces now crit.
+				
+				
+					With so much of the overhaul to marksman itemization focused on crits, utility carries like Sivir have felt underwhelmed by the choices presented. Sivir's always traded poor dueling in favor of amazing skirmishes, so we're opting to support her unique outputs as the 'area-of-effect markswoman' in a way that makes crit feel like a more natural buy.
+				
+				
+					W - Ricochet
+				
+				
+					SPREAD IT AROUND If Ricochet's primary attack is a critical strike, all of that attack's bounces will crit as well
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Tahm Kench
+				
+				
+					Q width down. R has a brief delay before recast, but takes the same amount of time to travel.
+				
+				
+					Hitting Tahm's damage in 6.2 put a damper on his ability to dominate everything near his mouth, but the toad's still unloading high degrees of frustration. Key to these feelings is Kench’s ability to stick onto his target, leading to feelings of helplessness when attempting to outplay the two-coated beast. Let’s be clear: It’s not Tahm’s ability to apply his CC from range that’s the issue here. Fishing for Q’s in lane is key to TK’s support pattern - it’s that the width is so generous that each lash feels less like poke and more like a death sentence. Though we’re unsticking some of Tahm’s lick, we’ve got improvements to his strategic mobility that make it easier for allies to hop in and partake in his special appetite for despair. The River King will still be able to throw his weight around, but we’d like to facilitate a little more involvement from his team to get the same results.
+				
+				
+					Q - Tongue Lash
+				
+				
+					WIDTH 90 ⇒ 70
+				
+				
+					R - Abyssal Voyage
+				
+				
+					DELAY BEFORE RECAST 0 seconds ⇒ 1 second (total travel time unchanged)
+				
+				
+					LAST CALL While Tahm Kench is animating into his whirlpool, allies can still click him to join his voyage
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Udyr
+				
+				
+					W shield and R's on-hit damage down.
+				
+				
+					Though notorious for his strength with Runic Echoes, Udyr's been king of the jungle for a while, no matter what enchantment he buys. Udyr's the jungler's swiss-army knife - need to roam and chain-gank? Split push? Power farm? Objective control? He's got you covered. We're not looking to remove any one of Udyr's strengths in particular, but rather tone down his performance overall so other champions have a chance to take him down (or win, for that matter).
+				
+				
+					W - Turtle Stance
+				
+				
+					SHIELD AMOUNT 60/100/140/180/220 ⇒ 60/95/130/165/200
+				
+				
+					R - Phoenix Stance
+				
+				
+					ON-HIT DAMAGE 40/80/120/160/200 ⇒ 40/75/110/145/180
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Viktor
+				
+				
+					A little less death in his ray
+				
+				
+					Viktor's been a strong pick on the Rift for many patches thanks to his safe and consistent laning phase. Though not possessing any mobility in the traditional sense (dashes, etc), Viktor's safety comes primarily from his single-spell range and waveclear. We’re fine with Viktor applying pressure via waveclear without fear of every gank, but laning against him is low on interaction given how easily he’s able to ignore you and laser-focus the minion line. Tuning that efficiency so Viktor’s opponents have more windows to fight back before he hits that critical break-point.
+				
+				
+					E - Death Ray
+				
+				
+					DAMAGE 70/115/160/205/250 ⇒ 70/110/150/190/230
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Xin Zhao
+				
+				
+					W AP ratio and attack speed lowered.
+				
+				
+					As we mentioned last patch, Xin Zhao's a fighter whose identity is linked closely to his ability to flexibly adopt different builds based on the situation. While we tailored 6.3's changes to his crit/attack damage-heavy builds, it's Xin's synergies with Guinsoo's Rageblade and Sated Devourer that's got us scared to death. Even though Sated Xin was already his most successful build before the changes, we wanted to see how he did with them before taking action. Now we're specifically targeting Sated Rageblade Xin Zhao it to bring it line while we assess what follow up XZ's of all shapes and sizes (and items) need going forward.
+				
+				
+					W - Battle Cry
+				
+				
+					HEAL RATIO 0.7 ability power ⇒ 0.4 ability power
+				
+				
+					ATTACK SPEED 40/50/60/70/80% ⇒ 40/45/50/55/60%
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Items
+		
+	
+		
+			
+				
+				
+					Boots of Swiftness
+				
+				
+					Movement speed down.
+				
+				
+					The hottest kicks on the Rift, Swifties are removing decisions when it comes to boot purchases. Now that the impact of 'more speed, cheaper cost' is well understood, we're pulling back just how much quicker they're making you. Still fast, still cheap, just not as strong.
+				
+				
+					MOVEMENT SPEED 65 ⇒ 60
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Mercury's Treads
+				
+				
+					More tenacious!
+				
+				
+					Merc Treads haven't been scratching the 'Buy me against hard CC' itch they're intended to for a while now. With most players opting for cheaper boots (or more movement speed), we're upping the effectiveness so Merc's are once again the go-to footwear when you're jumping head-first into a moshpit of stuns, fears, taunts, and Nautili.
+				
+				
+					TENACITY 20% ⇒ 30%
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Manamune
+				
+				
+					Now has Tear of the Goddess's stacking passive
+				
+				
+					Sitting on Tear of the Goddess is a gamble - in most cases, you're going for an item that gives you very little combat effectiveness for a big payoff (once you upgrade). While the 'Tear = weak' part is holding up decently, folks who wanted Manamune found themselves putting off their sweet mana sword because there would be certain situations it would actually be harder to stack than its component gem. While the decision on when to upgrade is compelling, we don't want 'Manamune's stacking is just worse' to be the deciding factor.
+				
+				
+					newMIND OVER MANA Now gains +1 mana every 8 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Muramana
+				
+				
+					No longer a toggle. Now always consumes mana to deal damage, but only when fighting champions.
+				
+				
+					Borrowing from the Manamune section, the payoff to Tear-stacking is the promise of a huge power-spike once you've made your transformation. With Muramana, this wasn't always the case. In theory, Muramana uses your resource bar as a means of overloading your damage output - in reality, the cases where folks would burn so much of it on farming minions (or simply forgetting to toggle it on) left the item's performance lackluster.
+					These changes are about increasing accessibility such that you can count on the power that Muramana provides rather than chalking it up to human error why your big item purchases didn't help you win that last teamfight. The decisions around when you'd toggle it on or off are mostly kept in this iteration (vs minions: conserve mana, vs champions: FIRE EVERYTHING), and the gains to reliability outweigh the costs. Besides, Urgot's got enough to worry about without having to remember if he left the Muramana stove-light on or not.
+				
+				
+					removedHAVE IT YOUR WAY Can no longer be toggled 'on' or 'off'
+				
+				
+					newPASSIVE Shock - Single target spells or basic attacks on champions consume 3% of your current mana and deal twice that as bonus physical damage. This effect only triggers when you have more than 20% maximum mana.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Enchantment: Runic Echoes
+				
+				
+					Movement speed down.
+				
+				
+					By the numbers, Runic Echoes has been a more than suitable replacement for Runeglaive. Using it profitably has serious returns, gaining a leg up in map pressure over other junglers due to its high movement speed. We're happy that magic-damage dealers of all kinds are finding success in the jungle, but it's clear that the map mobility it provides is shutting out other enchantments (and the junglers who use them) from feeling like they can compete.
+				
+				
+					MOVEMENT SPEED 10% ⇒ 7%
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Iceborn Gauntlet
+				
+				
+					Size lowered, but gets larger with armor. Slow no longer lingers.
+				
+				
+					Thanks to the lingering slow, Iceborn Gauntlet's passive favors champions that apply it from range consistently over the fighters and tanks it was made for. We're adjusting to make armor purchases more impactful, making it about when and where you drop your ice field over how quickly and safely you can do it (after a 5-man Malphite ult, perhaps?)
+				
+				
+					removedRUNNING THE GAUNTLET Slow no longer lingers after leaving the icy ground
+				
+				
+					SIZE RATIO 0.45 bonus armor ⇒ 0.55 bonus armor
+				
+				
+					BASE SIZE 190 ⇒ 180
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Sterak's Gage
+				
+				
+					Health down. Build path changed.
+				
+				
+					Originally intended for Juggernauts to feel good about wading into battle, Sterak's finds itself protecting marksmen from burst more often than aiding your standard beefcake. In a vacuum, this is okay - but when it starts covering the intended weakness of marksmen (that is, being soft to all-ins and assassination), the lines start to blur. By tuning down the base health, we're making Sterak’s less of a one-stop shop defensive item (as its shield scales directly off maximum health). Tank champions will continue to stack health anyway to take advantage, while squishier champs are getting both less base health and less of a shield from that fury proc.
+				
+				
+					HEALTH 500 ⇒ 400
+				
+				
+					BUILD PATH Jaurim's Fist + Ruby Crystal + 1100 gold ⇒ Jaurim's Fist + Long Sword + 1150 gold
+				
+				
+					TOTAL COST Unchanged
+				
+			
+		
+	
+	
+		
+			
+				
+					Titanic Hydra / Ravenous Hydra
+				
+				
+					Hydra's can no longer be swapped into one another.
+				
+				
+					While this was a neat idea, in practice being able to swap for no cost presents us with some balancing difficulties. Key among them is the smoother build of Titanic Hydra - letting champions with an intended weakness in their early-game bulk up at no cost to their late-game damage scaling. Rather than continuously tune them based on their relative power (instead of how useful they are to their core users), we're separating the Hydras for good. Goodnight, sweet serpent prince-swapping. You were too beautiful for this world.
+				
+				
+					removedBETTER THAN ONE Can no longer sidegrade the Hydras into one another
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Masteries
+		
+	
+		
+			
+				
+				
+					Warlord's Bloodlust
+				
+				
+					Now gives lifesteal based on your missing health.
+				
+				
+					As is, Warlord's Bloodlust has two main problems. For starters, it's incredibly narrow - while certain Keystones might restrict you to attacking so often or doing certain thresholds of damage, Warlord's specifically requires you to crit. While being narrow isn't always bad (Windspeaker's Blessing is fine being taken by supports only), the heavy skew towards marksmen when Fervor and Thunderlord's are also great options make Warlord's superfluous (particularly when other classes could benefit from the space).
+					Aside from its intended audience, Warlord's has always captured a lategame fantasy while giving you nothing immediately - a tradeoff that people just aren't excited to make. These changes take a crack at killing two birds with one key-stone. Removing crit broadens its application significantly, making Warlord's especially synergistic with 'all-in' fighters like Aatrox and Olaf that capture the spirit of the Keystone's concept and giving it more reasonable scaling over the course of the game. If you like to fight to your last breath (and then some), look no further.
+				
+				
+					newFOR THOSE WHO FIGHT FURTHER Attacks on champions gain increasingly more Lifesteal based on your missing health (up to 20%). Half effect vs minions.
+				
+			
+		
+	
+	
+		
+			
+				
+				new
+				
+					Expose Weakness
+				
+				
+					New Mastery added to Ferocity Tier 1
+				
+				
+					Like the Assassin mastery some patches back, we're adding Expose Weakness as a means to assist offensive supports. While many are perfectly happy with their Bonds of Stone and Windspeaker's Blessings, incentivizing a dip into Ferocity should appeal to the bloodthirsty supports out looking for, well, blood.
+				
+				
+					FRAUD DETECTED Damaging enemy champions causes them to take 3% increased damage from your allies
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+		
+			Summoner's Rift
+		
+	
+		
+			
+				
+					Greater Murkwolf
+				
+				
+					Smiting the wolf in the river sends it to the opposing jungle.
+				
+				
+					This is an interaction that's been in the game for quite a while, but only hit the spotlight with introduction of the patience mechanic. The gist here is that we think getting your wolf spirit to 'invade' the enemy jungle is cool, but not when it's so easily accessed by a majority of the cast. If you want your soul to go searching, you'll need some specific jungle interactions (Tahm Kench's Devour) or help from certain allies (Syndra, Blitzcrank, etc) to enable it, making this a strategy that's much more telegraphed to opponents.
+				
+				
+					ACROSS THE UNIVERSE Murkwolf's spirit switches sides when you smite it across the midlane ⇒ across the river
+				
+				
+					CLARITY This is now mentioned in the Murkwolf's tooltip!
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Minions
+		
+	
+		
+			
+				
+					Lane Minions
+				
+				
+					The first wave of minions can't be obstructed.
+				
+				
+					Over the last few patches, we've seen a high-level strategy emerge where teams step in front of the first wave of minions near their inhibitors to control their pacing towards lane. While minion wave manipulation is a key point of mastery in the laning phase, successful execution of this tactic causes such an extreme advantage from the start that there's only one course of action - do it yourself, or fall behind.
+					This would mean the 'optimal' start in League is one where both teams start games inside their base, herding minions like hooded, gold-generating cats. As cute as that imagery is, the gameplay associated isn't - so we're removing it.
+				
+				
+					WORK WORK The first wave of minions ignore unit collision on the way to lane
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+		
+			Dominion
+		
+	
+		
+			
+				
+					Dominion and the Crystal Scar were disabled on February 22.
+				
+				
+					We launched Dominion more than four years ago as an alternative game mode designed to challenge players with fast-paced skirmishes, capture-and-hold gameplay, and different skills to master. Read more about the choices we made for League of Legends that led to our decision to retire Dominion in our original announcement here.
+				
+				
+									
+				
+					THEY DOMINATED DOMINION Players who had 100 or more Dominion wins before our announcement on February 10 will receive their exclusive Dominion summoner icon within a week of patch 6.4
+				
+				
+					NOT A BLANK PAGE The Dominion stats tab in the profile has been removed
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			New Champ Select
+		
+	
+		
+			
+				
+					We enabled the champ grid at all phases of champ select so it's easier to think through prospective team comps and bans.
+				
+				
+					Shipping with patch 6.4
+				
+				
+					FOR YOUR PERUSAL The champ grid is now accessible at all phases of champ select
+				
+				
+					THIS FITS BETTER You can now change your pick intent at all phases prior to your final pick
+				
+				
+					REMASTERED Fixed a bug where changing the name of a mastery page during champ select would not update the page's name in the drop down menu. (Masteries themselves were always updating properly.)
+				
+				
+					Also, a few of the improvements to New Champ Select mentioned in 6.3 took longer to get out of the gate than anticipated. We're copying them here as a reminder for what you should expect last this patch.
+				
+				
+					Shipping during the 6.4 cycle
+				
+				
+					SECRET STRATS Pick intent is no longer revealed to the enemy team when it's your turn to pick
+				
+				
+					NOT AS SECRET STRATS Bans now appear in Match History for games played in NCS queues
+				
+				
+					GET BUFF(ERED) New champ select should feel more forgiving when locking in picks and bans with less than a second to spare
+				
+				
+					YOUR FAVORITE OUTFIT New champ select now defaults to your last selected skin on a given champion.
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Bugfixes
+		
+	
+		
+			
+				Poppy's R - Keeper's Verdict no longer deals damage twice to epic monsters when fully charged
+					
+					Fixed a bug where Kindred wouldn't gain a stack of P - Mark of the Kindred if a targeted jungle monster was killed too far away from its spawn point
+					
+					Fixed a framerate issue that occurred when an enemy Challenger Nidalee entered vision
+					
+					The eagle screech in Statue of Karthus's dance audio is no longer global for allies
+					
+				
+		
+	
+	
+		Back to top
+	
+	
+			Upcoming Skins
+		
+	
+		
+			
+				
+					The following skins will be released during patch 6.4:
+				
+				
+					
+						
+						
+							Blood Moon Kennen
+						
+					
+					
+						
+						
+							Blood Moon Yasuo
+						
+					
+				
+			
+		
+	
+"
+"5" NA
+"6" "
+	
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+	Heads up: This is a fat patch! If you're wondering why, we've made improvements to how we store art in the client (though you shouldn't notice a visual difference). Incidentally, that means we need to re-patch it all. So, if your patcher gets stuck on \"applying patches\", it's sorting through all the updated images. It'll take a while, so just let it do its thing!
+	
+		Greetings, Summoners.
+		Welcome to patch 6.3, the one where we finally make changes to Dragon and give assassins a shiny new toy. Shout-outs to Pwyff for covering in my absence - now let's dive in and get educational.
+		6.3, like the two patches before, can be thought of as the 'final chapter' in our preseason follow-up trilogy. While the rippling effects of the season's changes will be felt and dealt with throughout the year, we're getting everything nice and neat before we move on to tackle bigger and better things. This means putting out a warrant for Graves, remembering to feed the Kog'Maw, and recalling some of Corki's weapons to match balance regulations.
+		But despite the nerfs and buffs you're accustomed to, we've also got a big-ticket change coming below: the introduction of Duskblade of Draktharr. In addition to a seriously villainous name, this item seeks to be the answer to the age-old League question 'How will Riot ever balance assassins?' Over the years, we've seen assassins just opting in to whatever damage items they could get their hands on, even when they had inefficient stats (like when they used to stack Bloodthirsters and never use the lifesteal) - simply because itemization was that hard. By clearly calling out 'Hey, this one's for you!' we can start to set an expectation around how an assassin can act in fights, as well as the kinds of power-curves they should have long-term. Things may not be 100% balanced right at the start, but in most cases the advice remains the same: If an assassin has their sights on you, get out of the way. 
+		Easy, right?
+		Add in some changes to Dragon's stacking effects (more on that below) and an overhaul of some of our big-ticket armor items and you're looking at a patch aiming to deliver some big changes to the mid-late game of most matches. Do you contest a 2nd or 4th Dragon against a team with 3 split-pushing Sunfire Cape users? Or do you just hard-engage with your 5-Duskblade team? You don't have to answer now - I'm sure you'll have enough practice with both of these entirely realistic situations to become the expert in no time.
+		And that's it for us! Enjoy diving through the ocean of context and we'll see you on the other side. And by that I mean on the 'other side' of champion select. Probably building Duskblade.
+		See you at the grey screen.
+	
+	
+		 Patrick \"Scarizard\" Scarborough
+	
+	
+		Back to top
+	
+	
+			Champions
+		
+	
+		
+			
+				
+				
+					Akali
+				
+				
+					Q returns more energy. R's speed increased.
+				
+				
+					When we set out to make Duskblade (the shiny new assassin item you can read all about below), we evaluated a lot of our assassins together to see if anyone was significantly ahead or behind the pack. When looking at those left behind, it's no surprise we found Akali in much need of some love.
+					Most assassins are measured on two major axes: time needed to kill a squishy, and what movement / utility is available to get to the next target (this cycles back and forth). On our current assessment, Akali's pretty good on the former, so we're looking into the latter.
+				
+				
+					Q - Mark of the Assassin
+				
+				
+					ENERGY RESTORE 20/25/30/35/40 energy ⇒ 40 energy at all ranks
+				
+				
+					R - Shadow Dance
+				
+				
+					DASH SPEED 1600 ⇒ 2000
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Alistar
+				
+				
+					E cost and cooldown up. Q-W combo is finally consistent.
+				
+				
+					Alistar's got two very different things going on here, so let's tackle 'em separately.
+					First, Alistar's lane sustain is pretty out of line. For a champion who's supposed to be weak to poke and attrition, the strength of the Meditation mastery and the mana regeneration available to supports just means Alistar outlasts and then all-ins once you've exhausted your resources. Temporarily Ignoring towers and initiating are cool things we like the cow doing, given that he's not guaranteed to be at full health all the time.
+					Next, the combo. Alistar's Heabutt + Pulverize combo is one of the strongest interactions in the game, but also makes the champion incredibly tricky to balance. It's not the easiest thing to pull off 100% of the time (even in pro play), which means that whenever we have to buff or nerf Alistar, it disproportionately affects players that can hit the combo or not. Not anymore. After 6.3, It's now just a thing Alistar can do with regularity. Now your decisions should be around 'Do I want to use the combo in this situation?' instead of 'Can I do the combo?'
+					It's a scary world, I know - but we'll be there to hold your hand. Under the tower. While Alistar's diving us. (help)
+				
+				
+					W - Headbutt
+				
+				
+					TRUE COMBO Alistar now can buffer his Q - Pulverize and will automatically cast it upon reaching his target
+				
+				
+					E - Triumphant Roar
+				
+				
+					COST 40/50/60/70/80 mana ⇒ 50/60/70/80/90 mana
+				
+				
+					COOLDOWN 12 seconds ⇒ 16 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Corki
+				
+				
+					Q damage down. R recharge time up.
+				
+				
+					Let's be clear - Corki's doing a lot of damage. Too much, in fact. Preseason's magic damage conversion has done wonders for Corki's burst damage, especially on targets without the cash to invest toward significant defensive items. These two changes are slightly related in tuning down Corki's power, but they have two differing goals. On the topic of Phosphorous Bomb: when a spell has high base damage and a lot of additional damage per level, it means that a Corki who gets ahead in levels stays ahead (even without items). For Missile Barrage: its uptime was tuned around a previous season (and itemization), and with Essence Reaver being a core item, we're tapping down those oppressive missiles just a bit.
+				
+				
+					Q - Phosphorus Bomb
+				
+				
+					BASE DAMAGE 80/130/180/230/280 ⇒ 70/115/160/205/250
+				
+				
+					R - Missile Barrage
+				
+				
+					AMMO RECHARGE RATE 12/10/8 seconds ⇒ 12/11/10 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ekko
+				
+				
+					Q cooldown lowered at early levels.
+				
+				
+					As a midlaner, Ekko's potential is a little too limited by high cooldowns and melee range. Upping his ability to scrap with opponents (or even last-hit) early game levels the playing field against the long-range, crowd-controlling mages Ekko's often asked to tango with.
+				
+				
+					Q - Timewinder
+				
+				
+					COOLDOWN 11/10/9/8/7 seconds ⇒ 9/8.5/8/7.5/7 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Gragas
+				
+				
+					Q's snap-cast slows for the full duration. W channels faster and deals AoE damage.
+				
+				
+					It hasn't been too long since Gragas was top dog of jungle, but these days he's sitting at the bottom of the barrel. Graggy's strategic niche as a disengage jungler is still there, so we're boosting his early reliability and clear speed to help compete against the rest of the lineup.
+				
+				
+					Q - Barrel Roll
+				
+				
+					SLOW DURATION 1.3 - 2 seconds over the duration ⇒ 2 seconds
+				
+				
+					W - Drunken Rage
+				
+				
+					CHANNEL TIME 1 second ⇒ 0.75 seconds
+				
+				
+					newDRINKING PROBLEMS Drunken Rage's on-hit now deals damage in a 250 unit radius around the primary target
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Graves
+				
+				
+					Q damage down, and now has a brief delay upon colliding with terrain. Q/R no longer cancel his recoil animation.
+				
+				
+					Now that the dust has settled and builds are optimized, the results are in: Graves bursts you real fast, and he's not a fan of taking damage. We're cool with the G-man doin' his thing (as long as he's not smoking), but we're addressing his dominance in two ways.
+					First, we want to force Graves' to make a bigger tradeoff for his damage vs defenses, seeing as his baseline output is so high that he transitions into tank stats early while still managing to make heads roll. Next, we're targeting just how quickly he pumps lead into his targets - often obliterating challenges in a series of animation-cancelled spellcasts.
+					Graves being the slow-moving, burly guy makes sense for a shotgun-toting gritty outlaw, but introducing more counterplay to his patterns should help you settle the score.
+				
+				
+					Passive - New Destiny
+				
+				
+					removedDEAD CRAB SCUTTLIN' Basic attacks no longer stun the Rift Scuttler
+				
+				
+					TAKE YOUR TIME Graves can no longer interrupt the 0.25 second recoil after his basic attacks with Q - End of the Line or R - Collateral Damage.
+				
+				
+					Q - End of the Line
+				
+				
+					SECOND HIT BASE DAMAGE 85/145/205/265/325 ⇒ 80/125/170/215/260
+				
+				
+					WARNING SHOT Now plays a brief animation before detonating after colliding with terrain
+				
+				
+					E - Quickdraw
+				
+				
+					TOO QUICK Fixed a bug where casting Quickdraw would interrupt Graves' reload animation
+				
+				
+					NEVER FORGET Graves will remember his last attack/movement command after using Quickdraw
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Illaoi
+				
+				
+					Delay on missing E removed. E mana cost down. Vessels can now get 'assists' from allies.
+				
+				
+					Illaoi's a champion that suffers a few problems - not only is she pretty difficult to play for a melee champion, but being on the receiving end of a fight for your own soul can feel incredibly frustrating to play against. This patch, we're addressing both. A little bit of QoL for the Illaoi's that are just learning how to shatter their opponents souls, and a little bit of leeway for opponents hoping to break free of becoming a vessel. Now your team is actually helping when taking out Illaoi's tentacles. It's the thought that counts, right?
+				
+				
+					E - Test of Spirit
+				
+				
+					DELAY UPON MISSING 0.25 seconds ⇒ 0 seconds
+				
+				
+					COST 35/45/55/65/75 mana ⇒ 35/40/45/50/55 mana
+				
+				
+					TEST OF TEAMWORK Tentacles that die within 5 seconds of a Vessel attacking them count towards removing the Vessel debuff
+				
+				
+					WORTHY SOULS Fixed a bug where Fiora could Riposte the application of the Vessel debuff as it flew towards her
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kog'Maw
+				
+				
+					Q's attack speed passive shifted to W. W now has a minimum damage.
+				
+				
+					Now the definition of 'Glass Cannon' in League, Kog'Maw finds himself a little too brittle to get out of lane and into a state where he can aim for a high-scaling fantasy. The primary goal is to clean up Kog's rank-ups to feel less like a trap and help him smooth out that transition from 'free kill botlane' to 'hyper-vomit omnicarry' without just handing him a free pass. (Trivia: did You Know that previously ranking W gave you no increase in damage? Sorry about that.)
+				
+				
+					Q - Caustic Spittle
+				
+				
+					removedRAPID SPITTLE No longer passively grants Kog'Maw bonus attack speed
+				
+				
+					W - Bio-Arcane Barrage
+				
+				
+					newSPITSTORM Now passively grants Kog'Maw 15/20/25/30/35% bonus attack speed
+				
+				
+					newMINIMUM DAMAGE Now deals at least 15 bonus magic damage at all ranks
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Jax
+				
+				
+					Passive gives less attack speed per stack, but requires more stacks to reach the cap.
+				
+				
+					Surprise, he's back (we've made that joke before. Maybe even twice). Whether in the top lane or the jungle, Jax is a champion that's all about taking the time to ramp up before brutally smashing your face in with a lamppost. Traditionally that's been the case, but with powerful items like Rageblade and Devourer thrown into the mix, Jax's ramping threat has become more of a formality than a rule. We're installing speedbumps into Jax's powercurve to force him to commit a little longer in fights.
+				
+				
+					Passive - Relentless Assault
+				
+				
+					MAXIMUM STACKS 6 ⇒ 8
+				
+				
+					ATTACK SPEED PER STACK 4-14% (from levels 1-18) ⇒ 3.5-11% (from levels 1-18)
+				
+				
+					ATTACK SPEED AT MAX STACKS 24-84% per level ⇒ 28-88% per level
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Poppy
+				
+				
+					Q damage down, but ratio and minion damage increased. E cooldown increased.
+				
+				
+					Poppy's popularity has skyrocketed since her rework, and it's not hard to see why. Though it's taken a bit of getting used to, Poppy's proven to be one tough yordle, with massive damage and even bigger utility, no matter the position. Stopping dashes and ejecting threats out of a teamfight is all well and strategic, but Poppy's potential to chain-CC her opponents for 5+ seconds all while murdering them is a pretty big no-no from a counterplay perspective.
+					On a secondary front, Poppy's got a lot of high base damage abilities, letting her put out serious numbers without actually buying the items. We're adjusting there.
+				
+				
+					Q - Hammer Shock
+				
+				
+					BASE DAMAGE PER HIT 40/70/100/130/160 ⇒ 40/65/90/115/140
+				
+				
+					RATIO 0.7 bonus attack damage ⇒ 0.8 bonus attack damage
+				
+				
+					removedGO EASY ON 'EM No longer deals reduced damage to minions
+				
+				
+					E - Heroic Charge
+				
+				
+					COOLDOWN 12/11/10/9/8 seconds ⇒ 14/13/12/11/10 seconds
+				
+				
+					R - Keeper's Verdict
+				
+				
+					SNAP-CAST KNOCKUP DURATION 1.5 seconds ⇒ 1 second
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Rengar
+				
+				
+					E cast time lowered. E now starts behind Rengar if cast midleap.
+				
+				
+					After analyzing Rengar's performance and listening to feedback on 6.2, we're pulling back a bit on exactly how easy it is to outplay his ganks. For instance, Rengar's delay on casting Bola Strike is high enough that running toward his leap causes the Bola to whizz right right over. We're in search of… not quite happy kitty time, but content kitty time for this change.
+				
+				
+					General
+				
+				
+					removedKITTY CONSISTENCY No longer lands just short of the target
+				
+				
+					E - Bola Strike
+				
+				
+					CAST TIME 0.25 seconds ⇒ 0.125 seconds
+				
+				
+					HUNTING PREP Bola Strike now begins slightly behind Rengar when cast while leaping
+				
+				
+					EASY PREY Fixed a bug where Bola Strike wouldn't fire if Rengar was disabled during the cast time.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ryze
+				
+				
+					Passive capped at 5 spellcasts. Ult cooldown lowered.
+				
+				
+					To put it lightly, the discrepancy between a new Ryze player and a Ryze veteran is staggering. Not unlike Alistar's changes above, Ryze is often balanced around what he's capable of doing rather than what he does realistically with those 5 seconds of Supercharge. With the long-term goal of finding a sustainable balance state for Ryze long-term, we're starting off by giving him a clearly defined and achievable 'best case' for Arcane Mastery. With a hard cap in place, we can follow-up by making the rest of Ryze's kit work within that band - like focusing Ryze's mastery around how many times you can enter (and optimize) Supercharge, instead of just cramming spell combos into one rotation. There's lots to adjust going forward, but this is a necessary first step if Ryze is ever to get off the wild balance rollercoaster he's been on for a while.
+				
+				
+					Passive - Arcane Mastery
+				
+				
+					DURATION Now lasts for 5 spell casts or 2.5-5 seconds (based on rank of Q - Overload).
+				
+				
+					R - Desperate Power
+				
+				
+					COOLDOWN 80/60/40 seconds ⇒ 50/40/30 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Xin Zhao
+				
+				
+					W scales with attack damage and crits on every third attack. E cooldown flattened.
+				
+				
+					Xin Zhao's been left in the dust as far as stabbin' folks goes, underperforming in every role across the board. One of our old-school 'melee carries', Xin's always had a lot of flexibility in builds - able to swap between 'max cooldown lockdown machine' or 'crit-fueled basic-attacking monster' based on his team's needs. That said, itemization changes in 2016 have impacted that flexibility pretty heavily. These changes are aimed at bringing back Xin's ability to opt-in to an early snowball rather than feeling pressured to always aim for the lategame (via Sated Devourer and Guinsoo's on-hit synergies).
+					A point of clarification: To those of you worried about Xin's new crit mechanic's getting out of control with the already-popular Sated Devourer builds, it's important to note that the crit occurs every third attack, not every third hit. This means Sated's Phantom Hit passive won't let him double down into more crits, so you're better off with regular ol' attack damage and attack speed to make the most of his new Battle Cry.
+				
+				
+					W - Battle Cry
+				
+				
+					newHEAL RATIO Now additionally scales with 0.2 bonus attack damage
+				
+				
+					newRAGING FIRE Now passively causes every third attack to critically strike for 25/37.5/50/62.5/75% bonus Crit Damage for that attack
+				
+				
+					E - Audacious Charge
+				
+				
+					COOLDOWN 14/13/12/11/10 seconds ⇒ 12 seconds at all ranks
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Zed
+				
+				
+					R damage lowered.
+				
+				
+					Back in 5.23 we added a bit more Death into Zed's Death Mark, citing a lack of itemization and scaling for AD-assassins as a whole. Now that Duskblade's entering an item shop near you, we're partially reverting that change so that Zed doesn't spike and snowball too heavily off just a single item purchase.
+				
+				
+					R - Death Mark
+				
+				
+					DAMAGE AMPLIFICATION 30/40/50% of damage taken ⇒ 25/35/45% of damage taken
+				
+				
+					QUALITY OF DEATH Now more accurately represents when a target will take fatal damage from Death Mark's detonation
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ziggs
+				
+				
+					R sweetspot damage increased.
+				
+				
+					Folks aren't contesting objectives like they used to, meaning Ziggs' poking and sieging strengths have gone largely unnoticed in 2016. We don't want thing to go back to the '1v1 Mid Ziggs Only 50 Minutes' stall-fests of the past, so we're ratcheting up his hexplosive power to punish teams out of position.
+				
+				
+					R - Mega Inferno Bomb
+				
+				
+					BASE DAMAGE 250/375/500 ⇒ 300/450/600
+				
+				
+					RATIO 0.9 ability power ⇒ 1.1 ability power
+				
+				
+					OUTER-RADIUS DAMAGE FALLOFF 25% less damage ⇒ 33% less damage
+				
+				
+					newLOOK OUT BELOW Warning indicator updated to clearly show the sweet-spot radius
+				
+			
+		
+	
+	
+		
+			
+				
+					Ability Icon Updates
+				
+				
+					New icons!
+				
+				
+					Ability icons for the following champions have been updated:
+				
+				
+					Gragas
+				
+				
+					Lux
+				
+				
+					Shaco
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Items
+		
+	
+		
+			
+				
+				new
+				
+					Duskblade of Draktharr
+				
+				
+					New item for assassins. Basic attacks give a mini-death mark on your target.
+				
+				
+					It's well known that many AD assassins who relied on attack damage items took a hit with the transition to 2016, especially with the changes to Last Whisper. These days the 'core' item build that feels good often only goes to 'build Ghostblade and Maw and hope that's enough to finish them off.'
+					Balancing around core items is something we do for every class, but assassins have been left in the dust - forced to scrape by on whatever the best damage items happen to be, making our balancing points for them somewhat… very inconsistent. Duskblade means we can give those folks a core item that not only helps multiply damage in a full build, but also offers a clear expression of power for those with a gold lead. marksmen have Infinity Edge, mages have Deathcap - and now, assassins have Duskblade.
+					Duskblade's passive, Nightfall, provides a different angle for assassins to contribute meaningfully in a teamfight. Missing health damage is unique in that it can be considered a damage amplification for your team - capitalizing on all the work your allies have done so far - allowing assassins to feel more capable on clean-up duty and less pressured to throw their lives away in pursuit of bopping a marksman.
+				
+				
+					BUILD PATH Serrated Dirk + B.F. Sword + 850 gold
+				
+				
+					TOTAL COST 3250 gold
+				
+				
+					ATTACK DAMAGE 75
+				
+				
+					BONUS MOVEMENT SPEED 5%
+				
+				
+					UNIQUE PASSIVE +10 Armor Penetration
+				
+				
+					UNIQUE PASSIVE Basic attacks on an enemy champion apply Nightfall (120 second cooldown)
+				
+				
+					NIGHTFALL After 2 seconds, Nightfall deals physical damage equal to 90 + 25% of the target's missing health. If you get a kill or assist on the target before Nightfall detonates, the cooldown is refunded.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Seeker's Armguard
+				
+				
+					Armor up. Build path includes an extra Cloth Armor.
+				
+				
+					For those looking for buffs to Zhonya's Hourglass, it should be clear we're not doing that. Given how game-warping Zhonya's active can be - and how powerful a deterrent it is against dudes who want to blow you up - we're pretty firm on gating this active with a fair combine cost.
+					That said, Seeker's. Even when it's the right situation to buy Seeker's, it feels wrong, so that's where we're making changes. Mixing in an extra armor item makes it more effective when you're looking to counter physical damage (read: Zed) in lane.
+				
+				
+					BUILD PATH Cloth Armor + Amplifying Tome + 465 gold ⇒ Cloth Armor + Cloth Armor + Amplifying Tome + 165 gold
+				
+				
+					ARMOR 25 ⇒ 30
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Warden's Mail
+				
+				
+					Cost down.
+				
+				
+					Similar to Seeker's, Warden's is a specialized item that feels bad to purchase when compared to more broad defensive components, like Chain Vest or Giant's Belt. Now it's cheaper.
+				
+				
+					TOTAL COST 1100 gold ⇒ 1000 gold
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Dead Man's Plate
+				
+				
+					Cost increased. Slow decreased.
+				
+				
+					If you've played League in the last month, chances are very high you've bought this item. That's not a crime in itself, but Dead Man's Plate brings so many strengths between its stat efficiency, bonus damage, and catch potential that even when you do want a Randuin's Omen (say, vs. a crit-heavy composition), it's hard to give up the value. We're tuning back the general power of DMP to make the decision a little more complex than 'buy this always no matter what'.
+				
+				
+					TOTAL COST 2800 gold ⇒ 2900 gold
+				
+				
+					CRUSHING BLOW SLOW 75% ⇒ 50%
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Sunfire Cape
+				
+				
+					Passive aura deals more damage to non-champions.
+				
+				
+					Continuing from the Dead Man's Plate discussion above, Sunfire is an armor item that feels a little lost from an identity perspective. Increasing the potency of its waveclear potential should transform tanky folks without access to waveclear into split-pushing threats faster than you can type 'Shenpai.'
+					(In case that wasn't clear, buy this on Shen. You're welcome.)
+				
+				
+					newFUNFIRE Now deals 50% bonus damage to minions and monsters
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Randuin's Omen
+				
+				
+					Cost down. Health increased.
+				
+				
+					Rounding out our talks on armor items, we're removing some of the tricky math comparisons between this, Dead Man's Plate, and Sunfire Cape, so you don't have the second guess yourself when buying this against the mythical all-marksmen, all-Infinity Edge team.
+					So, in summary - Sunfire to push. Dead Man's to chase and engage. Randuin's to punish basic attacks and crits. But don't just take our word for it. Build what you like. Follow your dreams.
+				
+				
+					TOTAL COST 3000 gold ⇒ 2900 gold
+				
+				
+					HEALTH 450 ⇒ 500
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kircheis Shard
+				
+				
+					Damage increased.
+				
+				
+					We'd like you to feel better about getting that early burst for lane.
+				
+				
+					ENERGIZED DAMAGE 30 ⇒ 40
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Rapid Firecannon
+				
+				
+					Movement speed and damage down.
+				
+				
+					Welcome to Zeal items part 3. The re-rebalancing.
+					Similar to Dead Man's Plate, Rapid Firecannon is the go-to Zeal upgrade. It's safe, it bursts, it picks, it slices, it dices - you get the idea. While these read like general nerfs, we're just trying to prioritize Firecannon as the 'safe' ranged option over its other counterparts.
+				
+				
+					MOVEMENT SPEED 7% ⇒ 5%
+				
+				
+					ENERGIZED DAMAGE 50-200 ⇒ 50-160
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Statikk Shiv
+				
+				
+					Damage up.
+				
+				
+					With Rapid Firecannon's damage decreasing, Statikk Shiv's damage is going up to really push it as the one you get when you're looking to burst. Important reminder: Shiv's damage can crit (while RFC's cannot), meaning that in a heavy crit build, Shiv's ability to lay the smackdown on a close-knit group of units is nothing to sneeze at.
+				
+				
+					DAMAGE 30 - 100 ⇒ 50 - 120
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Phantom Dancer
+				
+				
+					Cost down.
+				
+				
+					Phantom Dancer was supposed to be more expensive relative to the other Zeal upgrades because of its extreme dueling/damage potential. As it turns out, having to do the extra work to access that damage potential (unlike Statikk or RFC) on top of being harder to build ended being a pretty big miss. In light of this, we're pulling back on the cost so would-be duelists of all shapes and sizes can buy their item and use it too.
+				
+				
+					COMBINE COST 900 gold ⇒ 650 gold
+				
+				
+					TOTAL COST 2800 gold ⇒ 2550 gold
+				
+				
+					newNOT TODAY Now tracks how many times Spectral Waltz's damage reduction saves your life in a fight in the tooltip
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Boots of Swiftness
+				
+				
+					Cost up.
+				
+				
+					Simply put: the gap between the 'utility tier' of boots (Swiftness, Lucidity and Mobility) and 'combat boots' (Mercury Treads, Berserker Graves, Ninja Tabi and Sorceror's Shoes) is too big. We're digging all of the interest in utility-tier kicks, but they're so cheap that it makes everyone else feel left in the dust.
+				
+				
+					TOTAL COST 800 gold ⇒ 900 gold
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Ionian Boots of Lucidity
+				
+				
+					Cost up.
+				
+				
+					Same as the above section, bringing these in line with the alternatives.
+				
+				
+					TOTAL COST 800 gold ⇒ 900 gold
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Boots of Mobility
+				
+				
+					Cost up.
+				
+				
+					While the cost is increasing for Mobi's, we're off-setting that upgrade with a power boost to keep them worth the tradeoffs you make to take them. Unlike the others, Mobility's risk/reward paradigm stays constant throughout the whole game - so get out there and make the best of your zoom-zoom.
+				
+				
+					TOTAL COST 800 gold ⇒ 900 gold
+				
+			
+			
+				OUT OF COMBAT MOVESPEED 105 ⇒ 115
+			
+		
+	
+
+	Back to top
+
+
+	
+		Summoner's Rift
+	
+
+	
+		
+			
+				Dragon
+			
+			
+				2nd Dragon now gives a tower burn. 4th Dragon now gives defense vs turrets.
+			
+			
+				Buckle up, dear readers. It's context time.
+				First up, let's talk about the state of Dragon as-is. We've been happy with how the build-up to Aspect provides some unique strategic value that doesn't really exist elsewhere, allowing teams an alternate path to success that isn't just 'be the best at fighting champions' or 'be the best at fighting turrets.' From that perspective Dragon's been a big success, even if many games end far before Aspect is ever achieved.
+				That said, getting there isn't as rewarding as we'd like it to be. While there's always been inherent value in the 2nd and 4th stacks of dragon because they unlock Dragon's most desired buffs (team-wide movement speed and the threat of dragon 5), many just sort of lose interest. Mix in the higher value of split-pushing and turret-taking in 2016, and you have a whole lot of Dragons going un-hunted.
+				We spun on potential solutions for a while, but here's what we landed on: It's not necessary for every stack of Dragon to be so powerful that contesting it is necessary. Doing so creates a snowballing vortex where each Dragon buff ensures you get the next one, focusing the game too heavily on an early-game arm's race, rather than a match-long consideration. That said, each individual Dragon should provide an advantage that feels consequential - as an opponent, the decision to give up a stack of Dragon should be based around 'we will oppose with something equally valuable' rather than 'the power of that buff is so low I can't be bothered.'
+				That leads us to today. These changes attempt to find a happy medium, with the intermediary stacks of Dragon being desirable but not mandatory. By adding more viscerality and strategic power into the buffs themselves (and let's be real, 'everyone is mini-Alistar' is much cooler than 'oh boy minion damage'), we're looking to add some more relevance and urgency for teams that imagine dragons to be their ticket to victory.
+			
+			
+				DRAGON'S WRATH (2nd stack) +15% damage to turrets and buildings ⇒ Basic attacks burn turrets for 10-180 over 2 seconds.
+			
+			
+				DRAGON'S DOMINANCE (4th stack) +15% damage to monsters and minions ⇒ You take 20% less damage from turrets
+			
+		
+	
+
+
+	Back to top
+
+
+		Charging Spells
+	
+
+	
+		
+			
+				Recall no longer interrupts certain charge abilities.
+			
+			
+				This is a really awkward, hidden mechanic that only interacts with a few abilities, so don't be surprised if you'd never heard of it. We want the skill expression of these abilities (and by extension, these champions) to be around landing your charge abilities - not gaming the system by recall-faking them out.
+				The following abilities can no longer be interrupted by Recall or Teleport:
+			
+			
+				Varus
+			
+			Q - Piercing Arrow
+				
+			
+				Vi
+			
+			Q - Vault Breaker
+				
+			
+				Xerath
+			
+			Q - Arcanopulse
+				
+			
+	
+
+
+	Back to top
+
+
+		New Champ Select
+	
+
+	
+		
+			
+				Expect us to be a regular presence on the patch notes as we polish up new champ select. Hopefully, you'll see some changes y'all suggested as we keep waxing on (and off).
+			
+			
+				Shipping with 6.3
+			
+			
+				F2P, JUST NOT IN RANKED Free to play champions are no longer available to play in ranked. This is a return to how things worked before the 2016 season kicked off.
+			
+			
+				Shipping during the 6.3 cycle
+			
+			
+				SECRET STRATS Pick intent is no longer revealed to the enemy team when it's your turn to pick.
+			
+			
+				NOT AS SECRET STRATS Bans now appear in Match History for games played in NCS queues.
+			
+			
+				GET BUFF(ERED) New champ select should feel more forgiving when locking in picks and bans with less than a second to spare.
+			
+			Now that everyone’s played a few games in new champ select, shortened timers should move you into games a little more quickly while still leaving ample time for strategery.
+			
+				PICK INTENT 35 seconds ⇒ 20 seconds
+			
+			
+				BANS 40 seconds ⇒ 30 seconds (x6)
+			
+			
+				PICKS 40 seconds ⇒ 30 seconds (x10)
+			
+			
+				RESOLUTION 40 seconds ⇒ 30 seconds
+			
+			
+				MAX DURATION 715 seconds ⇒ 530 seconds
+			
+		
+	
+
+
+	Back to top
+
+
+		In-Client Esports Notifications
+	
+
+	
+		
+			
+				LCS regions see notifications for both NA and EU matches.
+			
+			
+				Since we had NA LCS and EU LCS notifications we figured we'd just give both regions both sets.
+			
+			
+				LCS...ES Starting the week 6.3 ships, players in LCS regions will now see in-client esports notifications for both the NA and EU LCS, rather than only for their home region
+			
+			
+				IF YOU'RE ALREADY WATCHING As a reminder, Esports notifications can be disabled via the Options menu
+			
+		
+	
+
+
+	Back to top
+
+
+		Bugfixes
+	
+
+	
+		
+			Champion clones now display elixir particle effects
+				
+Fixed a bug that caused Shen's E - Shadow Dash to do its final collision check slightly before the dash was finished
+				Brand's R - Pyroclasm no longer forgets to bounce to minions if cast on an Ablaze enemy champion with no other nearby enemy champions
+				
+				Rek'Sai no longer occasionally fails to go through a tunnel when trying to use a second tunnel as she exits a first one
+				
+				The Raptor smite buff can no longer be triggered while dead
+				
+				Fixed a bug where the 6% max health heal effect of the Strength of the Ages mastery was calculated based on the health of the siege minion or large monster that was killed, rather than the health of the user
+				
+				A number of missing audio issues have been fixed:
+				
+				
+					Ward Skin sound effects for Warding Totem and Farsight Alteration
+						
+						Karthus's voiceover
+						
+						Elise's Spider form voiceover
+						
+						High Noon Yasuo's Q - Steel Tempest gunshot sound effect
+						
+					
+				Mac players no longer see a false error message upon login
+				
+				Mac players can once again select ward skins in champion select
+				
+				Windowed Mode behaves properly again for the Mac client
+				
+				The 'Per-side offset' and 'Semi-locked' camera toggles have been fixed
+				
+				Fixed a bug where killing enemies in the fog of war sometimes caused your CS counter to decrease
+				
+				Similar to last patch's bugfix for Malphite, the following abilities no longer trigger their effects at the start position when interacting with displacement spells like Trundle's E - Pillar of Ice. Apologies in advance for the super-dense formatting here:
+				
+				
+					Ahri's R - Spirit Rush, Corki's W - Valkyrie, Fiora's Q - Lunge, Gragas's E - Body Slam, Hecarim's R - Onslaught of Shadows fear, Irelia's Q - Bladesurge, Jarvan IV's E - Demacian Standard/Q - Dragon Strike combo, Jax's Q - Leap Strike, Jayce's Hammer Form Q - To the Skies!, LeBlanc's W - Distortion, Maokai's W - Twisted Advance, Pantheon's W - Aegis of Zeonia, Poppy's E - Heroic Charge wall stun, Quinn's E - Vault, Renekton's E - Slice and Dice, Sejuani's Q - Arctic Assault, Shen's E - Shadow Dash, Shyvana's R - Dragon's Descent, Tryndamere's E - Spinning Slash, Zac's E - Elastic Slingshot
+						
+					
+			
+	
+
+
+	Back to top
+
+
+		Upcoming Skins
+	
+
+	
+		
+			
+				The following skins will be released during patch 6.3:
+			
+			
+				
+					
+					
+						Heartseeker Orianna
+					
+				
+				
+					
+					
+						Sweetheart Sona
+					
+				
+			
+		
+	
+
+
+	Back to top
+"
+"7" "
+            
+
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+
+            
+                Greetings, Summoners.
+                Scarizard is taking a break from the patch notes, so you get me.
+                Before we get to the meat of things, let's have a moment of silence for the passing of the old Mordekaiser vs. Master Yi art we stole from somewhere I can't remember.
+                ...
+                And now check out that awesome new art we stole from the 2016 season update! You can grab it as a wallpaper here, which is nice.
+                Getting into the mix, 6.1 and 6.2 are our 'preseason followup' patches, and we've been pretty happy with how things are trending. We're seeing some cool diversity picks in competitive games (little suspicious of that Lissandra support), a lot of major outliers are calming down (although Graves and a few others may need to be checked), and the season's start is upon us.
+                In light of the above, 6.2's very straightforward. The most exciting things I'd want to highlight (aside from the release of Jhin, the Shen update, and the Nunu buffs) are very 'under-the-hood' with the ward debris and wall collision detection changes. The wall collision changes are pretty important but self-explanatory, so go read the note. On the point of ward debris: we still firmly believe that there needs to be some way to learn one of the most critical (and often game-winning) systems in League of Legends, so shiny little ghost-wards is where we're at. Clarity.
+                And that's 6.2 wrapped up! We wish you the best of luck in your placement matches. If you're struggling, try finding some like-minded friends to rank up with - just make sure they don't owe you money or anything because if you start fighting over who threw the game at the 55 minute mark, feelings get hurt and Tyler will never pay you that $20 he owes unless you call him out publicly in the patch notes. FOR SHAME.
+                But seriously, find some friends and have fun! Good luck out there!
+            
+            
+                 Chris \"Pwyff\" Tom
+            
+            
+                Back to top
+            
+Patch Updates
+
+	
+		
+			
+				2/2/2016
+			
+			
+
+			
+				High Noon Jhin
+			
+			
+				HOW GAUCHE Fixed the explosion particles for E - Beauty in Death
+			
+			
+			
+				Spectator Mode
+			
+			
+				ONLY YOU CAN SEE ME, SUMMONER Sona no longer causes Spectator Mode to crash during the loading screen
+			
+		
+		
+	
+
+
+	
+		
+			
+				2/1/2016
+			
+			
+			
+				Kindred
+			
+			
+				CALM DOWN, WOLF Fixed a bug where proccing Kindred's E - Mounting Dread could unintentionally trigger extra damage to the target
+			
+			
+			
+				Rumble
+			
+			
+				BURN IT WITH FIRE Fixed a bug where Rumble's Q - Flamespitter sometimes missed a tick of damage when used while in Danger Zone
+			
+			
+			
+				Trinkets
+			
+			
+				SELF-SPOTTING Xerath and Jhin can now use trinkets while casting R - Rite of the Arcane and R - Curtain Call
+			
+			
+			
+				Baron Nashor
+			
+			
+				WHOOPS Fixed a bug where Baron Nashor was spawning at 19:50, rather than 20:00
+			
+		
+	
+
+            
+                    Champions
+                
+            
+                
+                    
+                        
+                        
+                           Jhin
+                        
+                        
+                            Jhin, the Virtuoso, will be released the week after patch 6.2's launch! To learn more, check the following links:
+                        
+                        
+                                Mind of the Virtuoso
+                            
+                            
+                                Champion Reveal
+                            
+                            
+                                Champion Insights
+                            
+                            Jhin Q&A
+                            
+                            Champion Spotlight 
+                            
+                        
+                
+            
+            
+                
+                    
+                        
+                        
+                            Shen
+                        
+                        
+                            Shen, the Eye of Twilight, will be updated with the release of patch 6.2! To learn more, check the following links:
+                        
+                        
+                                Champion Update
+                            
+                            
+                                Champion Spotlight
+                            
+                        
+                
+            
+            
+                
+                    
+                        
+                        
+                            Dr. Mundo
+                        
+                        
+                            Lowering Mundo's early power. E's damage is now lower until the last rank, and Mundo's R starts at a higher cooldown before scaling down.
+                        
+                        
+                            What happens when a late game monster also gets to dominate early? Mundo. Our last round of nerfs in 5.24 don't appear to have bruised Mundo's pain train, so a firmer collar in 6.2 means he'll have to work harder for his end game... strength.
+                        
+                        
+                            E - Masochism
+                        
+                        
+                            MINIMUM BONUS ATTACK DAMAGE 40/55/70/85/100 ⇒ 20/40/60/80/100
+                        
+                        
+                            MUNDO SAVANT Bonus attack damage still scales by +1% per 1% of Mundo's missing health (so if a dead Mundo (100% missing health) could use Masochism, he'd still gain +100% of Masochism's bonus AD, now totalling 40/80/120/160/200). This ratio is unchanged, we're just letting you know because math is hard for Mundo. Particularly dead Mundo.
+                        
+                        
+                            R - Sadism
+                        
+                        
+                            COOLDOWN 75 seconds at all ranks ⇒ 100/85/70 seconds
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Elise
+                        
+                        
+                            Base movement speed down on both forms, lower base damage on W.
+                        
+                        
+                            With Runic Echoes, Elise has just the tool she needs to climb the waterspout of power rankings, and there ain't no rain to wash her out.
+                            Nihilistic nursery rhymes aside, Elise is doing well and has a decent strategic identity (early power jungler with high utility and map presence), so we're just slowing her spider roll.
+                        
+                        
+                            General
+                        
+                        
+                            BASE HUMAN FORM MOVEMENT SPEED 330 ⇒ 325
+                        
+                        
+                            BASE SPIDER FORM MOVEMENT SPEED 355 ⇒ 350
+                        
+                        
+                            W - Volatile Spiderling
+                        
+                        
+                            BASE DAMAGE 75/125/175/225/275 magic damage ⇒ 60/110/160/210/260 magic damage
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Fiora
+                        
+                        
+                            Vitals will now spawn with a little more predictability.
+                        
+                        
+                            On release, Duelist's Dance would alternate on spawn location between either the two 'front' vitals (facing blue side) or the two 'back' vitals (the ones facing red side). This was to get some elements of play and mastery in the mix, as well as preventing pure randomness from messing with either Fiora or her opponent. At some point, however, that logic exploded and went to randomness.
+                            We're fixing it for the reasons we just mentioned.
+                        
+                        
+                            Passive - Duelist's Dance
+                        
+                        
+                            DIRECTION SELECTION Random ⇒ Alternates between top-right and bottom-left sides
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Gangplank
+                        
+                        
+                            R's cooldown is up across the board.
+                        
+                        
+                            We're very aware that Gangplank has a recurring guest slot on the patch notes, but he continues to be one of our highest performing champions across quite a few power metrics. To be fair, however, with each change we've gone medium to light, as we know how fickle champion viability can be in both perception and objective power. Today we're chipping down Cannon Barrage's global presence to keep it in line with other global ultimates, which should also force Gangplank to value his ult timing more carefully.
+                        
+                        
+                            R - Cannon Barrage
+                        
+                        
+                            COOLDOWN 140/130/120 seconds ⇒ 160/150/140 seconds
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Karma
+                        
+                        
+                            W costs less mana at all ranks.
+                        
+                        
+                            Just keeping an eye on the champions who were affected by the mana regen nerf to Frost Queen's Claim in 6.1.
+                            Like Karma.
+                        
+                        
+                            W - Focused Resolve
+                        
+                        
+                            COST 70/75/80/85/90 mana ⇒ 50/55/60/65/70 mana
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Kha'Zix
+                        
+                        
+                            The patch note is pretty much a summary, so go read that.
+                        
+                        
+                            We're finding a happy medium here for Kha'Zix (and Rengar) in their ability to frontload damage as they come hurtling through the air to cuddle with the backline. This probably won't be the end of our Kha'Zix conversation, but we're currently being very, very careful with assassin tuning.
+                        
+                        
+                            W - Void Spike
+                        
+                        
+                            newBUFFERING BUGS Can now be 'buffered' mid-jump so that Kha'Zix can cast it slightly before landing
+                        
+                        
+                            DATA QUEUE If Kha'Zix attempts to cast both Void Spikes and Void Assault while mid-air, he'll buffer only the last one he attempted to cast (not both, that would be too much)
+                        
+                        
+                            R - Void Assault
+                        
+                        
+                            newBUFFERING BUGS Can now be 'buffered' mid-jump so that Kha'Zix can cast it slightly before landing
+                        
+                        
+                            DATA QUEUE If Kha'Zix attempts to cast both Void Spikes and Void Assault while mid-air, he'll buffer only the last one he attempted to cast (not both, that would be too much)
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Kindred
+                        
+                        
+                            Q mana cost up, E base damage down.
+                        
+                        
+                            We don't want to hit Kindred's late game scaling (or they don't really function as jungle marksmanimals), so we're instead tapping down their early dueling jungle strength.
+                        
+                        
+                            Q - Dance of Arrows
+                        
+                        
+                            COST 30 mana at all ranks ⇒ 35 mana at all ranks
+                        
+                        
+                            E - Mounting Dread
+                        
+                        
+                            WOLF POUNCE DAMAGE 80/110/140/170/200 physical damage ⇒ 60/90/120/150/180 physical damage (scaling and % health damage remain unchanged)
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Nunu
+                        
+                        
+                            E is now more spammable in late game team fights, with a lower cooldown and lower mana costs (at the tradeoff of less damage).
+                        
+                        
+                            Giving the world's most annoying little boy (and his yeti, Willump (we sincerely hope you knew that)) something more to do in late game team fights. There's potential this makes lane Nunu come back with a vengeance, and while we're not certain what that means for the median happiness score of a game of League of Legends, we can at least apologize now.
+                            ... Sorry for the yeti.
+                            That said, we're looking forward to more gameplay montages with great music.
+                        
+                        
+                            E - Ice Blast
+                        
+                        
+                            COOLDOWN 6 seconds at all ranks ⇒ 6/5.5/5/4.5/4 seconds
+                        
+                        
+                            COST 75/85/95/105/115 mana ⇒ 70/75/80/85/90 mana
+                        
+                        
+                            SLOW DURATION 3 seconds ⇒ 2 seconds
+                        
+                        
+                            SLOW STRENGTH 20/30/40/50/60% ⇒ 40/45/50/55/60%
+                        
+                        
+                            BASE DAMAGE 85/130/175/225/275 magic damage ⇒ 80/120/160/200/240 magic damage
+                        
+                        
+                            RATIO 1.0 ability power ⇒ 0.9 ability power
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Poppy
+                        
+                        
+                            Small bugfixes to clear up Poppy's interactions with her passive, as well as a quality-of-life tweak for Q.
+                        
+                        
+                            Some small bugfixes for Poppy to keep on truckin'. We wanted to stay roughly power neutral here.
+                        
+                        
+                            Passive - Iron Ambassador
+                        
+                        
+                            IT'S NOT A BOOMERANG If target dies before the shield reaches it, the shield will not return.
+                        
+                        
+                            RUBBER ZOMBIES The shield will now return to Poppy when it kills a champion with a zombie passive (Kog'Maw, Karthus, etc.)
+                        
+                        
+                            BYE-BYE BULWARK When the shield is on the ground, it will start its outro animation earlier so Poppy knows when it's time to say goodbye (actual game time duration unchanged)
+                        
+                        
+                            Q - Hammer Shock
+                        
+                        
+                            COMBO BREAKER We've improved the E-Q combo from 6.1. Hammer Shock will now only auto-aim toward your target if your mouse cursor has not moved significantly after casting Heroic Charge.
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Rengar
+                        
+                        
+                            Q's burst damage is down, but the damage buff is higher. Bola Strike now has a cast time even if Rengar is casting it mid-air. R's Exclamation Point of Death now gives a longer range warning. You'll probably still die.
+                        
+                        
+                            Every patch has one of those changelists where you crack your neck and take a deep breath (maybe stretch a bit) before diving into... context land.
+                            What we have is a hunter-predator with seriously awesome hair who self-identifies with some seriously painful (strategic) one-shotting power. So what that means is while we're setting the narrative for these Rengar changes, we will probably have future ones to come. And more context.
+                            The story here: we're looking to do two things lightly - mainly because they directly overlap with Rengar's current strategic niche. 1.) We want to give players a slightly larger window of opportunity to react (see: R change). 2.) We want to at least slow Rengar's ability to one-shot someone with his uncounterable burst combo (see: E + Q changes). As to how these work in siphoning out kitty frustration remains to be seen, but it's where we're going to start.
+                            Also, buy pink wards. This tip has little to do with Rengar, it's just good habits.
+                        
+                        
+                            General
+                        
+                        
+                            KITTY CONSISTENCY When Rengar jumps from stealth or the brush, he now lands very slightly short of the target. Like 1/16th of a Teemo short. This will prevent overzealous Rengars who occasionally jump right on top of their target, only to throw their Bola past them.
+                        
+                        
+                            Q - Empowered Savagery
+                        
+                        
+                            DAMAGE SCALING 50% total attack damage ⇒ 30% total attack damage
+                        
+                        
+                            ATTACK DAMAGE BUFF +10% bonus attack damage ⇒ +20% bonus attack damage
+                        
+                        
+                            E - Bola Strike
+                        
+                        
+                            0.25 SECONDS TO LIVE Bola Strike now has a cast time (0.25 seconds) when Rengar casts it while mid-air
+                        
+                        
+                            HAIL MARY Rengar will now properly throw his Bola Strike if he tried to do it mid-air but the targeting cursor was out of range
+                        
+                        
+                            R - Thrill of the Hunt
+                        
+                        
+                            EXCLAMATION MARK RANGE 1250 ⇒ 1450
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Tahm Kench
+                        
+                        
+                            Passive stack duration down, and fixed a bug with Devour refunding cooldown and mana cost even if an opponent shields it.
+                        
+                        
+                            Not trying to bench the Kench, but at least reduce some frustration when he's rolling around the court, styling on the opposition. That stack duration change is to force Tahm to be more active in his aggression if he wants to be chain-chomping.
+                        
+                        
+                            Passive - An Acquired Taste
+                        
+                        
+                            STACK DURATION 7 seconds ⇒ 5 seconds
+                        
+                        
+                            Q - Tongue Lash
+                        
+                        
+                            CLARITY! The tongue hitbox indicator now lasts longer (until the tongue finishes lashing out)
+                        
+                        
+                            W - Devour
+                        
+                        
+                            COUNTERPLAY! Fixed a bug where Devour would refund its cooldown and mana cost if cast on a target that was spell-immune (Morgana's E - Black Shield, Fiora's W - Riposte, etc)
+                        
+                        
+                            R - Abyssal Voyage
+                        
+                        
+                            RATIO 4/6/8% bonus health ⇒ 2/4/6% bonus health
+                        
+                    
+                
+            
+            
+                Back to top
+            
+            
+                    Items
+                
+            
+                
+                    
+                        
+                        
+                            Frost Queen's Claim
+                        
+                        
+                            Who you gonna call?
+                        
+                        
+                            Making the Rift a less spooky place, one patch at a time. The short context here is we initially dumped all of our investigation eggs into the Frost Queen's Claim basket, but have since expanded to the two item cost reductions below. Raising the cooldown, however, encourages more careful use of the active rather than \"yes.\"
+                        
+                        
+                            ACTIVE COOLDOWN 60 seconds ⇒ 90 seconds
+                        
+                        
+                            SPOOKY SPRINTING Ghosts no longer move slightly faster when they can see their target.
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Morellonomicon
+                        
+                        
+                            COST DOWN?
+                        
+                        
+                            Collateral buffs from our Frost Queen's Claim investigations. Specifically, it seems like we were overvaluing what those unique passives were doing for the item. Having cheaper alternatives should help with build diversity.
+                        
+                        
+                            COMBINE COST 765 gold ⇒ 615 gold
+                        
+                        
+                            TOTAL COST 2550 gold ⇒ 2400 gold
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Athene's Unholy Grail
+                        
+                        
+                            COST DOWN!
+                        
+                        
+                            See above. Or we could paste the above. Which we will now do.
+                            Collateral buffs from our Frost Queen's Claim investigations. Specifically, it seems like we were overvaluing what those unique passives were doing for the item. Having cheaper alternatives should help with build diversity.
+                        
+                        
+                            COMBINE COST 565 gold ⇒ 465 gold
+                        
+                        
+                            TOTAL COST 2800 gold ⇒ 2700 gold
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            The Dark Seal
+                        
+                        
+                            Cheaper cost so you can start with a refillable potion or three health potions.
+                        
+                        
+                            The Dark Seal was designed to be a 'limited window of power' fantasy, so we're going a little harder on that. Now the dream start is a Dark Seal + Refillable Potion, where you get first blood for some stacks and an early Corrupting Potion (and that feel-good item synergy), play arrogantly, lose all of your stacks on a failed gank, stubbornly refuse to sell your Dark Seal (even though it's like selling a Doran's Ring), double down on Mejai's, and never get past 5 stacks.
+                            I'm not projecting, I swear.
+                        
+                        
+                            COST 400 gold ⇒ 350 gold
+                        
+                        
+                            SOULS AIN'T CHEAP The total price of Mejai's Soulstealer is unchanged
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Cull
+                        
+                        
+                            More base AD, more gold when hitting 100 CS.
+                        
+                        
+                            We still like the 'greedy' premise of Cull, so we're dialing it up a bit.
+                        
+						
+							ATTACK DAMAGE 5 ⇒ 7
+						
+						
+							FINAL PAYOUT 300 gold ⇒ 350 gold
+						
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Rapid Firecannon
+                        
+                        
+                            Just a small bugfix where attack-moving with champions wouldn't take Rapid Firecannon's range extension into account, so they'd run up to normal range and waste it on an empowered attack.
+                        
+                        
+                            AUTO AUTO SPACING Fixed a bug where champions would run into 'normal' attack range, even when they had an empowered attack range from Rapid Firecannon
+                        
+                    
+                
+            
+            
+                Back to top
+            
+            
+                    Systems
+                
+            
+                
+                    
+                        
+                            Wall Collision Detection
+                        
+                        
+                            Flashing over walls or placing wards over walls is now more logical and understandable. If you're reading this far, you might as well read the context because this thing's confusing, man.
+                        
+                        
+                            This is a change that has some implications (most good) in terms of how you flash over walls or place wards over walls, so we're going to be transparent about what happened. Before this change: when someone tries to flash over or place a ward over a wall, the game tries to place you at the spot you want to go. If it can't, it starts spiraling out (don't ask why it was a spiral) before arriving at a concrete location. It then plops you at that location. Technically this is consistent, because the spiral is always the same so if you know the right spots you'll always end up where you want - it's just a matter of memorizing where. After this change: same thing, except if you can't find a home in the wall, the system checks for the closest available spot and puts you there. Period.What this means: flashing over and placing wards over walls should be far more intuitive as to what will 'work' or not work. If something used to work and it no longer works, that's because it wasn't supposed to in the first place (insufficient range) but the system was cheating it. For those situations, you'll need to re-learn certain 'ways' of warding over walls to get consistency, but it should make a lot more sense.
+                        
+                        
+                            YOU'RE WELCOME SCARRA Placing wards over walls or flashing over walls is now more logical and precisely calculated. Read the context, this patch note isn't going to make sense.
+                        
+                    
+                
+            
+            
+                Back to top
+            
+            
+                    Masteries
+                
+            
+                
+                    
+                        
+                        
+                            Assassin
+                        
+                        
+                            More assassin, less \"super good for junglers.\"
+                        
+                        
+                            Going a little harder on that 'champion isolation' mechanic that Assassin was meant to promise, rather than it being a very strong mastery pick for junglers. Oh dear.
+                        
+                        
+                           newALONE IN THE JUNGLE Increased damage is exclusive against champions
+                        
+                        
+                            DAMAGE BONUS +1.5% ⇒ +2%
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Thunderlord's Decree
+                        
+                        
+                            Cooldown up at lower levels, and down at later levels. The grace period between hits has gone down, so you'll need to get three hits off faster to proc it.
+                        
+                        
+                            Thunderlord's Decree being our current benchmark of satisfaction and power for keystone masteries remains the same, but that doesn't mean we can't touch it! Think of it more as keeping Thunderlord's tête-à-tête with other masteries, and so we're adjusting both sides accordingly. Right now, we're siphoning a little of Thunderlord's early dominance because it's just straight crowding out other choices. What this does mean, however, is we can buff it's late game presence with a little more excitement.
+                            Also, that stack decay change is probably more important for lane aggression, as it means you'll need to really commit if you want your purple lightning.
+                        
+                        
+                            COOLDOWN 20 seconds ⇒ 25 - 15 seconds (based on level)
+                        
+                        
+                            STACK DECAY PERIOD 5 seconds ⇒ 3 seconds
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Windspeaker's Blessing
+                        
+                        
+                            Tooltip correction. Windspeaker's does boost self-heals and shields, just not the bonus AR/MR.
+                        
+                        
+                            Just a tooltip correction. For those of you wondering why we don't just make Windspeaker's provide the same AR/MR bonuses for self-heals and ally heals (or shields), the answer is Mundo. And Warwick. And Singed. And Garen. And so on.
+                        
+                        
+                            ALSO ALISTAR Tooltip has been updated to reflect that, for self-heals and self-shields, Windspeaker's Blessing increases their potential but does not provide bonus magic resistance and armor
+                        
+                    
+                
+            
+            
+                Back to top
+            
+            
+                    Trinkets & Vision
+                
+            
+                
+                    
+                        
+                            Ward Debris
+                        
+                        
+                            Ward Debris now visually changes based on how long it's been debris.
+                        
+                        
+                            One major point of feedback we've gotten on ward debris is just how useless the information is. Basically, because these things stick around for so long, you end up with a lot of 'junk' data that doesn't do much for learning habits.
+                            This change is to streamline things. By showing clear, readable 'phases' in ward debris life, you should understand more about your enemy's vision strategy and how it evolves over the course of time. This might not sound like a very exciting feature, but it totally is. We're excited. Please be excited.
+                        
+                        
+                            DEBRIS DURATION! 300 ⇒ 240 seconds
+                        
+                        
+                            newDEBRIS VISUALS! Ward Debris now:
+                        
+                        Brightly glows in the first 10% of its lifespan!
+                            
+                            Stops emitting flames after 30% of its lifespan has passed!
+                            
+                            Particle visibly changes and debris shrinks after 60% of its lifespan has passed!
+                            
+                        
+                
+            
+            
+                
+                    
+                        
+                        
+                            Sweeping Lens
+                        
+                        
+                            Find hidden Cho'Gaths easier.
+                        
+                        
+                            This will have very little impact when it comes to sweeping wards, but it should be more fun to 'tag' fatty champions hiding in the brush.
+                        
+                        
+                            SCAN DETECTION Center to center ⇒ Center to edge
+                        
+                        
+                            SCAN EQUALITY Also affects Oracle's Alteration
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                        
+                            Farsight Alteration
+                        
+                        
+                            Blue wards now have their own unique minimap icon.
+                        
+                        
+                            For those times when your team peppers the map with blue wards and you're trying to figure out your regular ward count at a glance but get really confused because there's 20 of them sitting in your jungle.
+                            We got your back.
+                        
+                        
+                            newMINIMAP WARD ICON Is now smaller and more lightly tinted than a regular ward icon
+                        
+                        
+                            newDYNAMIC CURSOR COLOR Farsight Totem now shares similar behavior with other warding actives. Your targeting cursor will now turn green when over brush and red when in terrain.
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                            Trinkets Castable During Channels
+                        
+                        
+                            That's certainly a functional change header.
+                        
+                        
+                            Read what's on the box. We were actually inspired by Jhin when he was trying to self-spot for his Curtain Call (R) in playtests, but then just stopped shooting and got sad. Unfortunately in actual execution we flipped this on its head, so it was fixed for all champions except Jhin (and Xerath). We'll be getting to those two as soon as we can.
+                        
+                        
+                            BEAUTIFUL VISION Activating a trinket will no longer break channels - except in the case of Jhin and Xerath, which we will fix as soon as we can.
+                        
+                    
+                
+            
+            
+                Back to top
+            
+            
+                    Alternative Maps
+                
+            
+                
+                    
+                        
+                            Howling Abyss
+                        
+                        
+                            #cleannumbers
+                        
+                        
+                            We wanted to introduce #cleannumbers to the health relic spawns on The Howling Abyss and ended up in neutral positivity because of Twisted Treeline. Long story short, one's a bug, the other's intended.
+                        
+                        
+                            HEALTH RELIC SPAWN 3:10 ⇒ 3:00 (this is intended)
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                            Twisted Treeline
+                        
+                        
+                            #whoops
+                        
+                        
+                            Spillover. We'll fix this as soon as possible.
+                        
+                        
+                            HEALTH RELIC SPAWN 3:00 ⇒ 2:50 (this is a bug and will be fixed as soon as possible)
+                        
+                    
+                
+            
+            
+                Back to top
+            
+			
+			
+            
+                    New Champ Select
+                
+            
+                
+                    
+                        
+                            As promised when we launched New Champ Select, we've been working to improve the system based on our initial live data. Before we proceed, it's worth noting that our downtime wasn't caused by bugs in New Champ Select itself (hence the relatively low number of fixes listed here). Rather, the huge influx of traffic from both New Champ Select's launch and the start of the 2016 ranked season caused New Champ Select's underlying systems to fall over.
+							Now that we've reinforced these systems and New Champ Select is back online, here's what's new:
+                        
+						
+							Interface Improvements
+						
+						
+							Adding a few tools back into New Champ Select which weren't quite ready to go when we launched.
+						
+                        
+                            LITERALLY BLUCIAN Chromas can now be selected in New Champ Select
+                        
+                        
+                            YOU GOTTA WARD, THOUGH Ward skins can now be selected in New Champ Select
+                        
+						
+							Matchmaking Improvements
+						
+						
+							These changes were made pretty quickly following the initial release of New Champ Select. We're just making sure you know about them.
+						
+                        
+                            MATCHMAKING BALANCE Improved at all skill levels
+                        
+                        
+                            QUEUE TIMES Reduced at the top end of the MMR spectrum
+                        
+                        
+                            PREMADE EQUALITY 5-man premades are now matched up against other 5-man premades 98% of the time
+                        
+                    
+                
+            
+            
+                Back to top
+            
+			
+			
+			
+            
+                    Lunar Revel 2016
+                
+            
+                
+                    
+                        
+                            Lunar Revel has begun! Three new Lunar Revel skins are already available in advance of patch 6.2:
+                        
+                        
+                            
+                                
+                                
+                                    Radiant Wukong
+                                
+                            
+                            
+                                
+                                
+                                    Lunar Wraith Caitlyn (Legacy)
+                                   
+                                
+                                    Lunar Wraith Morgana (Legacy)
+                                                             
+                            
+                        
+                        
+                            Continue the celebration with more new Lunar Revel content coming out after patch 6.2 releases:
+                        
+                        A new Rising Dawn ward skin and four new summoner icons
+                            
+                            Your Lunar Revel Shop will be open from Jan. 28 to Feb. 8
+                            
+                        
+                            Learn more and join in the revelry at the Lunar Revel 2016 site!
+                        
+                    
+                
+            
+            
+                Back to top
+            
+            
+                    Bugfixes
+                
+            
+                
+                    
+                        HUD font size now properly scales with HUD settings, rather than system DPI settings. Sorry, 4k users!
+                            
+                            Fixed a bug where Sweeping Lens's animation would play when walking into brush the enemy team swept earlier in the match
+                            
+                            Fixed a bug where Warlord's Bloodlust's attack speed buff was lasting one second less than intended
+                            
+                            Fixed a bug where Hecarim's E - Devastating Charge R - Onslaught of Shadows combo wasn't working properly. Hecarim can now cast E before R and will not lose the E buff
+                            
+                            Similar to Ryze, Cassiopeia now retains her previous movement or attack command after E - Twin Fang's cast finishes
+                            
+                            Vel'Koz's R - Lifeform Disintegration Ray no longer does a variety of strange things if cast as Vel'Koz last-hits a target
+                            
+                            Fixed a bug where Malphite's R - Unstoppable Force would sometimes knock up and damage units at the start position instead of end position when interacting with displacement spells like Trundle's E - Pillar of Ice
+                            
+                            Fixed a bug where displacement effects would not displace Zac during E - Elastic Slingshot's travel time
+                            
+                            Fixed a bug where leveling up caused Graves's E - Quick Draw's armor and magic resistance bonus to become inconsistent until refreshed
+                            
+                            Fixed the vision-granting aspects of Malzahar's Q - Call of the Void. Vision is now properly granted along the entire path and enemies hit on the edge of their hitboxes are now properly revealed.
+                            
+                            Yasuo's W - Wind Wall now properly continues to blocking projectiles if Yasuo dies
+                            
+                            Fixed a bug where Yasuo's third Q - Steel Tempest (and E > Q combo) could deal damage through spell shields in certain situations
+                            
+                            Fixed a bug where Leona's E - Zenith Blade still rooted a target mid-dash even if they spell shielded the ability
+                            
+                            Pantheon's Passive - Aegis Protection now blocks - and gets consumed by! - attacks by Annie's Tibbers and Heimerdinger's ultimate turret
+                            
+                            Fixed many cases of on-hit effects applying even when blocked by Pantheon's Passive - Aegis Protection
+                            
+                            Fixed a bug that caused Zyra's plant attacks to ignore a target's dodge status
+                            
+                            Rift Herald now drops a soul for Thresh
+                            
+                        
+                
+            
+            
+                Back to top
+            
+            
+                    Upcoming Skins
+                
+            
+                
+                    
+                        
+                            The following skins will be released during patch 6.2:
+                        
+                        
+                            
+                                
+                                
+                                    High Noon Jhin
+                                
+                            
+                            
+                                
+                                
+                                    Beast Hunter Draven
+                                
+                                
+                                    Beast Hunter Sejuani
+                                 
+                                
+                                    Beast Hunter Tryndamere
+                                                                                              
+                            
+                        
+                        
+                            Three additional new skins are already available to commemorate Lunar Revel - check above for details!
+                        
+                    
+                
+            
+        "
+"8" NA
+"9" "
+	
+
+		Got patching problems? Check the Boards for tips and solutions!
+	
+	
+		Greetings, Summoners
+		Welcome to patch 6.1, the fresh one with that new season smell. It's been a long winter for us here at Riot Games, but we're back and ready to get to our outlier-balancing ways.
+		Looking at you, Frost Queen's Claim.
+		Speaking of balancing outliers, that's primarily what this patch for - with the professional leagues - and some of our bigger projects - ramping up, the last month of 5.24 play has provided us with a ton of data to analyze. For now, however, it's clear a few things are out of line (or under the line, as the case may be). We've got buffs to the underachievers like Kha'Zix and Fiddlesticks, and power reductions to our bigger bullies (like Trundle and Miss Fortune), as well as an assortment of ups and downs in-between.
+		But it's the first patch of the new year, and we'd be lying if we said our normal serving of balance updates were all we had in store. The new ranked season is beginning, giving tryhard veterans and bushy-tailed beginners alike the opportunity to start afresh. As our 2016 gift to you, we've also got a New Champion Select (title capitals here), designed to provide a revamped and re-designed draft experience - no matter what mode you play. Once it ships, we'll be retiring Team Builder; so long, and thanks for all the victories!
+		And that's it for us! It's been a while, but we hope you join us in ushering in the new year and making this season the best one yet. New rewards, new challenges, and new champions await - and we'll be right there with you for the ride. (And remember, if you see Pwyff in your ranked games - go easy on him. He could use the help.)
+		Good luck, and have fun.
+	
+	
+		 Patrick \"Scarizard\" Scarborough
+	
+	
+		Back to top
+	
+Patch Updates
+
+	
+		
+			
+				1/20/2016
+			
+
+			
+				Chat
+			
+			
+				BUGFIXChat messages no longer appear out of order
+			
+			
+		
+	
+
+
+	
+		
+			
+				1/15/2016
+			
+			
+			
+				Champion Select
+			
+			
+				BUGFIX Fixed a bug where champion select could get stuck in a 'dimmed out' state, preventing players from interacting with it
+			
+		
+	
+
+	
+			New Champ Select
+		
+	
+		
+			
+				
+					New champ select is coming to Normal and Ranked Draft queues.
+				
+				
+					The new champ select experience will be enabled for Normal and Ranked Draft across the world later this patch! We're starting with tests in NA and TR on January 14. If everything goes well, we'll continue to roll out new champ select in other territories over the following days. A few key details of the system are listed below; make sure to head back to the 2016 Season Update site for an in-depth overview.
+					When new champ select launches, devs will be on the boards to gather feedback and track known issues. Let us know what you think!
+				
+				
+					POSITION SELECT Teammates each select two positions they'd like to play (top, jungle, mid, bottom, support, fill) in the lobby
+				
+				
+					POSITION ASSIGNMENT Once a match is found, new champ select assigns each teammate a position
+				
+				
+					PICK INTENT Teammates have an opportunity to highlight the champion they want to play before picks and bans
+				
+				
+					BANS Teammates assigned to third, fourth and fifth pick will each ban one champion
+				
+				
+					LOCK IT IN Bans and picks must be locked in. Hovering doesn't count! Failing to lock in a ban or pick will result in a dodge with a time penalty.
+				
+				
+					Lastly, the launch of new champ select marks Team Builder's retirement. New champ select is a better answer to many of the problems we were trying to solve with Team Builder, so we're opting to replace Team Builder rather than having both queues exist together.
+				
+				
+					GOODNIGHT SWEET PRINCE When new champ select launches, Team Builder will be retired
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			2016 Ranked Season
+		
+	
+		
+			
+				
+					The 2016 ranked season commences this patch! Keep an eye out for more information!
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Champions
+		
+	
+		
+			
+				
+				
+					Bard
+				
+				
+					~ootay~
+				
+				
+					Sometimes you'd chuck a cute lil' meep on over at an evildoer and their pal, only to find you didn't hit both (even if it looked like it visually). So we adjusted it. Bard Buffs
+				
+				
+					Passive - Traveler's Call
+				
+				
+					newAREA-OF-MEEP Meeps now additionally hit in a 150 radius around the primary target (in addition to the cone damage) once Bard unlocks the cone attack Meep upgrade
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Brand
+				
+				
+					Pretty obvious that this wasn't working as intended. For all of you who've been double killed by Brand's ultimate while standing inside a minion wave, #bigsorry.
+				
+				
+					R - Pyroclasm
+				
+				
+					MEN ON FIRE Fixed a bug where Pyroclasm would always prioritize enemy champions unless it killed its target
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Caitlyn
+				
+				
+					Less weirdness around using Headshot.
+				
+				
+					Caitlyn seems to have landed in a good spot post-update, but there's still some awkwardness to clean up around the usability of her new-and-improved Headshot.
+				
+				
+					Passive - Headshot
+				
+				
+					USE THE SCOPE Fixed a bug where Caitlyn would walk toward her empowered Headshot target if they were less than 650 range of her
+				
+				
+					QUICK RELOAD Fixed a bug where Caitlyn's next basic attack would sometimes be delayed more than normal after an empowered Headshot
+				
+				
+					TAKE THE SHOT Fixed a bug where Caitlyn would sometimes take longer than intended before firing an empowered Headshot when swapping targets
+				
+				
+					W - Yordle Snap Trap
+				
+				
+					GET WHAT YOU PAY FOR Now is slightly better at catching small champions (like yordles)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Fiddlesticks
+				
+				
+					Dark Wind mana cost down.
+				
+				
+					Let's be clear, this is a small buff. We're fairly certain that Runic Echoes will benefit Fiddlesticks, but we also wanted to give this old-school kit (with those massive mana costs) a small bump in the right direction. This will probably help out Middlesticks or Supportlesticks (we stretched for that one) more than Junglesticks, but at least this offers an alternative leveling path for those who want to bounce around.
+				
+				
+					E - Dark Wind
+				
+				
+					COST 50/70/90/110/130 mana ⇒ 50/60/70/80/90 mana
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Gangplank
+				
+				
+					Passive ratio down, duration increased.
+				
+				
+					As history would imply, Gangplank is a hard man to keep down. Despite chipping away at his explosive area-of-effect damage, GP remains above the curve in the laning phase thanks to Trial by Fire's incredible damage output (especially when reset with Powder Kegs). With Gangplank's hyper-scaling potential, it didn't make much sense for him to also shove opponents out of lane like he owned the place. So we're adjusting.
+				
+				
+					Passive - Trial by Fire
+				
+				
+					DURATION 1.5 seconds ⇒ 2.5 seconds
+				
+				
+					TICKS 6 ⇒ 10 (damage per tick reduced; total damage unchanged)
+				
+				
+					RATIO 1.2 bonus attack damage ⇒ 1.0 bonus attack damage
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Jinx
+				
+				
+					Bugfixes!
+				
+				
+					Passive - Get Excited!
+				
+				
+					TONE IT DOWN A BIT Fixed a bug where Jinx was getting more than one passive stack after killing an inhibitor
+				
+				
+					Q - Switcheroo!
+				
+				
+					FREELOADER Fixed a bug where Jinx was able to cast rockets for free when out of mana
+				
+				
+					LAZYBONES Fixed a bug where Jinx was receiving less attack speed than intended from Get Excited! when using Fishbones, the Rocket Launcher
+				
+				
+					NO TAKEBACKS Switcheroo! can no longer be cast while disabled
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kalista
+				
+				
+					E's less mana-efficient when rending single targets.
+				
+				
+					Even with the preseason itemization changes (which were more beneficial to casters and crit-wielding marksmen), Kalista has been working her way up the list of must-answer threats. The change we're doing is a little specific, so let's get into it: we wanted to reduce power without having a negative impact on Kalista's feel, skill gap, or general strategic identity. To go deeper: one of Kalista's staple lane harassment combos is to continuously Rend single minions + lane hits against her opponents for quick damage (and very low mana costs), so we're reducing that mana efficiency. We're still forming a more nuanced opinion of Kalista in this new season, and will keep an eye out.
+				
+				
+					General
+				
+				
+					SPEARS FOREVER Fixed a bug where Kalista sometimes continued autoattacking through a few loss-of-control states (ex. Guardian Angel, Lulu's W - Polymorph)
+				
+				
+					E - Rend
+				
+				
+					COST 40 mana ⇒ 30 mana
+				
+				
+					REFUND ON SINGLE KILL 20 mana ⇒ 0
+				
+				
+					REFUND ON MULTI-KILL 40 mana ⇒ 30 mana
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Kha'Zix
+				
+				
+					Passive attack comes out faster. W's explosive radius is up. E range up.
+				
+				
+					With the removal of Ranger's Trailblazer, Brutalizer, and the old Last Whisper, Kha'Zix lost a lot in the transition to 2016. Our previous attempts to restore some of his former glory were well intentioned, but weren't enough to bring the bug back. 6.1's all about helping Kha'Zix achieve successful isolation without needing to increase the isolation range itself. Highlighting and enabling Kha'Zix's ability to capitalize on the missteps of his prey fits perfectly with KZ's own motto: evolve, and overcome.
+				
+				
+					Passive - Unseen Threat
+				
+				
+					NOW WITH MORE THREAT Speed increased to match Kha'Zix's basic attack animation
+				
+				
+					W - Void Spike
+				
+				
+					EXPLOSION RADIUS 225 ⇒ 275
+				
+				
+					E - Leap
+				
+				
+					RANGE 600 ⇒ 700
+				
+				
+					EVOLVED RANGE Unchanged (thought you should know)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					LeBlanc
+				
+				
+					E and mimic'd E's missile speed up.
+				
+				
+					Flashy and tricky, successive nerfs to Leblanc have her feeling less-than-responsive recently. With immobile mages still on top, we're taking the opportunity return some snappiness to keep LeBlanc's foes on their toes.
+				
+				
+					E - Ethereal Chains
+				
+				
+					MISSILE SPEED 1600 ⇒ 1750
+				
+				
+					R - Mimic: Ethereal Chains
+				
+				
+					MISSILE SPEED 1600 ⇒ 1750
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Miss Fortune
+				
+				
+					Passive ratio down. E damage down.
+				
+				
+					The bottom line is this: Miss Fortune's doing too much damage. While most of it is warranted (especially when aided by allies to combo some amazing Bullet Times), Make It Rain's increased range and synergy with Thunderlord's Decree have turned it from an area control spell to just another way to bully her opponents. That said, MF's not far off from where we'd like her laning phase to sit, so we'll be watching her this patch to make sure she hasn't walked the plank entirely.
+				
+				
+					Passive - Love Tap
+				
+				
+					RATIO 0.6 - 1.0 total attack damage (at levels 1-18) ⇒ 0.5 - 1.0 total attack damage (at levels 1-18)
+				
+				
+					E - Make It Rain
+				
+				
+					DAMAGE 90/145/200/255/310 ⇒ 80/115/150/185/220
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Mordekaiser
+				
+				
+					Shield takes longer to decay. W is now castable on minions. R gives Mordekaiser's attack damage, and does more damage over time.
+				
+				
+					Following up our changes in 5.23, these are similarly focused on cementing Mordekaiser's pattern as a slow but terrifying Juggernaut (capital J). Weakening ability power builds in favor of more hybrid ones is the name of the game, favoring sustained threat over time instead of '1-shot comboing your soul into pieces.' Reverting some of his shield decay and W's ally-target functionality, Mordekaiser should find himself able to pick fights while solo or duo to keep on shredding.
+				
+				
+					Passive - Iron Man
+				
+				
+					DELAY ON SHIELD DECAY 1 second ⇒ 1.5 seconds
+				
+				
+					W - Harvesters of Sorrow
+				
+				
+					newNOW WITH MORE SORROW Can now be cast on allied minions (melee and caster minions have smaller rings)
+				
+				
+					TEMPORARY HARVESTERS Effect now ends if Mordekaiser or his ally dies
+				
+				
+					R - Children of the Grave
+				
+				
+					GHOST BONUS ATTACK DAMAGE 10/20/50 attack damage ⇒ 1.0 of Mordekaiser's bonus attack damage
+				
+				
+					DAMAGE SPLIT 50% on-cast + 50% over 10 seconds ⇒ 25% on-cast + 75% over 10 seconds (total damage unchanged)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Riven
+				
+				
+					Passive ratio increased.
+				
+				
+					Another patch, another Riven buff (I'll take words we never thought we'd type for 500, Meddler). Not much has changed since the last time we met - itemization isn't great for champions like Riven, and while her health regen increase showed promise, it didn't exactly move her as much as we'd like. Handing back some early-game strength should let her work where she shines most - without contributing to her endgame combo potential.
+				
+				
+					Passive - Runic Blade
+				
+				
+					RATIO 0.2 - 0.5 total attack damage (from levels 1-18) ⇒ 0.25 - 0.5 total attack damage (from levels 1-18)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Rumble
+				
+				
+					Q range and tick rate increased. Rumble's body is now smaller.
+				
+				
+					Piloting a literal junkyard, you almost expect Rumble to feel clunky. Alas, you can have too much of a good thing, often leading Rumble to feel like he's better left for the scrap heap than in top lane. Adjusting Rumble's specs for maneuvering in minions while upping the consistency of Flamespitter means he can focus on the complexities that really matter, like not entirely missing his Equalizer.
+				
+				
+					General
+				
+				
+					COLLISION RADIUS 50 ⇒ 35
+				
+				
+					Q - Flamespitter
+				
+				
+					RANGE 550 ⇒ 600
+				
+				
+					TICK RATE 0.5 seconds ⇒ 0.25 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Teemo
+				
+				
+					Attack damage up. R range increased. Passive stealths while moving in brush.
+				
+				
+					Another champion that's been struggling in 2016, Teemo's woes have not gone unnoticed. The prevalence of Farsight Totem has hurt his ability to play hide-and-seek with Camouflage, while losing out on the bonus attack damage from the old masteries means he's having a harder time in lane. Tuning these while adding a bit of range to Noxious Trap go a long way toward improving his strategic ability to scout - as well as feed into his natural prey of fighters and juggernauts.
+					While the below changes might look like a buff and a nerf to Camouflage, the double stealth mechanic wasn't necessary (as you will now be entering stealth the moment you walk in instead of needing to stop), so you take about the same time to stealth but can also stealth while running. Now that's sneaky.
+				
+				
+					General
+				
+				
+					BASE ATTACK DAMAGE 47.54 ⇒ 49.54
+				
+				
+					Passive - Camouflage
+				
+				
+					newCLOAKING YORDLE Teemo can now stealth while moving in brush (combat still resets the delay)
+				
+				
+					removedTAKE YOUR TIME Teemo no longer stealths twice as fast while in brush
+				
+				
+					R - Noxious Trap
+				
+				
+					CAST RANGE 300/600/900 ⇒ 400/650/900
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Trundle
+				
+				
+					Q no longer works on towers. Pillar's cost up. R's cooldown and cost increased.
+				
+				
+					What a difference 50 attack range makes. Every year there's a champion that perfectly benefits from most of the season's changes, and in 2016 (with better itemization and a higher importance on skirmishing), it's Trundle. We're taxing the troll's mana pool to curb some of that non-stop aggression. Quick call out on that Q nerf: with turrets being weaker this season we felt this was a good middle-ground instead of outright dulling those teeth.
+				
+				
+					Q - Chomp
+				
+				
+					removedBROKEN TEETH No longer affects turrets
+				
+				
+					E - Pillar of Ice
+				
+				
+					COST 60 mana ⇒ 75 mana
+				
+				
+					PILLARVISION Fixed a bug where Trundle's Pillar was granting too much vision for the duration
+				
+				
+					R - Subjugate
+				
+				
+					COOLDOWN 80/70/60 seconds ⇒ 110/90/70 seconds
+				
+				
+					COST 75 mana ⇒ 100 mana
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Elise
+				
+				
+					Rappel won't randomly drop you on enemies you didn't want to land on.
+				
+				
+					E - Rappel
+				
+				
+					WHY DO WE EVEN HAVE THAT LEVER Fixed a bug where Elise would quickly drop onto a nearby enemy when self-casting Rappel
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Poppy
+				
+				
+					Q is more usable after charging.
+				
+				
+					Just some usability to keep the Keeper of the Hammer keep on keepin' on.
+				
+				
+					Q - Hammer Shock
+				
+				
+					SHOCK AND AWE If Poppy casts Hammer Shock immediately after Heroic Charge, Hammer Shock will cast toward her target
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Thresh
+				
+				
+					Souls are more likely to do what you think they do.
+				
+				
+					WHAT IS THE WORTH OF A SOUL? Fixed a visual bug where, upon despawning, uncollected souls appeared to fly to Thresh instead of vanishing
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Yasuo
+				
+				
+					Wind Wall works as intended.
+				
+				
+					Now all of those videos of Gold Card going through Wind Wall can be laid to rest.
+				
+				
+					W - Wind Wall
+				
+				
+					WIN WALL Fixed a bug where certain targeted abilities (such as Twisted Fate's Pick-A-Card) would pass through Wind Wall as it spawned
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Urgot
+				
+				
+					So dark, so secret.
+				
+				
+					E - Noxian Corrosive Charge
+				
+				
+					CORROSIVISION Fixed a bug where Noxian Corrosive Charge was granting too much vision for the duration.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Heimerdinger
+				
+				
+					Too bright for his own good.
+				
+				
+					E - CH-2 Electron Storm Grenade
+				
+				
+					ELECTROVISION Fixed a bug where Heimerdinger's grenade was granting too much vision for the duration.
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Minions
+		
+	
+		
+			
+				
+					Just some bugfixes for minions and their wacky behavior.
+				
+				
+					The only one that's worth calling out is the last one on the list - this was actually implemented in 5.22, and primarily helps melee vs ranged matchups with respect to basic attacks. Simply put, the 'call for help' used to be around yourself and not the enemy, meaning that when they'd harass you off the wave, your minions would often 'pretend' not to notice as they went about their business. Now minions are more courageous and will actively watch for enemy harassment.
+				
+				
+					PERFORMANCE ANXIETY Minions no longer freeze or awkwardly lock eyes with other minions
+				
+				
+					HASHTAG CLARITY Minions now display how much bonus damage or damage reduction they have from the pushing changes implemented in 5.23
+				
+				
+					WHOSE MINION IS IT ANYWAY Minions no longer acquire new targets that are in the river or jungle, and if they enter the river or jungle they'll refuse to acquire any target until they leave. (Implemented in 5.22 but undocumented)
+				
+				
+					YOU USED TO CALL ME ON MY Now additionally calls for help in a ring around your opponent when attacked near minions (implemented in 5.22 but undocumented)
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Jungle
+		
+	
+		
+			
+				new
+				
+					Enchantment: Runic Echoes
+				
+				
+					Runic Echoes is a cheaper Luden's Echo for junglers. While it has less ability power and base damage, it restores a large portion of your missing mana on hitting a Large Monster - in addition to dealing bonus damage!
+				
+				
+					It's context time.
+					When we introduced the Runeglaive enchantment in Season 5 it, like the incredible Zoot Suit, was specifically tailored for its time. In development, we took a hard look at all of the existing AP junglers and tried to deliver a finely-tuned item that would enable them beyond \"bundle of stats\" (with Fiddlesticks as an accepted casualty. Sorry Fiddle.). At that point, our view of AP junglers was fairly narrow and our goal was definitely \"solve for the present.\"
+					This season, we can take a more future-facing look at Runeglaive (now Runic Echoes). The introduction of Hunter's Talisman means we can solidify spell-casting as a core part of an AP jungler's rotation, so it makes more sense that Runic Echoes is an extension of that. Echoes should be a flat upgrade (or sidegrade, at worst) for most champions, to the point where we'll probably need to keep a close eye on the balance of that movement speed bonus. One additional issue we wanted to solve was to allow for late game scaling on an AP jungle item - something Runeglaive lacked due to its lower ratio in comparison to Lich Bane.
+					On the point of, \"Why not both?\" we'll go back to the discussion we had when we replaced Magus. Specifically, if the goal of Runic Echoes is to serve all AP junglers equivalently or better than Runeglaive, then Runeglaive either becomes another Ohmwrecker (sorry) or it's an \"alternative\" choice for a smaller subset of AP junglers that skews their balance on yet another axis. The question we asked was, \"What do we gain by keeping Runeglaive?\" and while the diversity option for a few champions was nice, we trade a lot of clarity in balance to keep two items that should functionally serve the same class.
+				
+				
+					BUILD PATH Tier 2 Jungle Item + Amplifying Tome + Aether Wisp + 340 gold
+				
+				
+					TOTAL COST 2625
+				
+				
+					ABILITY POWER 60
+				
+				
+					MOVEMENT SPEED 10%
+				
+				
+					UNIQUE PASSIVE Echo - Gain charges upon moving or casting. At full charges, the next spell hit expends all charges to deal 80 (+0.10 ability power) magic damage to up to 4 targets. This effect deals 250% damage to Large Monsters. Hitting a Large Monster with this effect will restore 18% of your missing mana.
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Smite
+				
+				
+					No longer triggers spell effects.
+				
+				
+					Smite's been through an interesting transformation. Once one of League's more 'vanilla' spells, it's turned into a multi-charge, multi-augmented ability that provides tons of utility. While Smite's slowly crept up in strength, it was the introduction of Runic Echoes interaction with Smite where we finally needed to draw the line. Having an instant high-damage nuke is probably not in anyone's best interests.
+				
+				
+					removedSMITTEN No longer triggers spell effects (such as Spell Vamp or Rylai's Crystal Scepter)
+				
+			
+		
+	
+	
+		
+			
+				
+					Tier 2 Jungle Items
+				
+				
+					Cost down.
+				
+				
+					Just some slight tuning to make these a bit more attractive/easy to upgrade compared to just buying the component of your enchantment (Caulfields, Aether Wisp, etc).
+				
+				
+					COST 1050 gold ⇒ 1000 gold
+				
+				
+					MANA REGENERATION IN JUNGLE 150% ⇒ 180%
+				
+			
+		
+	
+	
+		
+			
+				
+					Rift Herald
+				
+				
+					Damage down.
+				
+				
+					Continuing Rift Herald's welcome to the League by nudging his dream-crushing power down, bit by bit. It's a potent tool for pushing advantages, but so often the health cost for taking it is so high that teams still aren't sure when to go for it.
+				
+				
+					BASE DAMAGE 105 ⇒ 95
+				
+			
+		
+	
+	
+		
+			
+				
+					'Razor Sharp' Raptor Buff
+				
+				
+					Raptor's vision buff is more forgiving.
+				
+				
+					2016 saw a change in the vision range of different types of wards, but not the trigger range of Razor Sharp (or for those of y'all that don't read, the 'Raptor Vision Buff'). Functionally this meant you could ‘proc’ the ward-spotting buff without the ward even seeing you (leading to even more confusion when hunting down that pesky ward). No more! If it sees you, you should see it, and vice versa.
+				
+				
+					THAT'S CHEATING Fixed several bugs with Razor Sharp where it would not go off if the nearest enemy object was not a ward
+				
+				
+					WARD HAVE MERCY Changed trigger range from 1250 to 900 to better sync with the range of wards
+				
+				
+					FARSIGHTED Changed trigger range for blue trinket wards from 1250 to 500 to better sync with the range of wards
+				
+			
+		
+	
+	
+		Back to top
+	
+	
+			Items
+		
+	
+		
+			
+				
+				
+					Warding Totem
+				
+				
+					Cooldown lowered.
+				
+				
+					Once the staple trinket, Warding Totem's found itself feeling pretty mediocre compared to the Farsight Alteration. As we seek to adjust the balance between the two, dropping the lategame cooldown significantly ensures teams can access more consistent vision with a Warding Totem in their inventory.
+				
+				
+					COOLDOWN 180 seconds - 120 seconds (at levels 1-18) ⇒ 180 seconds - 90 seconds (at levels 1-18)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Farsight Alteration
+				
+				
+					Cooldown up.
+				
+				
+					By contrast, Farsight's dominance tends to warp the strategic game - putting more weight on its spot use as an in-fight or pre-fight reveal, but offering very little in the way of long-term vision to control objectives or jungle corridors. Farsight's effect is powerful enough that we're confident it'll still see use for what it does, but it shouldn't feel like your default option in 100% of games.
+				
+				
+					ACTIVE COOLDOWN 76 seconds - 60 seconds ⇒ 92 seconds - 60 seconds
+				
+			
+		
+	
+	
+		
+			
+				
+					Elixirs
+				
+				
+					Can drink elixirs while dead.
+				
+				
+					If you're like us, you may have found it frustrating to respawn at a tense moment, delaying your battle charge by having to double-click an Elixir. Considering Elixirs are items too, we've now made it so you purchase them while dead to get to your battle faster. Important note: if you buy an elixir while dead, it'll begin ticking down instantly, but the amount of time you have left to respawn will be added to the duration - so your elixirs always last the correct amount. Don't freak out!
+				
+				
+					THIRSTY Can now be purchased while dead if your inventory is full (duration is increased by the amount left on your respawn timer)
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Eye of the Oasis
+				
+				
+					Mana regen down, CDR up.
+				
+				
+					If you're a support in 2016, mana regeneration's just about everywhere you look when it comes to full item builds. In the interest of providing supports with a different stat (while still keeping these items focused on spellcasting), we're trying out cooldown reduction to make them fit as smoothly as their Tier 3 brethren (Talisman of Ascension and Frost Queen's Claim, respectively).
+				
+				
+					MANA REGENERATION 150% ⇒ 100%
+				
+				
+					COOLDOWN REDUCTION 0% ⇒ 10%
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Eye of the Watchers
+				
+				
+					Mana regen down, CDR up.
+				
+				
+					If you've been watching for the context here, turn your eyes above.
+				
+				
+					MANA REGENERATION 150% ⇒ 100%
+				
+				
+					COOLDOWN REDUCTION 0% ⇒ 10%
+				
+			
+		
+	
+	
+		
+			
+				
+				
+					Frost Queen's Claim
+				
+				
+					Less mana regen. Slow now scales with distance.
+				
+				
+					Ah, Frost Queen's Claim. Even if you've never bought it, you've seen it - and the army of ghosts slowing you from across the universe. While potent as a form of vision control and a playmaker for spellcasting supports, this raw stat efficiency combined with crowd control made it far more ubiquitous than is healthy (when you start to see champions like Tank Maokai buying this, you know something's up). Cutting FQC's efficiency and impairing its use as a close-range sticking/peeling tool requires more pre-meditation on the part of it's user to get the same level of crowd control. We'll continue assessing if we need to tone down that spooky.
+				
+				
+					MANA REGENERATION 150% ⇒ 100%
+				
+			
+			
+				WHO YOU GONNA CATCH Slow duration now scales between 2 and 5 seconds based on distance traveled
+			
+			
+				SPOOKY SCARY Ghosts get progressively more spooky as they travel
+			
+		
+
+
+	
+		
+			
+			
+				Sunfire Cape
+			
+			
+				Bring me my cape of suns.
+			
+			
+				Sunfire's often the odd-man out when compared to its cousins: Randuin's Omen and Dead Man's Plate. We're giving it a bump to feel like a real contender when shopping for physical protection.
+			
+			
+				ARMOR 45 ⇒ 50
+			
+		
+	
+
+
+	
+		
+			
+			
+				Guinsoo's Rageblade
+			
+			
+				Bugfixes!
+			
+			
+				GUINSOO'S RANGE Ranged champions no longer activate Guinsoo's Rage on the same basic attack that grants them their eighth stack.
+			
+		
+	
+
+
+	
+		
+			
+			
+				Phantom Dancer
+			
+			
+				Shifted movement speed from Spectral Waltz to base movement speed.
+			
+			
+				Phantom Dancer's intended niche as an item that enables you to seek out and duel champions is betrayed by losing Zeal's movement speed upon upgrading it. We'd still like it to stay on the lower end when not hunting down dance partners, but giving back some strategic movement speed should keep it more than just a phantom.
+			
+			
+				MOVEMENT SPEED 0% ⇒ 5%
+			
+			
+				BONUS MOVEMENT SPEED NEAR ENEMIES 12% ⇒ 7%
+			
+		
+	
+
+
+	
+		
+			
+			
+				Statikk Shiv
+			
+			
+				More damage to minions.
+			
+			
+				While trying to keep the relative balance between Zeal's upgrades, we decided Shiv was lagging behind as a waveclear option. No longer!
+			
+			
+				BONUS DAMAGE TO MINIONS 75% ⇒ 120%
+			
+		
+	
+
+
+	
+		
+			
+			
+				Runaan's Hurricane
+			
+			
+				More movement speed.
+			
+			
+				Similar to Statikk Shiv, Hurricane's getting a power boost to keep Zeal's upgrades close enough that you can use their unique effects (waveclear, teamfighting, kiting, or dueling) as the selling point, not their stats.
+			
+			
+				MOVEMENT SPEED 5% ⇒ 7%
+			
+			
+				BOLT ACQUISITION RANGE Attack range from hitbox center ⇒ edge
+			
+		
+	
+
+
+	
+		
+			
+			
+				Rapid Firecannon
+			
+			
+				Sliiiiiightly less movement speed.
+			
+			
+				The last Zeal item to be touched, Rapid Firecannon is performing about as well as we'd expect. As we were doing our unification pass to balance the four, we saw that 8% is higher than 7%, and that simply won't do.
+			
+			
+				MOVEMENT SPEED 8% ⇒ 7%
+			
+			
+				RAPID SEARCHCANNON Can now be found in the item shop by searching 'RFC'
+			
+		
+	
+
+
+	
+		
+			
+			
+				Lord Dominik's Regards
+			
+			
+				More bonus armor penetration!
+			
+			
+				Last Whisper's upgrades don't have enough of a payoff, even when you'd find their unique effects useful. Now investing gold into either the Giant Slayer or Executioner's upgrade will have a little more 'oomph'.
+			
+			
+				BONUS ARMOR PENETRATION 40% ⇒ 45%
+			
+		
+	
+
+
+	
+		
+			
+			
+				Mortal Reminder
+			
+			
+				Also more bonus armor penetration!
+			
+			
+				You can read the context for this directly above, just a reminder. A mortal reminder.
+			
+			
+				BONUS ARMOR PENETRATION 40% ⇒ 45%
+			
+		
+	
+
+
+	
+		
+			
+			
+				Tiamat
+			
+			
+				Cost down.
+			
+			
+				COMBINE COST 225 ⇒ 175
+			
+			
+				TOTAL COST 1250 gold ⇒ 1200 gold
+			
+		
+	
+
+
+	
+		
+			
+			
+				Ravenous Hydra
+			
+			
+				Cost down.
+			
+			
+				The Hydras are doing well once purchased, but often feel like they take forever to get completed. Along Tiamat's cost being shaved, a reduction in Ravenous Hydra should make them easier to complete.
+			
+			
+				COMBINE COST 1100 gold ⇒ 1050 gold
+			
+			
+				TOTAL COST 3600 gold ⇒ 3500 gold
+			
+		
+	
+
+
+	
+		
+			
+			
+				Titanic Hydra
+			
+			
+				Cost down.
+			
+			
+				This is the same context, only more Titanic.
+			
+			
+				COMBINE COST 750 gold ⇒ 700 gold
+			
+			
+				TOTAL COST 3600 gold ⇒ 3500 gold
+			
+		
+	
+
+
+	
+		
+			
+			
+				Death's Dance
+			
+			
+				Cost, attack damage, physical healing, damage reduction (and bleed damage taken) all increased.
+			
+			
+				Death's Dance is a truly unique effect that provides an even more unique fantasy: someone marked for death, doing everything they can to keep going beyond their final moments. As awesome as that sounds, DD's stat efficiency doesn't exactly set it up to support the champions and builds you'd want it to. Sizing it up to better deliver on expectations.
+			
+			
+				COMBINE COST 525 gold ⇒ 625 gold
+			
+			
+				ATTACK DAMAGE 65 ⇒ 75
+			
+			
+				HEALING 12% physical damage dealt ⇒ 15% physical damage dealt
+			
+			
+				DAMAGE TO BLEED 12% ⇒ 15%
+			
+			
+				MORE DANCE PARTNERS Fixed a bug where the heal wouldn't occur with some on-hit effects, such as Aatrox's W - Blood Price, Blade of the Ruined King, or the Hydras.
+			
+		
+	
+
+
+	Back to top
+
+
+		Masteries
+	
+
+	
+		
+			
+				Ferocity and Stormraider's buffed, Precision nerfed.
+			
+			
+				If you've played even a handful of games on patch 5.24, you probably learned the same thing we did - 8-10 Thunderlord's Decree per game is probably too many. Yet, no Thunderlord's changes. What gives?
+				While Thunderlord's Decree is the go-to mastery when you're looking to dominate your lane, we're leaving it as-is for a few reasons. First, we're looking to it as a 'goalpost' from which we balance the other keystones around. It's something you can easily play around, has a good amount of impact, and synergizes well with certain champion kits. Additionally, we're avoiding playing 'whack-a-mole' with the Keystones (ie: just nerfing whichever is best at any given moment). By recognizing TD's strength and matching others to it, we build a better ecosystem for Keystones where you're free to adapt your builds, rather than just playing champions that abuse the best mastery.
+				So how are we tipping the scales? Injecting some strength back into Ferocity's Keystones while reverting buffs to Precision should help balance things out, no matter how you seek to deal your damage. Toss in a pretty spicy update to Stormraider's Surge and you have a wealth of options at your disposal. It's still possible that Thunderlords is over-tuned after all this, but bringing the others more in line with the leader should help us gauge how big the discrepancy is, rather than just cutting down the top over and over again.
+			
+			
+				Warlord's Bloodlust
+			
+			
+				Less healing early, but more later. Attack speed up.
+			
+			
+				HEAL ON CRITICAL STRIKE 15% of the damage dealt ⇒ 5-25% of the damage dealt (at levels 1-18)
+			
+			
+				ATTACK SPEED 20% ⇒ 30%
+			
+			
+				Fervor of Battle
+			
+			
+				Damage on-hit increased, stacks decreased.
+			
+			
+				DAMAGE ON-HIT 1-8 (at levels 1-18) ⇒ 1-14 (at levels 1-18)
+			
+			
+				MAXIMUM STACKS 10 ⇒ 8
+			
+			
+				Deathfire Touch
+			
+			
+				Ability power and attack damage ratios increased.
+			
+			
+				AD RATIO 0.5 bonus attack damage ⇒ 0.6 bonus attack damage
+			
+			
+				AP RATIO 0.2 ability power ⇒ 0.25 ability power
+			
+			
+				Stormraider's Surge
+			
+			
+				Speed and window to activate increased. Now gives slow resistance.
+			
+			
+				DAMAGE WINDOW 2 seconds ⇒ 2.5 seconds
+			
+			
+				MOVEMENT SPEED 35% ⇒ 40%
+			
+			
+				newHIGHLANDER'S SURGE Gain 75% slow resistance during Stormraider's Surge
+			
+			
+				Precision
+			
+			
+				Armor pen down.
+			
+			
+				BASE ARMOR PENETRATION 5 ⇒ 3
+			
+			
+				ARMOR PENETRATION PER LEVEL 0.5 ⇒ 0.3
+			
+			
+				Strength of the Ages
+			
+			
+				Health restore changed to percent maximum health.
+			
+			
+				BONUS UPON REACHING HEALTH CAP Restore 100 health ⇒ 6% of your maximum health when a nearby siege minion or large monster dies
+			
+			
+				Bond of Stone
+			
+			
+				Damage reduction increased, but no longer doubles.
+			
+			
+				DAMAGE REDUCTION 3% ⇒ 4%
+			
+			
+				removedWORD IS BOND Damage reduction no longer doubles when near an ally
+			
+		
+	
+
+
+	Back to top
+
+
+		Tenacity
+	
+
+	
+		
+			
+				Now reduces the duration of disarms.
+			
+			
+				For those not in the loop, 'disarms' are abilities that remove a player's ability to basic attack. While most cc does this (because you can't move period), Lulu's Whimsy and Amumu's Curse of the Sad Mummy are unique in that they either let you still move (in Lulu's case), or they let you cast spells (in Amumu's).
+				So we're calling them disarms. And now they're affected by Tenacity.
+			
+			
+				The following abilities are affected by Tenacity:
+			
+			
+				Amumu
+			
+			R - Curse of the Sad Mummy
+				
+			
+				Lulu
+			
+			W - Whimsy
+				
+			
+	
+
+
+	Back to top
+
+
+	
+		Howling Abyss
+	
+
+	
+		
+			
+				Vision Fixes
+			
+			
+				Back in 5.22, we did a large sweep and cleanup to how the terrain of Summoner's Rift impacted vision along their edges. Now it's been done for Howling Abyss! A little late for the holidays, but we bet the poros appreciate it anyways.
+			
+			
+				CLARITY Gaining vision inside brush on Howling Abyss better reflects the reality of what is inside that brush.
+			
+			
+				SNOW-TRIMMING Fixed the visuals of the brush on Howling Abyss to better reflect the boundaries of said brush.
+			
+		
+	
+
+
+	Back to top
+
+
+		Bugfixes
+	
+
+	
+		
+			Reverted an unintentional change to summoner name colors in the end of game screen team panels
+				
+				Fixed a bug where Ekko's Q - Timewinder sometimes dealt no damage on the way out at high levels of cooldown reduction
+				
+				Jayce's buff from swapping to R - Mercury Cannon is no longer consumed without dealing damage when using W - Hyper Charge to attack a structure
+				
+				Kassadin no longer gains E - Force Pulse stacks from the active of Frost Queen's Claim
+				
+				Orianna's E - Command: Protect bonus resistances are now properly multiplied by Windspeaker's Blessing
+				
+				Fixed a bug where splitting mastery points between Piercing Thoughts and Battering Blows granted the incorrect amount of stats
+				
+				Fixed a few cases of champions with Sated Devourer damaging themselves when using empowered basic attacks (ex. Ekko's E - Phase Dive or Rek'Sai's Q - Queen's Wrath)
+				
+				Luden's Echo now procs if an ability cast at max stacks damages a target after its caster dies
+				
+				Liandry's Torment now properly deals increased damage to enemies affected by Ahri's E - Charm, Rammus's E - Puncturing Taunt and Shen's E - Shadow Dash
+				
+				Serrated Dirk's buff no longer occasionally consumes itself when granted by an empowered basic attack
+				
+				Cinderhulk's burn effect now has an on-hover range indicator
+				
+				Zz'Rot Portal, Zeke's Herald and Face of the Mountain are now properly searchable by typing \"Active\" in the item shop
+				
+				Mejai's Soulstealer has been added to the Mana tab of the item shop
+				
+				Restored custom flame tail particles on Foxfire Ahri
+				
+			
+	
+
+
+	Back to top
+
+
+		Upcoming Skins
+	
+
+	
+		
+			
+				To commemorate the start of the 2016 season, Challenger Nidalee will be released later this patch!
+			
+			
+				
+					
+					
+						Challenger Nidalee
+					
+				
+			
+		
+	
+
+
+	Back to top
+"
+"10" NA

@@ -1,0 +1,106 @@
+---
+title: "draw_wordcloud"
+author: "Tu hao wei"
+date: "2018/10/10"
+output: html_document
+---
+I want to find out which champion in League of Legends are difficult to be balanced.
+I have an idea. The more frequently it appears in patches, the more difficult to be balanced.
+Therefore, I do this program.
+
+#1. I got patch data from LOL website
+Function to get content on website about data
+```{r setup, include=FALSE}
+rm(list=ls(all.names = TRUE))
+
+library(tmcn)
+library(rvest)
+LOLTestFunction <- function(URL, filename)
+{
+  html  = read_html(URL)
+  
+  #ref: https://rpubs.com/SatoshiLiang/159348
+  #'.' stands for class, '#' stands for id
+  title = html_nodes(html, ".default-2-3 a")
+  href  = html_attr(title, "href")
+  data = data.frame(title = html_text(title),
+                    href = href)
+  getContent <- function(x) {
+    url  = paste0("https://na.leagueoflegends.com", x)
+    tag  = html_node(read_html(url), 'div#patch-notes-container')
+    text = html_text(tag)
+  }
+  #getContent(data$href[1])
+  allText = sapply(data$href, getContent)
+  allText
+  #out <- file(filename, "w", encoding="BIG-5") 
+  write.table(allText, filename) 
+  #close(out) 
+}
+```
+
+Get first 11 pages of patch notes, and save them
+```{r}
+id = c(0:10)
+URL = paste0("https://na.leagueoflegends.com/en/news/game-updates/patch?page=", id)
+filename = paste0(id, ".txt")
+mapply(LOLTestFunction, 
+       URL = URL, filename = filename)
+```
+
+#2. Draw wordcloud
+Get the patch data from txt
+```{r}
+library(NLP)
+library(tm)
+library(jiebaRD)
+library(jiebaR)
+library(RColorBrewer)
+library(wordcloud)
+filenames <- list.files(getwd(), pattern="*.txt")
+files <- lapply(filenames, readLines)
+docs <- Corpus(VectorSource(files))
+```
+
+stem the text
+```{r}
+toSpace <- content_transformer(function(x, pattern) {
+  return (gsub(pattern, " ", x))}
+)
+docs <- tm_map(docs, removeNumbers)
+docs <- tm_map(docs, stripWhitespace)
+docs <- tm_map(docs, removeWords, stopwords("english"))
+```
+
+Manipulate names of champions
+```{r}
+champion.name <- read.csv("../champion_name_3.csv")
+str(champion.name)
+#because the type of champion.name$Name is numeric, turn it into char
+champion.name$Name <- as.character(champion.name$Name)
+```
+
+Generate a matrix of word frequency(name frequencey)
+```{r}
+
+dtm <- TermDocumentMatrix(docs, control = list(tolower = FALSE))
+m <- as.matrix(dtm)
+v <- sort(rowSums(m),decreasing=TRUE)
+d <- data.frame(word = names(v),freq=v)
+selected <- d$word %in% champion.name$Name
+nameFreq <- cbind.data.frame(Name = d$word[selected], Freq = d$freq[selected] )
+
+```
+
+Draw the wordcloud
+```{r}
+par(family=("Heiti TC Light"))
+#ref: https://ithelp.ithome.com.tw/articles/10192052
+wordcloud(words = nameFreq$Name, freq = nameFreq$Freq,
+          scale=c(1,0.1),min.freq=0,max.words=10000,
+          random.order=TRUE, random.color=FALSE, 
+          rot.per=.1, colors=brewer.pal(8, "Dark2"),
+          ordered.colors=FALSE,use.r.layout=FALSE,
+          fixed.asp=TRUE)
+```
+
