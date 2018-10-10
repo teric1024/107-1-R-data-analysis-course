@@ -6,7 +6,8 @@ output: html_document
 ---
 
 ##Ubike location
-```{r setup, include=FALSE}
+
+```{r}
 rm(list = ls(all=TRUE))
 library(leaflet)
 library(magrittr)
