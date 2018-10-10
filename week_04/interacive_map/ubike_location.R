@@ -3,9 +3,6 @@ library(leaflet)
 library(magrittr)
 data <- read.csv("test_ubike.csv")
 options(digits=8)
-lng <- data$result.records.lng[]
-b=lat=locate$Latitude
-c=popup=locate$loc
 
 
 map <- leaflet() %>%
