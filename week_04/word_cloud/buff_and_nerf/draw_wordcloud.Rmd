@@ -8,7 +8,7 @@ I want to find out which champion in League of Legends are difficult to be balan
 I have an idea. The more frequently it appears in patches, the more difficult to be balanced.
 Therefore, I do this program.
 
-#1. I got patch data from LOL website
+#1. Got patch data from LOL website
 Function to get content on website about data
 ```{r setup, include=FALSE}
 rm(list=ls(all.names = TRUE))
@@ -30,12 +30,9 @@ LOLTestFunction <- function(URL, filename)
     tag  = html_node(read_html(url), 'div#patch-notes-container')
     text = html_text(tag)
   }
-  #getContent(data$href[1])
   allText = sapply(data$href, getContent)
   allText
-  #out <- file(filename, "w", encoding="BIG-5") 
   write.table(allText, filename) 
-  #close(out) 
 }
 ```
 
@@ -74,7 +71,7 @@ docs <- tm_map(docs, removeWords, stopwords("english"))
 
 Manipulate names of champions
 ```{r}
-champion.name <- read.csv("../champion_name_3.csv")
+champion.name <- read.csv("champion_name/champion_name_3.csv")
 str(champion.name)
 #because the type of champion.name$Name is numeric, turn it into char
 champion.name$Name <- as.character(champion.name$Name)
@@ -104,3 +101,4 @@ wordcloud(words = nameFreq$Name, freq = nameFreq$Freq,
           fixed.asp=TRUE)
 ```
 
+It seems that Rengar, Kindred, Azir are difficult to be balanced
