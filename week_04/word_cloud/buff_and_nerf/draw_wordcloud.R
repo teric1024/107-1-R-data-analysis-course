@@ -20,7 +20,7 @@ docs <- tm_map(docs, removeWords, stopwords("english"))
 # docs <- tm_map(docs, toSpace, '\\')
 # docs <- tm_map(docs, toSpace, "\n")
 
-champion.name <- read.csv("../champion_name_3.csv")
+champion.name <- read.csv("champion_name/champion_name_3.csv")
 str(champion.name)
 #because the type of champion.name$Name is numeric, turn it into char
 champion.name$Name <- as.character(champion.name$Name)
