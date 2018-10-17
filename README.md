@@ -12,3 +12,6 @@ B06505001 凃皓瑋
 |9/13  | 01   | R and RStudio
 |9/20  | 02   | Web Scraping with R & crawler & RMarkdown
 |9/27  | 03   | ggplot2 & visualizations of geospatial data
+|10/04 |04 | wordcloud & interactive map
+|10/11 |05 | TF-IDF
+|10/18 |06 |
