@@ -1,3 +1,5 @@
+#uncompleted
+
 library(ggplot2)
 mydata = read.csv("../lcs-2017-summer-split-fantasy-player-team-stats/LCS Players Stats Summer Split 2017.csv")
 
@@ -30,7 +32,12 @@ repeat{
 #use above two lines to install package
 
 #failed
-library(magrittr)
 library(ggpubr)
-graph <- ggplot(data = getData, aes(x = Name, y = Game.Played, fill = Team)) + geom_bar(stat = "identity") + facet_wrap(~Team)
-graph
+graph <- vector()
+for(i in 1:length(all.team.name)){
+  team.name <- all.team.name[i]
+  team.Data <- getData[getData[, "Team"] == team.name,]
+  print(ggplot( data = team.Data, aes(x = Name, y = Game.Played) ) +
+          geom_bar( stat = "identity" ) + 
+          ggtitle(team.name) + coord_flip())
+}
