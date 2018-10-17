@@ -41,7 +41,7 @@ library(jiebaR)
 ```
 
 2.PTT爬蟲，將需要的資料抓下來，並按照日期分成不同檔案
-```{r}
+```{r,eval=FALSE}
 
 #get the website url of all the article from every pages
 from <- 17412 # 2018-10-10
