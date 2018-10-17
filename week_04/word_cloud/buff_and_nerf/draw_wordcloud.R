@@ -25,6 +25,7 @@ str(champion.name)
 #because the type of champion.name$Name is numeric, turn it into char
 champion.name$Name <- as.character(champion.name$Name)
 
+tmIndex(docs, champion.name$Name)
 dtm <- TermDocumentMatrix(docs, control = list(tolower = FALSE))
 m <- as.matrix(dtm)
 v <- sort(rowSums(m),decreasing=TRUE)
