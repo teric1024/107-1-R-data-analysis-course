@@ -1,0 +1,307 @@
+---
+title: "PTT C_Chat"
+author: "Tu hao wei"
+date: "2018/10/17"
+output: html_document
+---
+
+#介紹
+使用並修改老師的程式，對PTT的C_Chat版分析，時間從2018-10-9凌晨左右至2018-10-17中午。
+
+下面幾篇文章可能影響結果
+
+```
+作者mistel (Mistel)
+看板C_Chat
+標題[討論] 化學系真的會在實驗室拿燒杯煮咖啡嗎？
+時間Sun Oct 14 12:01:37 2018
+發信站: 批踢踢實業坊(ptt.cc), 來自: 223.137.97.110
+文章網址: https://www.ptt.cc/bbs/C_Chat/M.1539489699.A.933.html
+```
+```
+作者forsakesheep (歐洲羊)
+看板C_Chat
+標題[討論] 從2000年到現在還有在寫作的輕小說家
+時間Tue Oct  9 23:51:55 2018
+發信站: 批踢踢實業坊(ptt.cc), 來自: 111.242.192.49
+文章網址: https://www.ptt.cc/bbs/C_Chat/M.1539100318.A.AF9.html
+```
+#開始
+1.載入packages
+```{r}
+library(bitops)
+library(httr)
+library(RCurl)
+library(XML)
+library(tm)
+library(NLP)
+library(tmcn)
+library(jiebaRD)
+library(jiebaR)
+```
+
+2.PTT爬蟲，將需要的資料抓下來，並按照日期分成不同檔案
+```{r,eval=FALSE}
+
+#get the website url of all the article from every pages
+from <- 17412 # 2018-10-10
+to   <- 17550 # 2018-10-17
+prefix = "https://www.ptt.cc/bbs/C_Chat/index"
+data <- list()
+for( id in c(from:to) )
+{
+  url  <- paste0( prefix, as.character(id), ".html" )
+  html <- htmlParse( GET(url) )
+  url.list <- xpathSApply( html, "//div[@class='title']/a[@href]", xmlAttrs )
+  data <- rbind( data, as.matrix(paste('https://www.ptt.cc', url.list, sep='')) )
+}
+data <- unlist(data)
+head(data)
+
+#get all the context, and sort them by date
+library(dplyr)
+getdoc <- function(url)
+{
+  html <- htmlParse( getURL(url) )
+  doc  <- xpathSApply( html, "//div[@id='main-content']", xmlValue )
+  time <- xpathSApply( html, "//*[@id='main-content']/div[4]/span[2]", xmlValue )
+  temp <- gsub( "  ", " 0", unlist(time) )
+  part <- strsplit( temp, split=" ", fixed=T )
+  #part form like -> "Tue"      "Oct"      "09"       "23:43:27" "2018"
+  date <- part[[1]][3]
+  day <- part[[1]][1]
+  #print(date and dat)
+  name <- paste0('./DATA/', date, "__", day, ".txt")
+  write(doc, name, append = TRUE)
+}
+test.data <- data[1:1058]
+sapply(test.data, getdoc)
+#structure of data[1059] is not as same as the others
+#https://www.ptt.cc/bbs/C_Chat/M.1539346213.A.3D3.html
+test.data = data[1060:1437]
+sapply(test.data, getdoc)
+
+#structure of data[1438] is not as same as the others
+#https://www.ptt.cc/bbs/C_Chat/M.1539438107.A.869.html
+test.data <- data[1439:2724]
+sapply(test.data, getdoc)
+
+#cannot opent data[2161]
+#https://www.ptt.cc/bbs/C_Chat/M.1539603620.A.E09.html
+test.data <- data[2162:2724]
+sapply(test.data, getdoc)
+
+#stop at data[2311]
+#https://www.ptt.cc/bbs/C_Chat/M.1539645748.A.C76.html
+test.data <- data[2311:2724]
+sapply(test.data, getdoc)
+
+#stop at data[2724]
+#https://www.ptt.cc/bbs/C_Chat/M.1539747042.A.B75.html
+```
+
+3.建立Corpus並清洗
+```{r}
+
+#cleaning and add new words
+d.corpus <- Corpus( DirSource("./DATA") )
+toSpace <- content_transformer(function(x, pattern) {
+  return (gsub(pattern, " ", x))
+})
+
+d.corpus <- tm_map(d.corpus, toSpace, "　")
+d.corpus <- tm_map(d.corpus, toSpace, "︳")
+d.corpus <- tm_map(d.corpus, toSpace, "・")
+d.corpus <- tm_map(d.corpus, toSpace, "ー")
+d.corpus <- tm_map(d.corpus, toSpace, "小說")
+d.corpus <- tm_map(d.corpus, toSpace, "覺得")
+d.corpus <- tm_map(d.corpus, toSpace, "可以")
+d.corpus <- tm_map(d.corpus, toSpace, "沒有")
+d.corpus <- tm_map(d.corpus, toSpace, "就是")
+d.corpus <- tm_map(d.corpus, toSpace, "標題")
+d.corpus <- tm_map(d.corpus, toSpace, "編輯")
+d.corpus <- tm_map(d.corpus, toSpace, "發信站")
+d.corpus <- tm_map(d.corpus, toSpace, "批踢踢實業坊")
+d.corpus <- tm_map(d.corpus, toSpace, "自己")
+d.corpus <- tm_map(d.corpus, toSpace, "應該")
+d.corpus <- tm_map(d.corpus, toSpace, "知道")
+d.corpus <- tm_map(d.corpus, toSpace, "真的")
+d.corpus <- tm_map(d.corpus, toSpace, "不會")
+d.corpus <- tm_map(d.corpus, toSpace, "動畫")
+d.corpus <- tm_map(d.corpus, toSpace, "不是")
+d.corpus <- tm_map(d.corpus, toSpace, "只是")
+d.corpus <- tm_map(d.corpus, toSpace, "所以")
+d.corpus <- tm_map(d.corpus, toSpace, "不會")
+
+d.corpus <- tm_map(d.corpus, toSpace, "pttcc")
+d.corpus <- tm_map(d.corpus, toSpace, "CChat")
+d.corpus <- tm_map(d.corpus, toSpace, "enfis")
+d.corpus <- tm_map(d.corpus, toSpace, "Wed")
+d.corpus <- tm_map(d.corpus, toSpace, "Thu")
+d.corpus <- tm_map(d.corpus, toSpace, "Fri")
+d.corpus <- tm_map(d.corpus, toSpace, "Sat")
+d.corpus <- tm_map(d.corpus, toSpace, "Sun")
+d.corpus <- tm_map(d.corpus, toSpace, "Mon")
+d.corpus <- tm_map(d.corpus, toSpace, "Tue")
+d.corpus <- tm_map(d.corpus, toSpace, "Wed")
+d.corpus <- tm_map(d.corpus, toSpace, "dukemon")#person's ID
+
+
+d.corpus <- tm_map(d.corpus, removePunctuation)
+d.corpus <- tm_map(d.corpus, removeNumbers)
+
+```
+
+4.建立詞庫(2018秋季動畫詞庫)
+```{r}
+mixseg = worker()
+new_user_word(mixseg,'哥布林',"n")
+new_user_word(mixseg,'哥殺',"n")
+new_user_word(mixseg,'哥布林殺手',"n")
+new_user_word(mixseg,'魔禁',"n")
+new_user_word(mixseg,'魔法禁書目錄',"n")
+new_user_word(mixseg,'提拉米斯',"n")
+new_user_word(mixseg,'魔導少年',"n")
+new_user_word(mixseg,'妖尾',"n")
+new_user_word(mixseg,'妖精的尾巴',"n")
+new_user_word(mixseg,'電光超人',"n")
+new_user_word(mixseg,'繽紛世界',"n")
+new_user_word(mixseg,'青春豬頭少年',"n")
+new_user_word(mixseg,'終將成為妳',"n")
+new_user_word(mixseg,'莉茲與青鳥',"n")
+new_user_word(mixseg,'逆轉裁判',"n")
+new_user_word(mixseg,'弦音',"n")
+new_user_word(mixseg,'佐賀偶像',"n")
+new_user_word(mixseg,'莉茲與青鳥',"n")
+
+```
+
+
+5.進行斷詞，並依照日期建立文本矩陣 TermDocumentMatrix
+```{r}
+jieba_tokenizer = function(d)
+{
+  unlist( segment(d[[1]], mixseg) )
+}
+seg = lapply(d.corpus, jieba_tokenizer)
+
+count_token = function(d)
+{
+  as.data.frame(table(d))
+}
+tokens = lapply(seg, count_token)
+
+n = length(seg)
+TDM = tokens[[1]]
+colNames <- names(seg)
+colNames <- gsub(".txt", "", colNames)
+for( id in c(2:n) )
+{
+  TDM = merge(TDM, tokens[[id]], by="d", all = TRUE)
+  names(TDM) = c('d', colNames[1:id])
+}
+TDM[is.na(TDM)] <- 0
+#take out
+TDM$d <- as.character(TDM$d)
+TDM <- TDM[nchar(TDM$d)>1,]#去除字數是1的詞
+library(knitr)
+kable(head(TDM))
+kable(tail(TDM))
+
+```
+
+6.TDM  -> TF-IDF
+```{r}
+tf <- apply(as.matrix(TDM[,2:(n+1)]), 2, sum)
+
+library(Matrix)
+idfCal <- function(word_doc)
+{ 
+  log2( n / nnzero(word_doc) ) 
+}
+idf <- apply(as.matrix(TDM[,2:(n+1)]), 1, idfCal)
+
+doc.tfidf <- TDM
+
+tempY = matrix(rep(c(as.matrix(tf)), each = length(idf)), nrow = length(idf))
+tempX = matrix(rep(c(as.matrix(idf)), each = length(tf)), ncol = length(tf), byrow = TRUE)
+doc.tfidf[,2:(n+1)] <- (doc.tfidf[,2:(n+1)] / tempY) * tempX
+
+stopLine = rowSums(doc.tfidf[,2:(n+1)])
+delID = which(stopLine == 0)
+
+kable(head(doc.tfidf[delID,1]))
+kable(tail(doc.tfidf[delID,1]))
+TDM = TDM[-delID,]
+doc.tfidf = doc.tfidf[-delID,]
+
+```
+
+7.取得關鍵字
+```{r}
+TopWords = data.frame()
+for( id in c(1:n) )
+{
+  dayMax = order(doc.tfidf[,id+1], decreasing = TRUE)
+  showResult = t(as.data.frame(doc.tfidf[dayMax[1:5],1]))
+  TopWords = rbind(TopWords, showResult)
+}
+rownames(TopWords) = colnames(doc.tfidf)[2:(n+1)]
+TopWords <- TopWords[1:9,]
+TopWords = droplevels(TopWords)
+kable(TopWords)
+```
+
+10/9的資料因為只有取一點點而已，所以不太能構成參考
+10/9會出現宮部和上遠野的原因應該是此報告最前方的一篇討論--“從2000年到現在還有在寫作的輕小說家”。
+此篇內容出現日本小說家宮部美幸、上遠野浩平。
+10/9中的peco是為動畫【乒乓】的主角之一，應該是取資料時取到了討論【乒乓】的文章。
+
+10/14出現的燒杯也是因為一篇用燒杯煮咖啡的文章，加上後續討論，讓其出現在關鍵字中
+
+至於常出現的非垃圾字有哥布林和哥殺，都是和本季動畫【哥布林殺手】有關的關鍵字，由此可見，【哥布林殺手】的討論度是很高的。
+
+8.用取得的關鍵字將TDM視覺化
+```{r}
+AllTop = as.data.frame( table(as.matrix(TopWords)) )
+AllTop = AllTop[order(AllTop$Freq, decreasing = TRUE),]
+
+kable(head(AllTop))
+
+TopNo = 5
+tempGraph = data.frame()
+for( t in c(1:TopNo) )
+{
+  word = matrix( rep(c(as.matrix(AllTop$Var1[t])), each = n), nrow = n )
+  temp = cbind( colnames(doc.tfidf)[2:(n+1)], t(TDM[which(TDM$d == AllTop$Var1[t]), 2:(n+1)]), word )
+  colnames(temp) = c("date", "freq", "words")
+  tempGraph = rbind(tempGraph, temp)
+  names(tempGraph) = c("date", "freq", "words")
+}
+
+library(ggplot2)
+library(varhandle)
+tempGraph$freq = unfactor(tempGraph$freq)
+par(family=("Heiti TC Light")) #已經加了這一行，不知為何字顯示出來還是框框
+ggplot(tempGraph, aes(date, freq)) + 
+  geom_point(aes(color = words, shape = words), size = 5) +
+  geom_line(aes(group = words, linetype = words)) + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+kable(tail(AllTop))
+```
+
+
+9.發文時間與發文量的關係作圖
+```{r}
+filenames = as.array(paste0("./DATA/",colnames(doc.tfidf)[2:(n+1)],".txt"))
+sizeResult = apply(filenames, 1, file.size) / 1024
+showSize = data.frame(colnames(doc.tfidf)[2:(n+1)], sizeResult)
+names(showSize) = c("date", "size_KB")
+
+ggplot(showSize, aes(x = date, y = size_KB)) + geom_bar(stat="identity")+ 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+```
+
+原本預期假日的發文的資料量會最大，但其實沒有。
+我想是因為我是以發文的日期做檔案分割，但回文的日期可以和發文的日期錯開，所以無法看出明確差距
