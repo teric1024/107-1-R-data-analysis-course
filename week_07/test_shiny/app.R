@@ -15,24 +15,47 @@ ui <- fluidPage(
    # Application title
    titlePanel("Old Faithful Geyser Data"),
    
-   # Sidebar with a slider input for number of bins 
-   sidebarLayout(
-      sidebarPanel(
-         sliderInput("bins",
-                     "Number of bins:",
-                     min = 1,
-                     max = 50,
-                     value = 30),
-         textInput("textin", h3("Text input"), 
-                   value = "Enter text...")
-      ),
-      
-      # Show a plot of the generated distribution
-      mainPanel(
-         plotOutput("distPlot"),
-         textOutput("textout")
-      )
+   fluidRow(
+     column(4,
+            wellPanel(
+              h3("Action button"),
+              actionButton("action", label = "Action"),
+              hr(),
+              p("Current Value:", style = "color:#888888;"), 
+              verbatimTextOutput("actionOut"),
+              a("See Code", class = "btn btn-primary btn-md", 
+                href = "https://gallery.shinyapps.io/068-widget-action-button/")
+            )),
+     
+     column(2,
+            h3("Single checkbox"),
+            checkboxInput("checkbox", "Choice A", value = TRUE),
+            ),
+     column(2, 
+            checkboxGroupInput("checkGroup", 
+                               h3("Checkbox group"), 
+                               choices = list("Choice 1" = 1, 
+                                              "Choice 2" = 2, 
+                                              "Choice 3" = 3),
+                               selected = 1))
    )
+   # sidebarLayout(
+   #    sidebarPanel(
+   #       sliderInput("bins",
+   #                   "Number of bins:",
+   #                   min = 1,
+   #                   max = 50,
+   #                   value = 30),
+   #       textInput("textin", h3("Text input"), 
+   #                 value = "Enter text...")
+   #    ),
+   #    
+   #    # Show a plot of the generated distribution
+   #    mainPanel(
+   #       plotOutput("distPlot"),
+   #       textOutput("textout")
+   #    )
+   # )
 )
 
 # Define server logic required to draw a histogram
