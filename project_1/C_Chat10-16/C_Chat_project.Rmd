@@ -1,7 +1,7 @@
 ---
-title: "test"
+title: "C_Chat_project"
 author: "Tu hao wei"
-date: "2018/11/12"
+date: "2018/11/14"
 output: html_document
 ---
 #介紹
@@ -17,16 +17,9 @@ output: html_document
 發信站: 批踢踢實業坊(ptt.cc), 來自: 223.137.97.110
 文章網址: https://www.ptt.cc/bbs/C_Chat/M.1539489699.A.933.html
 ```
-```
-作者forsakesheep (歐洲羊)
-看板C_Chat
-標題[討論] 從2000年到現在還有在寫作的輕小說家
-時間Tue Oct  9 23:51:55 2018
-發信站: 批踢踢實業坊(ptt.cc), 來自: 111.242.192.49
-文章網址: https://www.ptt.cc/bbs/C_Chat/M.1539100318.A.AF9.html
-```
+
 #開始
-1.載入packages
+###1.載入packages
 ```{r}
 library(bitops)
 library(httr)
@@ -48,7 +41,7 @@ library(car)
 library(lattice)
 ```
 
-2.PTT爬蟲，將需要的資料抓下來，並按照日期分成不同檔案
+###2.PTT爬蟲，將需要的資料抓下來，並按照日期分成不同檔案
 ```{r,eval=FALSE}
 
 #get the website url of all the article from every pages
@@ -108,7 +101,7 @@ sapply(test.data, getdoc)
 #https://www.ptt.cc/bbs/C_Chat/M.1539747042.A.B75.html
 ```
 
-3.建立Corpus並清洗
+###3.建立Corpus並清洗
 ```{r}
 
 #cleaning and add new words
@@ -142,35 +135,13 @@ d.corpus <- tm_map(d.corpus, toSpace, "所以")
 d.corpus <- tm_map(d.corpus, toSpace, "不會")
 
 d.corpus <- tm_map(d.corpus, toSpace, "[a-zA-Z]")
-# 
-# d.corpus <- tm_map(d.corpus, toSpace, "pttcc")
-# d.corpus <- tm_map(d.corpus, toSpace, "CChat")
-# d.corpus <- tm_map(d.corpus, toSpace, "enfis")
-# d.corpus <- tm_map(d.corpus, toSpace, "Wed")
-# d.corpus <- tm_map(d.corpus, toSpace, "Thu")
-# d.corpus <- tm_map(d.corpus, toSpace, "Fri")
-# d.corpus <- tm_map(d.corpus, toSpace, "Sat")
-# d.corpus <- tm_map(d.corpus, toSpace, "Sun")
-# d.corpus <- tm_map(d.corpus, toSpace, "Mon")
-# d.corpus <- tm_map(d.corpus, toSpace, "Tue")
-# d.corpus <- tm_map(d.corpus, toSpace, "Wed")
-# 
-# #person's ID
-# d.corpus <- tm_map(d.corpus, toSpace, "dukemon")
-# d.corpus <- tm_map(d.corpus, toSpace, "deathly")
-# d.corpus <- tm_map(d.corpus, toSpace, "likeaprayer")
-# d.corpus <- tm_map(d.corpus, toSpace, "hayuyang")
-# d.corpus <- tm_map(d.corpus, toSpace, "etvalen")
-# d.corpus <- tm_map(d.corpus, toSpace, "shadowblade")
-# d.corpus <- tm_map(d.corpus, toSpace, "xbearboy")
-
 
 d.corpus <- tm_map(d.corpus, removePunctuation)
 d.corpus <- tm_map(d.corpus, removeNumbers)
 
 ```
 
-4.建立詞庫(2018秋季動畫詞庫)
+###4.建立詞庫(2018秋季動畫詞庫)
 ```{r}
 mixseg = worker()
 new_user_word(mixseg,'哥布林',"n")
@@ -195,7 +166,7 @@ new_user_word(mixseg,'刀劍神域',"n")
 ```
 
 
-5.進行斷詞，並依照日期建立文本矩陣 TermDocumentMatrix
+###5.進行斷詞，並依照日期建立文本矩陣 TermDocumentMatrix
 ```{r}
 jieba_tokenizer = function(d)
 {
@@ -228,7 +199,7 @@ kable(tail(TDM))
 
 ```
 
-6.TDM  -> TF-IDF
+###6.TDM  -> TF-IDF
 ```{r}
 tf <- apply(as.matrix(TDM[,2:(n+1)]), 2, sum)
 
@@ -260,10 +231,12 @@ TDM = TDM[-delID,]
 doc.tfidf = doc.tfidf[-delID,]
 
 ```
+
+
 “哥布林”和“哥布林殺手“兩詞每天都有出現在討論中，所以TF-IDF運算時會把他們去除。
 但這邊將他們特別留下，的原因是他們都是和此季動畫有關聯的詞語。
 
-7.取得關鍵字 (tfidf)
+###7.取得關鍵字 (tfidf)
 ```{r}
 TopWords.tfidf = data.frame()
 for( id in c(1:n) )
@@ -278,11 +251,13 @@ TopWords.tfidf = droplevels(TopWords.tfidf)
 kable(TopWords.tfidf)
 
 ```
+
+
 因為剛剛提過的“哥布林”和“哥布林殺手”兩詞所造成的影響，
 以TDM和TF-IDF的矩陣所做出的關鍵字會略有不同。
 
 
-7.1取得關鍵字 (TDM)
+###7.1取得關鍵字 (TDM)
 ```{r}
 TopWords.TDM = data.frame()
 for( id in c(1:n) )
@@ -296,9 +271,11 @@ TopWords.TDM <- TopWords.TDM[1:7,]
 TopWords.TDM = droplevels(TopWords.TDM)
 kable(TopWords.TDM)
 ```
+
+
 以TDM做出的關鍵字明顯可以看出“哥布林”盤據了許多位置。
 
-8.用取得的關鍵字將TDM視覺化
+###8.用取得的關鍵字將TDM視覺化
 ```{r}
 AllTop = as.data.frame( table(as.matrix(TopWords.tfidf)) )
 AllTop = AllTop[order(AllTop$Freq, decreasing = TRUE),]
@@ -325,23 +302,30 @@ ggplot(tempGraph, aes(date, freq)) +
   theme(text = element_text(family = "黑體-繁 中黑"))
 kable(tail(AllTop))
 ```
+
+
 以下分別討論圖片上的五個詞語
+
 1.會陰
   https://www.ptt.cc/bbs/C_Chat/M.1539521892.A.1C4.html
   https://www.ptt.cc/bbs/C_Chat/M.1539439827.A.187.html
   原因是上面兩篇動畫哥布林殺手衍生出的安價文[註8-1]。
-  地下網友的安價內容不斷出現會陰，使得此詞彙出現頻率變高
+  底下網友的安價內容不斷出現會陰，使得此詞彙出現頻率變高。
+
 2.春希
   https://www.ptt.cc/bbs/C_Chat/M.1539301985.A.646.html
   春希兩字是白色相簿2的男主角，10/12有一篇關於白色相簿二的心得，
   應該是此原因造成春希一詞出現。
+  
 3.單眼
   https://www.ptt.cc/bbs/C_Chat/M.1539148627.A.C6A.html
   這一篇討論是討論如果角色只剩下單眼，戰力會剩多少。
   光是此篇內容就出現了17次單眼。
+
 4.福爾摩斯
   https://www.ptt.cc/bbs/C_Chat/M.1539693510.A.8D4.html
   這篇文章是在探討為何福爾摩斯沒有動畫化，所以福爾摩斯出現的次數頻繁，多達35次。
+
 5.化學系
   https://www.ptt.cc/bbs/C_Chat/M.1539489699.A.933.html
   這篇文章是在討論化學系會不會在實驗室用燒杯煮咖啡。
@@ -354,7 +338,7 @@ kable(tail(AllTop))
   
   
 
-9.發文時間與發文量的關係作圖
+###9.發文時間與發文量的關係作圖
 ```{r}
 filenames = as.array(paste0("./DATA/",colnames(doc.tfidf)[2:(n+1)],".txt"))
 sizeResult = apply(filenames, 1, file.size) / 1024
@@ -363,11 +347,13 @@ names(showSize) = c("date", "size_KB")
 
 ggplot(showSize, aes(x = date, y = size_KB)) + geom_bar(stat="identity") 
 ```
+
+
 原本預期假日的發文的資料量會最大，但其實沒有。
 我猜是因為我是以發文的日期為基準做檔案分割。
 PTT上回文的日期可能和發文的日期錯開，所以無法看出明確差距。
 
-10.wordcloud (TDM)
+###10.wordcloud (TDM)
 ```{r}
 library(wordcloud)
 wc.matrix.tdm <- data.frame(
@@ -382,12 +368,14 @@ wordcloud(wc.matrix.tdm$word, wc.matrix.tdm$freq, scale=c(5,0.1),max.words=50,
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
 ```
+
+
 哥布林幾乎佔據了大部分版面，除了”哥布林殺手“(本季動畫)的大部分貢獻外，
 本季另一個動畫“關於我轉生變成史萊姆這檔事”可能也有小部分的貢獻。
 此動畫中也有出現哥布林。
 合理推斷哥布林殺手是當時討論度最高的動畫。
 
-10-1. wordcloud (TF-IDF)
+###10-1. wordcloud (TF-IDF)
 ```{r}
 wc.matrix.tfidf <- data.frame(
   word = doc.tfidf$d,
@@ -401,50 +389,65 @@ wordcloud(wc.matrix.tfidf$word, wc.matrix.tfidf$freq, scale=c(5,0.1),max.words=5
           ordered.colors=FALSE,use.r.layout=FALSE,
           fixed.asp=TRUE)
 ```
+
+
 稍微討論文字雲中佔較大面積的詞彙
+
 1.燒杯、化學系
   前面提過的文章“化學系會不會在實驗室用燒杯煮咖啡”。
   將其歸類為”青春豬頭“。
+
 2.貓箱
   https://www.ptt.cc/bbs/C_Chat/M.1539243479.A.09B.html
   此貓箱意指著名的思想實驗--薛丁格的貓。一樣是”青春豬頭“中所提及。
+
 3.會陰
   前面提過的安價文章。由”哥布林殺手“的安價文所帶起。
+
 4.剖腹
   https://www.ptt.cc/bbs/C_Chat/M.1539136998.A.A6A.html
   出現的原因應該是此篇轉貼新聞的文章，內容是”光之美少女“動畫提及剖腹產。
   在此篇文章中不斷出現剖腹這個關鍵字。
+
 5.烏龍茶
   https://www.ptt.cc/bbs/C_Chat/M.1539439827.A.187.html
   出現的原因又是哥布林殺手的安價，但烏龍茶的梗是出自上一季的動畫“碧藍之海”。
 
 剩下的一些大致歸類一下
+
 1.青春豬頭(本季)
   梓川楓、量子、觀測、衰變
+
 2.哥布林殺手(本季)
   釋疑(文章標題：哥殺世界觀常見矛盾整理釋疑)、
   聖壁、倭寇(出自：哥殺世界觀常見矛盾整理釋疑)
+
 3.終將成為你(本季)
   燈子
+
 4.東離劍遊紀(本季)
   凜雪鴉
+
 5.bananafish(跨季)
   亞修
+
 6.獵人HunterXHunter
-  老五(應為莫老五)、凱特、
+  老五(應為莫老五)、凱特
+
 7.哈利波特
   西莫、奈威
+
 8.殺戮天使
   瑞依
+
 9.白色相簿2
   春希、千晶、雪菜
+
 10.taritari
   紗羽
 
 
-
-
-11.每日的詞語出現次數(use TDM)
+###11.每日的詞語出現次數(use TDM)
 ```{r}
 for (i in c(2:8)){
   top10ID = head(order(TDM[, i], decreasing = TRUE), 10)
@@ -458,12 +461,13 @@ for (i in c(2:8)){
   )
 }
 ```
+
 這邊比較有趣的地方是10/11的圖表，除了第一名的哥布林外，
 其他的都是有關“青春豬頭”的詞彙。而“青春豬頭”的首播時間是10/4的凌晨。
 第二集播出的時間是10/11號的凌晨，在播映當天的討論度也最高。
 
 
-12 PCA (日子之間)
+###12 PCA (日子之間)
 ```{r}
 library(ggfortify)
 word.doc.tfidf <- subset(doc.tfidf,select = -d)
@@ -475,12 +479,16 @@ plot(princomp.date, pch = 19, cex = 0.8)
 ```
 
 
-13.PCA & K-means (日子之間的關聯性)
+###13.PCA & K-means (日子之間的關聯性)
 ```{r}
 k.date <- 3
 km.date <- kmeans(princomp.date,centers = k.date,nstart=25, iter.max=1000)
 plot(princomp.date, col=km.date$cluster, pch=16)
 autoplot(km.date, data = pcs.date, label = TRUE, label.size = 3)
 ```
+
 前面提過10/11號但“青春豬頭”第二集播出當天引起討論。
 10/14就是前面提過的實驗室煮咖啡文章的發文日期。
+
+
+最後，我想這季的開局討論度最高的就是“哥布林殺手”了，其次是“青春豬頭”。令我意外的是“魔禁”和“刀劍”這兩個有名氣的續作竟然沒有出現。

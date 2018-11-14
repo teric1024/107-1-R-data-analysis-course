@@ -1,0 +1,13 @@
+name: C_Chat10-16
+title: C_Chat10-16
+username:
+account: teric1024
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 570316
+bundleId: 1700170
+url: https://teric1024.shinyapps.io/C_Chat10-16/
+when: 1542190954.57338
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: C_Chat_project.html|C_Chat_project.Rmd|testChinese.R

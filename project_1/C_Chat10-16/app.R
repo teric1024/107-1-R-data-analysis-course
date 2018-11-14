@@ -308,7 +308,7 @@ ui <- navbarPage(
    tabPanel("PCA_1",
             mainPanel(plotOutput("pca.graph_1"))),
    tabPanel("PCA_2",
-            mainPanel(plotOutput("pca_graph_2"))),
+            mainPanel(plotOutput("pca.graph_2"))),
    tabPanel("日子之間的關聯性",
             sidebarPanel(numericInput(
               "k1",
@@ -387,8 +387,6 @@ server <- function(input, output) {
   output$pca.graph_1 <- renderPlot({
     pcs.date <- prcomp(t(word.doc.tfidf), center = F, scale = F)
     autoplot(pcs.date$x,data = newdoc, shape = FALSE, label.size = 3)
-    princomp.date <- data.frame(pcs.date$x[,1:7])
-    plot(princomp.date, pch = 19, cex = 0.8)
   })
   output$pca.graph_2 <- renderPlot({
     pcs.date <- prcomp(t(word.doc.tfidf), center = F, scale = F)
