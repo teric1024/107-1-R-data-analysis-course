@@ -8,3 +8,4 @@ B06505001 凃皓瑋
 ### Link
 - [shiny](https://teric1024.shinyapps.io/C_Chat10-16/)
 - [C_Chat project](https://teric1024.github.io/107-1-R-data-analysis-course/project_1/C_Chat10-16/C_Chat_project.html)
+- [投影片](https://docs.google.com/presentation/d/1PwN1Kps5T7jLCp8paODIvZKkZmam7xQKoXIPYvxWhGk/edit?usp=sharing)
