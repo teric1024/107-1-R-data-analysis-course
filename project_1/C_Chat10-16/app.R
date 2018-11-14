@@ -346,7 +346,7 @@ server <- function(input, output) {
     )
     par(family=("Heiti TC Light"))
     row.names(wc.matrix.tfidf)=NULL
-    print(wordcloud(wc.matrix.tfidf$word, wc.matrix.tfidf$freq, scale=c(3,0.1),max.words=50,
+    print(wordcloud(wc.matrix.tfidf$word, wc.matrix.tfidf$freq, scale=c(5,0.1),max.words=50,
               random.order=FALSE, random.color=TRUE, 
               rot.per=.1, colors=brewer.pal(8,"Dark2"),
               ordered.colors=FALSE,use.r.layout=FALSE,
@@ -395,6 +395,8 @@ server <- function(input, output) {
   })
   output$pcak.graph_1 <- renderPlot({
     k.date <- input$k1
+    pcs.date <- prcomp(t(word.doc.tfidf), center = F, scale = F)
+    princomp.date <- data.frame(pcs.date$x[,1:7])
     km.date <- kmeans(princomp.date,centers = k.date,nstart=25, iter.max=1000)
     plot(princomp.date, col=km.date$cluster, pch=16)
     autoplot(km.date, data = pcs.date, label = TRUE, label.size = 3)
