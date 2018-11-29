@@ -42,15 +42,17 @@ calc_GPA(credits, each_GPA)
 # 請幫他寫一個函數 which_to_withdraw 
 # 輸入是某個科目(ex: "which_to_withdraw("Calculus")")
 # 輸出是停修該科後的加權 GPA
-which_to_withdraw <- function(credit, gpa){
-  
+which_to_withdraw <- function(subject){
+  index <- match(subject, subjects)
+  return (calc_GPA(credits[-index], each_GPA[-index]))
 }
-
+lapply(subjects, which_to_withdraw)
 # 1.6 (5%)
 # 在 ming 多新增一欄 "if_withdraw" 並存到變數 ming2
 # 值為「若捨棄該科，GPA會變成多少」
 # 注意：請不要變動 ming1 
-ming2 <- 
+ming2 <- ming1
+ming2$if_withdraw = sapply(subjects, which_to_withdraw)
 
 # 1.7 (5%)
 # 小明要出發回到過去了，他應該停修哪一科？存到變數 withdrawal 中
