@@ -1,8 +1,8 @@
-### [課程投影片](https://ppt.cc/fxQ79x)
 
-## Data Details
-1. 英文新聞資料：path/news.txt
-2. 使用 NLTK 完成 NER 範例程式：NER.ipynb
+# R-data-analysis-course_Week_12
+B06505001 凃皓瑋
 
-## 本週任務
-將沒有做過 NER 的資料，加入 NER，再銜接以前做過的方法，看看有甚麼不同。
+### Introdution of works
+---
+[NRE with ntlk](https://teric1024.github.io/107-1-R-data-analysis-course/week_12/NER.html)
+[data from BBC](https://www.bbc.com/news/world-asia-34729538)
