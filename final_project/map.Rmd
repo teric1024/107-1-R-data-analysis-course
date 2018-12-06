@@ -1,0 +1,64 @@
+---
+title: "MEME REVIEW"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Import neccessary libraries
+
+```{r library}
+library(ggplot2)
+library(maptools)
+library(rgeos)
+library(scales)
+library(ggmap)
+library(RColorBrewer)
+## set the shapefile
+setwd("C:/Users/andy/Downloads/cpp_hw4/107-1-R-data-analysis-course/final_project/data/")
+states.shp <- readShapeSpatial("VILLAGE_MOI_1071031.shp")
+class(states.shp)
+
+```
+
+Begin webcrawling from wikipedia,and process the data we need into data frame.
+
+```{r read website}
+mydata <- read.csv("C:/Users/andy/Downloads/cpp_hw4/107-1-R-data-analysis-course/final_project/data/results2/7.CSV",fileEncoding = "Big-5")
+head(mydata)
+states.shp.f <- fortify(states.shp)
+class(states.shp.f)
+head(states.shp.f)
+
+#merge with coefficients and reorder
+merge.shp.coef <- merge(states.shp.f, mydata, by="id", all.x=TRUE)
+final.plot <- merge.shp.coef[order(merge.shp.coef$order), ]
+```
+
+Generate map.Markers show the name of the temples.
+
+```{r map}
+#basic plot
+ggplot() +
+ geom_polygon(data = final.plot,
+ aes(x = long, y = lat, group = group,
+     fill = FHN),
+     color = "black", size = 0.25) +
+ coord_map()
+
+cnames <- aggregate(cbind(long, lat) ~ COUNTYNAME, data=final.plot, FUN=function(x) mean(range(x)))
+ggplot() +
+ geom_polygon(data = final.plot,
+ aes(x = long, y = lat, group = group, fill = FHN),
+ color = "black", size = 0.25) +
+ coord_map() +
+ scale_fill_distiller(name="Enterprise", palette = "YlGn", breaks = pretty_breaks(n = 5))+
+ theme_nothing(legend = TRUE)+
+ labs(title="FHN of AGR in Taiwan")+
+ geom_text(data=cnames, aes(long, lat, label = COUNTYNAME), size=3, fontface="bold")
+
+
+```
+It shows that most temples are located in Greece(obviously),but some are also located in Italy and Turkey somehow.
