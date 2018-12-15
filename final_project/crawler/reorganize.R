@@ -1,9 +1,11 @@
 rm(list=ls(all.names = TRUE))
 
-filenames <- list.files(getwd(), pattern="*.csv")
+#filenames <- list.files(getwd(), pattern="*.csv")
+filenames <- list.files(getwd(), pattern="*new")
 
 sortdata <- function(filename){
-  data1<-read.table(filename, header=T, sep="\t")
+#filename = filenames[1]
+  data1<-read.table(filename, header=T, sep=",")
   areaname <- as.vector(data1[["地區"]])
   split.area <- function(name){
     name <- as.character(name)
@@ -17,6 +19,8 @@ sortdata <- function(filename){
   data1$"地區" <- NULL
   return (data1)
 }
+
+#test <- sortdata("test.csv")
 
 alldata <- data.frame()
 for (x in filenames){
