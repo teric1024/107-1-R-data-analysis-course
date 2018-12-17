@@ -5,7 +5,7 @@ B06505006 陳奕舟
 
 ---
 ### Progress
-
+https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book2_24663/Sheet1?publish=yes
 ---
 ### Reference
 [中選會 爬蟲方式](https://www.youtube.com/watch?v=pADAYCJ707E)
