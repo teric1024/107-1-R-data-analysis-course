@@ -5,7 +5,11 @@ B06505006 陳奕舟
 
 ---
 ### Progress
+(以縣市首長勝者總票)
 https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book2_24663/Sheet1?publish=yes
+---
+(以各區票數最高，數字為公投及首長票數相除)
+https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book4_4324/Sheet1?publish=yes
 ---
 ### Reference
 [中選會 爬蟲方式](https://www.youtube.com/watch?v=pADAYCJ707E)
