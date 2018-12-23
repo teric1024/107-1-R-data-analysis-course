@@ -1,28 +1,32 @@
-## Final Project 
+# Final Project 
 author 
 B06505001 凃皓瑋
 B06505006 陳奕舟
 
 ---
-### Progress
-(以縣市首長勝者總票)
-https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book2_24663/Sheet1?publish=yes
+## Progress
+
+[以縣市首長勝者總票](https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book2_24663/Sheet1?publish=yes)
+
+[以各區票數最高，數字為公投及首長票數相除](https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book4_4324/Sheet1?publish=yes)
+
 ---
-(以各區票數最高，數字為公投及首長票數相除)
-https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book4_4324/Sheet1?publish=yes
----
-### Reference
+## Reference
 [中選會 爬蟲方式](https://www.youtube.com/watch?v=pADAYCJ707E)
+[公投議案](https://udn.com/vote2018/story/10958/3360799)
+
 
 ---
-### Source
+## Source
+
 [tableau public](https://public.tableau.com/en-us/s/)
+
 [referendum result](https://github.com/g0v/referendum_report)
----
-# 想法整理
 
 ---
-## 呈現方式、主題
+## 想法整理
+
+### 呈現方式、主題
 1. 畫出兩黨這次選舉的結果(包括公投、縣市首長)
 2. 兩黨對於公投議題的操縱力
     - **基礎**
@@ -35,8 +39,9 @@ https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book4_4324/Sheet1?publ
     - 
 3. 各個公投案之間的關聯性比較
 4. 地區間的相關性
----
 
 ### 操縱力
 1. 整體人民的操縱力
 2. 支持者的操縱力
+
+---
