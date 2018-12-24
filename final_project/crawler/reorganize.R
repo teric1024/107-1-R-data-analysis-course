@@ -1,11 +1,13 @@
 rm(list=ls(all.names = TRUE))
 
-#filenames <- list.files(getwd(), pattern="*.csv")
-filenames <- list.files(getwd(), pattern="*new")
+#set working directory here
+setwd(dirname(rstudioapi::getSourceEditorContext()$path))
+
+filenames <- list.files('./', pattern="*new")
 
 sortdata <- function(filename){
 #filename = filenames[1]
-  data1<-read.table(filename, header=T, sep=",")
+  data1<-read.csv(filename, header=T, sep=",")
   areaname <- as.vector(data1[["地區"]])
   split.area <- function(name){
     name <- as.character(name)
@@ -20,11 +22,9 @@ sortdata <- function(filename){
   return (data1)
 }
 
-#test <- sortdata("test.csv")
-
 alldata <- data.frame()
 for (x in filenames){
   data.vote <- sortdata(x)
   alldata <- rbind(data.vote, alldata)
 }
-write.table(alldata, file = "all_votes_data.csv", sep = ",")
+write.csv(alldata, file = "all_votes_data.csv", row.names = F)
