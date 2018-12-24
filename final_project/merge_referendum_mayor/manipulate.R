@@ -1,5 +1,4 @@
 rm(list=ls(all.names = TRUE))
-library(dmm)
 
 #set working directory here
 setwd(dirname(rstudioapi::getSourceEditorContext()$path))
@@ -33,3 +32,15 @@ for (i in c(1:nrow(mayor.vote.kmt))){
 mayor.kmt.vote.rate <-  gsub('%', replacement = '', mayor.kmt.vote.rate)
 refe$縣市首長得票率 <- mayor.kmt.vote.rate
 refe$縣市首長得票數 <- mayor.kmt.vote.no
+
+difference <- c()
+mayor.kmt.vote.rate <- as.numeric(mayor.kmt.vote.rate)
+for (i in c(1:length(rate))){
+  if(is.na(mayor.kmt.vote.rate[i])){
+    difference[i] <- NA
+  }else{
+    difference[i] <- rate[i] - mayor.kmt.vote.rate[i] 
+  }
+}
+refe$公投同意率對縣市首長得票率差距 <- difference
+write.csv(refe, file = "國民黨第七案.csv")
