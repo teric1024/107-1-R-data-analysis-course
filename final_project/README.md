@@ -10,6 +10,8 @@ B06505006 陳奕舟
 
 [以各區票數最高，數字為公投及首長票數相除](https://public.tableau.com/profile/chen.yi.chou#!/vizhome/Book4_4324/Sheet1?publish=yes)
 
+[以各區縣市首長票數最高及各區域公投同意數最高之項目](https://public.tableau.com/profile/chen.yi.chou#!/vizhome/VS_27/Sheet1?publish=yes)
+
 ---
 ## Reference
 [中選會 爬蟲方式](https://www.youtube.com/watch?v=pADAYCJ707E)
