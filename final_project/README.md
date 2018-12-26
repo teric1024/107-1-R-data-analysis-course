@@ -14,8 +14,16 @@ B06505006 陳奕舟
 
 ---
 ## Reference
+
 [中選會 爬蟲方式](https://www.youtube.com/watch?v=pADAYCJ707E)
+
 [公投議案](https://udn.com/vote2018/story/10958/3360799)
+
+[立法委員對同志婚姻法案態度](http://www.pridewatch.tw/beta/9th-legislators)
+[同婚與選情](https://www.thenewslens.com/article/110667)
+
+[國民黨與核電公投](https://www.twreporter.org/a/opinion-anti-nuclear-vote)
+[馬英九、江宜樺支持核電](https://newtalk.tw/news/view/2018-08-07/134354)
 
 
 ---
