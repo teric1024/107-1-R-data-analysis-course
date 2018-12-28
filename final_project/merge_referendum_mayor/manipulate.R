@@ -5,9 +5,8 @@ setwd(dirname(rstudioapi::getSourceEditorContext()$path))
 
 filenames <- list.files('../data/公投結果(已分區)', pattern="*.csv")
 
-manipulate <- function(name){
+manipulate <- function(name, is.agree = T){
   folderpath <- "../data/公投結果(已分區)/"
-  #refe <- read.csv('../data/公投結果(已分區)/7.csv')
   refe <- read.csv(paste0(folderpath, name))
   
   #turn the variable from factor to numeric
@@ -17,10 +16,19 @@ manipulate <- function(name){
   disagree <- as.character(refe$不同意票數)
   disagree <- gsub(',', replacement = '', disagree)
   disagree <- as.numeric(disagree)
+  
   total.vote <- agree + disagree
-  rate <- agree/total.vote*100
-  rate <- round(rate, digit = 2)
-  refe$同意票數對票數比率 <- rate
+  if (is.agree == T){
+    rate <- agree / total.vote
+  }else{
+    rate <- disagree / total.vote
+  }
+  rate <- round(rate, digit = 4)
+  if (is.agree == T){
+    refe$同意票數對票數比率 <- rate
+  }else{
+    refe$不同意票數對票數比率 <- rate
+  }
   
   mayor <- read.csv('../crawler/all_votes_data.csv')
   kmt.no <- which(mayor$推薦之政黨 == '中國國民黨')
@@ -35,6 +43,7 @@ manipulate <- function(name){
     mayor.kmt.vote.rate[refe.row.no] <- as.character(mayor.vote.kmt$得票率[i])
   }
   mayor.kmt.vote.rate <-  gsub('%', replacement = '', mayor.kmt.vote.rate)
+  mayor.kmt.vote.rate <- as.numeric(mayor.kmt.vote.rate)/100
   refe$縣市首長得票率 <- mayor.kmt.vote.rate
   refe$縣市首長得票數 <- mayor.kmt.vote.no
   
@@ -47,11 +56,30 @@ manipulate <- function(name){
       difference[i] <- rate[i] - mayor.kmt.vote.rate[i] 
     }
   }
-  refe$公投同意率對縣市首長得票率差距 <- difference
-  newfile.name <- paste0("國民黨第", gsub(".csv",replacement = "", name), "案.csv")
+  
+  if(is.agree == T){
+    refe$公投同意率對縣市首長得票率差距 <- difference
+  }else{
+    refe$公投不同意率對縣市首長得票率差距 <- difference
+  }
+  
+  newfile.name <- paste0("國民黨第", gsub(".csv",replacement = "", name), "案")
+  if(is.agree == T){
+    newfile.name <- paste0(newfile.name, "(支持).csv")
+  }else{
+    newfile.name <- paste0(newfile.name, "(反對).csv")
+  }
   write.csv(refe, file = newfile.name)
 }
 
 for (i in filenames){
-  manipulate(i)
+  flag = F
+  for (j in c(7:12, 16)){
+    if(grepl(j, i)){
+      flag = T
+      break
+    }
+  }
+  manipulate(i, flag)
 }
+
