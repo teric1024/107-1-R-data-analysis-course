@@ -1,7 +1,15 @@
 # Final Project 
+## 簡介
 author 
 B06505001 凃皓瑋
 B06505006 陳奕舟
+
+題目 政黨對公投議題操縱分析
+
+---
+## 簡報
+
+[投影片網址](https://drive.google.com/open?id=1ZDvmVHqheqedaNoUoUvQNBJgtnHII4aOyBRaUn7fMEI)
 
 ---
 ## Progress
