@@ -9,7 +9,7 @@ I have an idea. The more frequently it appears in patches, the more difficult to
 Therefore, I do this program.
 
 #1. Got patch data from LOL website
-Function to get content on website about data
+Function to get content on website about data (every patch)
 ```{r setup, include=FALSE}
 rm(list=ls(all.names = TRUE))
 
@@ -73,7 +73,7 @@ Manipulate names of champions
 ```{r}
 champion.name <- read.csv("champion_name/champion_name_3.csv")
 str(champion.name)
-#because the type of champion.name$Name is numeric, turn it into char
+#because the type of champion.name$Name is factor, turn it into char
 champion.name$Name <- as.character(champion.name$Name)
 ```
 
